@@ -1,0 +1,10 @@
+#! /usr/bin/make -f 
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/simple-patchsys.mk
+include /usr/share/cdbs/1/class/gnome.mk
+
+clean::
+	rm -f po/.intltool-merge-cache
+	rm -f intltool-extract intltool-merge intltool-update
+	rm -f eog.desktop eog.schemas

@@ -1,0 +1,11 @@
+This package was debianized by Davide Puricelli (evo) <evo@debian.org> on
+Sun, 17 Mar 2002 12:56:21 +0100.
+
+It was downloaded from ftp://ftp.gnome.org/pub/GNOME/pre-gnome2/sources/eog/ 
+
+Upstream Author: Federico Mena-Quintero (federico@gimp.org)
+
+Copyright:
+
+It's license is GPLv2, which, on debian systems, is available at:
+/usr/share/common-licenses/GPL.
