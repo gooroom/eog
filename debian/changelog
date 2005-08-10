@@ -1,11 +1,28 @@
-eog (2.10.2-1) UNRELEASED; urgency=low
+eog (2.10.2-1) unstable; urgency=low
 
-  * Set maintainer to the pkg-gnome group.
-  * Add gnome-pkg-tools to the build-deps.
-  * Add CDBS' utils rule.
-  * Add gnome-pkg-tools' uploaders rule.
+  * New maintainer (Closes: #322092)
+  * Acknowledge NMUs (Closes: #223366, #237201, #253005, #289293, #321312)
+  * debian/control.in:
+    - Added, to auto-generate debian/control
+    - Added the Debian GNOME Team to Uploaders:
+      + Added Build-Dependency on gnome-pkg-tools
+    - Updated to Standards-Version 3.6.2 with no changes
+  * debian/copyright:
+    - Updated list of Upstream Authors
+    - Fixed Copyright and License notices
+    - Updated the URL from which tarball was downloaded
+  * debian/dirs:
+    - Removed
+  * debian/eog.1:
+    - Escaped all hyphens
+  * debian/eog.install:
+    - Install gnome-eog.xpm, the Debian menu icon
+  * debian/rules:
+    - Include uploaders.mk from gnome-pkg-tools
+    - Clean the clean:: target up, as most of the removals are already
+      handled by CDBS itself
 
- -- Loic Minier <lool@dooz.org>  Tue,  9 Aug 2005 22:05:25 +0200
+ -- Guilherme de S. Pastore <gpastore@colband.com.br>  Mon,  8 Aug 2005 22:14:55 -0300
 
 eog (2.10.2-0.2) unstable; urgency=low
 
