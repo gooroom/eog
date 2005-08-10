@@ -1,3 +1,12 @@
+eog (2.10.2-2) UNRELEASED; urgency=low
+
+  * debian/patches/00_overwrite_error.diff:
+  - apply patch from Gustavo Noronha Silva <kov@debian.org>
+    to fix the error message displayed when overwriting a file.
+    Thanks! (Closes: #287980)
+
+ -- Guilherme de S. Pastore <gpastore@colband.com.br>  Wed, 10 Aug 2005 19:46:22 -0300
+
 eog (2.10.2-1) unstable; urgency=low
 
   * New maintainer (Closes: #322092)
