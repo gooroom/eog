@@ -4,6 +4,8 @@ eog (2.10.2-2) UNRELEASED; urgency=low
   - apply patch from Gustavo Noronha Silva <kov@debian.org>
     to fix the error message displayed when overwriting a file.
     Thanks! (Closes: #287980)
+  * debian/eog-collection-view.1:
+  - removed, there's only one binary that handles this on the UI now
 
  -- Guilherme de S. Pastore <gpastore@colband.com.br>  Wed, 10 Aug 2005 19:46:22 -0300
 
