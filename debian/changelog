@@ -11,7 +11,7 @@ eog (2.10.2-2) unstable; urgency=low
   * debian/eog-collection-view.1:
   - removed, there's only one binary that handles this on the UI now
 
- -- Guilherme de S. Pastore <gpastore@colband.com.br>  Wed, 10 Aug 2005 19:46:22 -0300
+ -- Guilherme de S. Pastore <guilherme.pastore@terra.com.br>  Wed, 10 Aug 2005 19:46:22 -0300
 
 eog (2.10.2-1) unstable; urgency=low
 
