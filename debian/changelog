@@ -1,4 +1,4 @@
-eog (2.10.2-2) UNRELEASED; urgency=low
+eog (2.10.2-2) unstable; urgency=low
 
   * debian/patches/00_overwrite_error.diff:
   - apply patch from Gustavo Noronha Silva <kov@debian.org>
@@ -7,7 +7,7 @@ eog (2.10.2-2) UNRELEASED; urgency=low
   * debian/patches/01_threads.diff:
   - don't create threads as joinable if we're not going to join
     them, otherwise we end up with huge memory usage and even
-    crash (Closes: #288163)
+    crashes (Closes: #288163)
   * debian/eog-collection-view.1:
   - removed, there's only one binary that handles this on the UI now
 
