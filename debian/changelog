@@ -10,6 +10,8 @@ eog (2.10.2-2) unstable; urgency=low
     crashes (Closes: #288163)
   * debian/eog-collection-view.1:
   - removed, there's only one binary that handles this on the UI now
+  * debian/control.in:
+  - updated my e-mail address
 
  -- Guilherme de S. Pastore <guilherme.pastore@terra.com.br>  Wed, 10 Aug 2005 19:46:22 -0300
 
