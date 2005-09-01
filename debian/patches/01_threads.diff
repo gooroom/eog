@@ -1,0 +1,49 @@
+--- libeog/eog-image.c	2004-10-21 15:53:35.000000000 -0300
++++ libeog/eog-image.c.new	2005-08-31 22:33:19.311669752 -0300
+@@ -269,7 +269,7 @@
+ 	g_queue_push_tail (jobs_waiting, image);
+ 
+ 	if (!thread_running) {
+-		thread = g_thread_create (create_thumbnails, NULL, TRUE, NULL);
++		thread = g_thread_create (create_thumbnails, NULL, FALSE, NULL);
+ 		thread_running = TRUE;
+ 	}
+ 
+@@ -965,7 +965,7 @@
+ 
+ 		/* start the thread machinery */
+ 		priv->status      = EOG_IMAGE_STATUS_LOADING;
+-		priv->load_thread = g_thread_create (real_image_load, img, TRUE, NULL);
++		priv->load_thread = g_thread_create (real_image_load, img, FALSE, NULL);
+ 	}
+ }
+ 
+--- shell/eog-window.c	2004-11-29 18:53:13.000000000 -0200
++++ shell/eog-window.c.new	2005-08-31 22:34:04.320827320 -0300
+@@ -858,7 +858,7 @@
+ 	gtk_widget_show_all (GTK_WIDGET (data->dlg));
+ 	gtk_widget_show_now (GTK_WIDGET (data->dlg));
+ 
+-	data->thread = g_thread_create (save_image_list, data, TRUE, NULL);
++	data->thread = g_thread_create (save_image_list, data, FALSE, NULL);
+ }
+ 
+ /* this runs in its own thread */
+@@ -1130,7 +1130,7 @@
+ 	gtk_widget_show_all (GTK_WIDGET (data->dlg));
+ 	gtk_widget_show_now (GTK_WIDGET (data->dlg));
+ 
+-	data->thread = g_thread_create (save_as_image_list, data, TRUE, NULL);
++	data->thread = g_thread_create (save_as_image_list, data, FALSE, NULL);
+ 
+ 	g_free (uri);
+ }
+@@ -1232,7 +1232,7 @@
+ 	gtk_widget_show_all (GTK_WIDGET (data->dlg));
+ 	gtk_widget_show_now (GTK_WIDGET (data->dlg));
+ 
+-	data->thread = g_thread_create (save_as_image_list, data, TRUE, NULL);
++	data->thread = g_thread_create (save_as_image_list, data, FALSE, NULL);
+ }
+ 
+ static void
