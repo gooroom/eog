@@ -1,9 +1,6 @@
 eog (2.12.0-1) experimental; urgency=low
 
   * New upstream release
-  * debian/patches/02_broken_svg_crash.diff:
-  - apply patch from Lucas Rocha not to crash with invalid images
-    Thanks! (Closes: #322879)
 
  -- Guilherme de S. Pastore <guilherme.pastore@terra.com.br>  Tue,  6 Sep 2005 21:02:17 -0300
 
