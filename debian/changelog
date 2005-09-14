@@ -1,5 +1,6 @@
-eog (2.10.2-3) UNRELEASED; urgency=low
+eog (2.12.0-1) experimental; urgency=low
 
+  * New upstream release
   * debian/patches/02_broken_svg_crash.diff:
   - apply patch from Lucas Rocha not to crash with invalid images
     Thanks! (Closes: #322879)
