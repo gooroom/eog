@@ -1,10 +1,10 @@
-eog (2.10.2-3) UNRELEASED; urgency=low
+eog (2.10.2-3) UNRELEASED; urgency=medium
 
-  * debian/patches/02_broken_svg_crash.diff:
-  - apply patch from Lucas Rocha not to crash with invalid images
-    Thanks! (Closes: #322879)
+  * debian/control.in:
+    - added ${misc:Depends} dependency (higher urgency)
+    - bumped standards-version to 3.6.2.1 with no changes
 
- -- Guilherme de S. Pastore <guilherme.pastore@terra.com.br>  Tue,  6 Sep 2005 21:02:17 -0300
+ -- Guilherme de S. Pastore <guilherme.pastore@terra.com.br>  Thu, 13 Oct 2005 14:25:20 -0300
 
 eog (2.10.2-2) unstable; urgency=low
 
