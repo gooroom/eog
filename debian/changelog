@@ -3,7 +3,10 @@ eog (2.12.1-1) UNRELEASED; urgency=low
   * New upstream release
   * debian/watch:
   - added to help tracking upstream
-  * debian/patches/00_overwrite_error.diff, debian/patches/02_svg.diff:
+  * debian/patches/00_overwrite_error.diff:
+  - removed, the relevant code has been rewritten, the patch no
+    longer applies (in both senses)
+  * debian/patches/02_svg.diff:
   - updated to the new upstream version
   * debian/patches/01_threads.diff:
   - removed; issue fixed upstream with a different patch
