@@ -7,8 +7,11 @@ eog (2.12.1-1) UNRELEASED; urgency=low
   - updated to the new upstream version
   * debian/patches/01_threads.diff:
   - removed; issue fixed upstream with a different patch
+  * debian/control.in:
+  - added Build-Depends to libglade2-dev, libgnomeprint{,ui}2.2-dev
+    based on pkg-config requirements
 
- -- Gustavo Noronha Silva <kov@debian.org>  Fri, 14 Oct 2005 12:00:54 -0300
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 14 Oct 2005 12:13:19 -0300
 
 eog (2.10.2-3) unstable; urgency=medium
 
