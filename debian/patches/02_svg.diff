@@ -1,9 +1,8 @@
-diff -Nur eog-2.10.2.orig/eog.desktop.in.in eog-2.10.2/eog.desktop.in.in
---- eog-2.10.2.orig/eog.desktop.in.in	2004-11-25 16:24:18.000000000 +0100
-+++ eog-2.10.2/eog.desktop.in.in	2005-10-13 21:10:22.000000000 +0200
+--- eog.desktop.in.in.orig	2005-06-22 17:07:15.000000000 -0300
++++ eog.desktop.in.in	2005-10-14 12:00:09.000000000 -0300
 @@ -14,4 +14,4 @@
  X-GNOME-Bugzilla-Component=general
  X-GNOME-Bugzilla-Version=@VERSION@
  X-GNOME-DocPath=eog/eog.xml
--MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-xbitmap;image/x-xpixmap;
-+MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-xbitmap;image/x-xpixmap;image/svg+xml
+-MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-xbitmap;image/x-xpixmap;image/x-pcx
++MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/svg+xml

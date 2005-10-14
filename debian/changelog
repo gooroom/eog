@@ -3,8 +3,12 @@ eog (2.12.1-1) UNRELEASED; urgency=low
   * New upstream release
   * debian/watch:
   - added to help tracking upstream
+  * debian/patches/00_overwrite_error.diff, debian/patches/02_svg.diff:
+  - updated to the new upstream version
+  * debian/patches/01_threads.diff:
+  - removed; issue fixed upstream with a different patch
 
- -- Gustavo Noronha Silva <kov@debian.org>  Fri, 14 Oct 2005 11:01:50 -0300
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 14 Oct 2005 12:00:54 -0300
 
 eog (2.10.2-3) unstable; urgency=medium
 
