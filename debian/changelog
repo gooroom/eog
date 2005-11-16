@@ -1,4 +1,4 @@
-eog (2.12.1-1) UNRELEASED; urgency=low
+eog (2.12.1-1) experimental; urgency=low
 
   * New upstream release
   * debian/watch:
