@@ -5,7 +5,11 @@ eog (2.12.2-1) experimental; urgency=low
     - Fixes some crashes (Closes: #322879)
   * debian/patches/02_svg.diff: dropped; applied upstream
 
- -- Loic Minier <lool@dooz.org>  Sun,  4 Dec 2005 21:54:28 +0100
+  [ Loic Minier ]
+  * Comment out scrollkeeper-update calls.
+    [debian/patches/10_no_scrollkeeper_update.patch]
+
+ -- Loic Minier <lool@dooz.org>  Sun,  4 Dec 2005 22:02:02 +0100
 
 eog (2.12.1-1) experimental; urgency=low
 

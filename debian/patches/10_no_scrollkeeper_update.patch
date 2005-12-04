@@ -1,0 +1,273 @@
+diff -urN eog-2.12.2.orig/help/C/Makefile.in eog-2.12.2/help/C/Makefile.in
+--- eog-2.12.2.orig/help/C/Makefile.in	2005-11-28 20:02:41.000000000 +0100
++++ eog-2.12.2/help/C/Makefile.in	2005-12-04 21:58:44.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/de/Makefile.in eog-2.12.2/help/de/Makefile.in
+--- eog-2.12.2.orig/help/de/Makefile.in	2005-11-28 20:02:42.000000000 +0100
++++ eog-2.12.2/help/de/Makefile.in	2005-12-04 21:58:53.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/es/Makefile.in eog-2.12.2/help/es/Makefile.in
+--- eog-2.12.2.orig/help/es/Makefile.in	2005-11-28 20:02:42.000000000 +0100
++++ eog-2.12.2/help/es/Makefile.in	2005-12-04 21:59:03.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/eu/Makefile.in eog-2.12.2/help/eu/Makefile.in
+--- eog-2.12.2.orig/help/eu/Makefile.in	2005-11-28 20:02:43.000000000 +0100
++++ eog-2.12.2/help/eu/Makefile.in	2005-12-04 21:59:11.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/fr/Makefile.in eog-2.12.2/help/fr/Makefile.in
+--- eog-2.12.2.orig/help/fr/Makefile.in	2005-11-28 20:02:43.000000000 +0100
++++ eog-2.12.2/help/fr/Makefile.in	2005-12-04 21:59:21.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/it/Makefile.in eog-2.12.2/help/it/Makefile.in
+--- eog-2.12.2.orig/help/it/Makefile.in	2005-11-28 20:02:43.000000000 +0100
++++ eog-2.12.2/help/it/Makefile.in	2005-12-04 21:59:26.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/ja/Makefile.in eog-2.12.2/help/ja/Makefile.in
+--- eog-2.12.2.orig/help/ja/Makefile.in	2005-11-28 20:02:43.000000000 +0100
++++ eog-2.12.2/help/ja/Makefile.in	2005-12-04 21:59:41.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/ko/Makefile.in eog-2.12.2/help/ko/Makefile.in
+--- eog-2.12.2.orig/help/ko/Makefile.in	2005-11-28 20:02:44.000000000 +0100
++++ eog-2.12.2/help/ko/Makefile.in	2005-12-04 21:59:50.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/sv/Makefile.in eog-2.12.2/help/sv/Makefile.in
+--- eog-2.12.2.orig/help/sv/Makefile.in	2005-11-28 20:02:44.000000000 +0100
++++ eog-2.12.2/help/sv/Makefile.in	2005-12-04 21:59:33.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/uk/Makefile.in eog-2.12.2/help/uk/Makefile.in
+--- eog-2.12.2.orig/help/uk/Makefile.in	2005-11-28 20:02:44.000000000 +0100
++++ eog-2.12.2/help/uk/Makefile.in	2005-12-04 21:59:56.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/zh_CN/Makefile.in eog-2.12.2/help/zh_CN/Makefile.in
+--- eog-2.12.2.orig/help/zh_CN/Makefile.in	2005-11-28 20:02:45.000000000 +0100
++++ eog-2.12.2/help/zh_CN/Makefile.in	2005-12-04 22:00:07.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/help/zh_TW/Makefile.in eog-2.12.2/help/zh_TW/Makefile.in
+--- eog-2.12.2.orig/help/zh_TW/Makefile.in	2005-11-28 20:02:45.000000000 +0100
++++ eog-2.12.2/help/zh_TW/Makefile.in	2005-12-04 22:00:15.000000000 +0100
+@@ -443,7 +443,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -451,7 +451,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
+diff -urN eog-2.12.2.orig/omf.make eog-2.12.2/omf.make
+--- eog-2.12.2.orig/omf.make	2005-11-28 20:02:33.000000000 +0100
++++ eog-2.12.2/omf.make	2005-12-04 22:00:21.000000000 +0100
+@@ -45,7 +45,7 @@
+ 	for file in $(omffile); do \
+ 		$(INSTALL_DATA) $$file.out $(DESTDIR)$(omf_dest_dir)/$$file; \
+ 	done
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir) -o $(DESTDIR)$(omf_dest_dir)
+ 
+ uninstall-local-omf:
+ 	-for file in $(srcdir)/*.omf; do \
+@@ -53,7 +53,7 @@
+ 		rm -f $(DESTDIR)$(omf_dest_dir)/$$basefile; \
+ 	done
+ 	-rmdir $(DESTDIR)$(omf_dest_dir)
+-	-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
++	#-scrollkeeper-update -p $(DESTDIR)$(scrollkeeper_localstate_dir)
+ 
+ clean-local-omf:
+ 	-for file in $(omffile); do \
