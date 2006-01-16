@@ -9,6 +9,7 @@ Build-Depends: cdbs (>= 0.4.24), debhelper (>= 4.2.27), libgconf2-dev (>= 2.6.1-
 Package: eog
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: librsvg2-common
 Conflicts: eog2
 Description: Eye of Gnome graphics viewer program
  eog or the Eye of Gnome is a graphics viewer for GNOME which uses the
