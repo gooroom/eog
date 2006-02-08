@@ -1,8 +1,13 @@
-eog (2.12.2-3) UNRELEASED; urgency=low
+eog (2.12.3-1) unstable; urgency=low
 
+  * New upstream release (bug fixes and translation updates).
+  * [debian/rules] Have the linker work harder to produce a faster loading
+    binary and to trim down unneeded direct dependencies.
+
+  Josselin Mouette <joss@debian.org>:
   * Recommend librsvg2-common.
 
- -- Josselin Mouette <joss@debian.org>  Mon, 16 Jan 2006 18:06:22 +0100
+ -- J.H.M. Dassen (Ray) <jdassen@debian.org>  Wed,  8 Feb 2006 20:54:57 +0100
 
 eog (2.12.2-2) unstable; urgency=low
 
