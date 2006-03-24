@@ -1,3 +1,18 @@
+eog (2.14.0-1) UNRELEASED; urgency=low
+
+  * New upstream release
+    - Print preview bugs fixed (Closes: #247544)
+    - Can display on multiple displays (Closes: #275693)
+    - Can display SVG images (Closes: #280922)
+    - Hides information sidebar as default (Closes: #292447)
+    - Fixes crash opening some SVGs (Closes: #322879)
+  * Update libgtk2.0-dev build depenency to (>= 2.7.1)
+  * Add build dependencies liblcms-dev, libart-2.0-dev (>= 2.3.16),
+    libgnome-desktop-dev (>= 2.10.0)
+  * Update watch file
+
+ -- Oystein Gisnas <oystein@gisnas.net>  Mon, 20 Mar 2006 20:21:58 +0100
+
 eog (2.12.3-1) unstable; urgency=low
 
   * New upstream release (bug fixes and translation updates).
