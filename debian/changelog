@@ -1,5 +1,6 @@
-eog (2.14.0-1) UNRELEASED; urgency=low
+eog (2.14.0-1) unstable; urgency=low
 
+  Oystein Gisnas <oystein@gisnas.net>:
   * New upstream release
     - Print preview bugs fixed (Closes: #247544)
     - Can display on multiple displays (Closes: #275693)
@@ -11,7 +12,11 @@ eog (2.14.0-1) UNRELEASED; urgency=low
     libgnome-desktop-dev (>= 2.10.0)
   * Update watch file
 
- -- Oystein Gisnas <oystein@gisnas.net>  Mon, 20 Mar 2006 20:21:58 +0100
+  * Segfaults when opening two jpeg files are no longer reproducible.
+    (Closes: #358372)
+  * Full-screen can be left by pressing F11 again. (Closes: #307716)
+
+ -- J.H.M. Dassen (Ray) <jdassen@debian.org>  Sat,  1 Apr 2006 21:08:21 +0200
 
 eog (2.12.3-1) unstable; urgency=low
 
