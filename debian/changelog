@@ -1,3 +1,9 @@
+eog (2.14.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Loic Minier <lool@dooz.org>  Tue, 30 May 2006 17:06:44 +0200
+
 eog (2.14.1-1) unstable; urgency=low
 
   * New upstream release.
