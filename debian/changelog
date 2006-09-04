@@ -1,3 +1,9 @@
+eog (2.16.0.1-2) UNRELEASED; urgency=low
+
+  * debian/watch: updated.
+
+ -- Guilherme de S. Pastore <gpastore@debian.org>  Mon,  4 Sep 2006 17:03:48 -0300
+
 eog (2.16.0.1-1) experimental; urgency=low
 
   * New upstream release
