@@ -1,8 +1,11 @@
-eog (2.16.0.1-2) UNRELEASED; urgency=low
+eog (2.16.1-1) experimental; urgency=low
+
+  * New upstream release.
+    - build in a non-broken environment (Closes: #389242).
 
   * debian/watch: updated.
 
- -- Guilherme de S. Pastore <gpastore@debian.org>  Mon,  4 Sep 2006 17:03:48 -0300
+ -- Guilherme de S. Pastore <gpastore@debian.org>  Fri, 29 Sep 2006 19:42:52 -0300
 
 eog (2.16.0.1-1) experimental; urgency=low
 
