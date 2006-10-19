@@ -1,3 +1,35 @@
+eog (2.16.1-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Loic Minier <lool@dooz.org>  Thu, 19 Oct 2006 09:47:26 +0200
+
+eog (2.16.1-1) experimental; urgency=low
+
+  * New upstream release.
+    - build in a non-broken environment (Closes: #389242).
+
+  * debian/watch: updated.
+
+ -- Guilherme de S. Pastore <gpastore@debian.org>  Fri, 29 Sep 2006 19:42:52 -0300
+
+eog (2.16.0.1-1) experimental; urgency=low
+
+  * New upstream release
+    - Fixed printing of GIF images (Closes: #343496)
+
+  * debian/control.in:
+    - updated my e-mail address
+    - added build-dependency on gnome-doc-utils
+
+  * debian/patches/10_no_scrollkeeper_update.patch:
+    - dropped; not needed anymore
+
+  * debian/rules:
+    - use --disable-scrollkeeper
+
+ -- Guilherme de S. Pastore <gpastore@debian.org>  Mon,  4 Sep 2006 16:25:06 -0300
+
 eog (2.14.3-1) unstable; urgency=low
 
   * New upstream release.
