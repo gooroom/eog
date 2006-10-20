@@ -9,5 +9,9 @@ include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
 DEB_CONFIGURE_SCRIPT_ENV := LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper
 
+# DIE SCROLLKEEPER
+binary-post-install/eog::
+	rm -rf debian/eog/var/scrollkeeper
+
 clean::
 	rm -f eog.desktop eog.schemas

@@ -1,9 +1,13 @@
-eog (2.16.1-2) unstable; urgency=low
+eog (2.16.1.1-1) unstable; urgency=low
 
   * Upload to unstable.
   * Add CDBS' utils.
+  * New upstream release.
+  * Don't trust the upstream configure to honor its advertized
+    --disable-scrollkeper and remove generated /var/scrollkeeper for
+    additional safety.
 
- -- Loic Minier <lool@dooz.org>  Thu, 19 Oct 2006 09:57:50 +0200
+ -- Loic Minier <lool@dooz.org>  Fri, 20 Oct 2006 10:59:06 +0200
 
 eog (2.16.1-1) experimental; urgency=low
 
