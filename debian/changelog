@@ -1,3 +1,32 @@
+eog (2.16.3-1) experimental; urgency=low
+
+  * New upstream stable release; bug fixes and translation updates.
+
+ -- Loic Minier <lool@dooz.org>  Mon, 29 Jan 2007 22:07:49 +0100
+
+eog (2.16.2-2) UNRELEASED; urgency=low
+
+  * Add a get-orig-source target to retrieve the upstream tarball.
+
+ -- Loic Minier <lool@dooz.org>  Tue,  9 Jan 2007 14:22:57 +0100
+
+eog (2.16.2-1) unstable; urgency=low
+
+  * New upstream stable release with code cleanups and translations.
+
+ -- Loic Minier <lool@dooz.org>  Sat, 18 Nov 2006 09:41:07 +0100
+
+eog (2.16.1.1-1) unstable; urgency=low
+
+  * Upload to unstable.
+  * Add CDBS' utils.
+  * New upstream release.
+  * Don't trust the upstream configure to honor its advertized
+    --disable-scrollkeper and remove generated /var/scrollkeeper for
+    additional safety.
+
+ -- Loic Minier <lool@dooz.org>  Fri, 20 Oct 2006 10:59:06 +0200
+
 eog (2.16.1-1) experimental; urgency=low
 
   * New upstream release.
