@@ -1,4 +1,4 @@
-eog (2.16.3-2) unstable; urgency=medium
+eog (2.16.3-3) unstable; urgency=medium
 
   [ Sven Arvidsson ]
   * New patch, 01_error-loading, show an error message instead of 
