@@ -1,3 +1,18 @@
+eog (2.16.3-3) unstable; urgency=medium
+
+  [ Sven Arvidsson ]
+  * New patch, 01_error-loading, show an error message instead of 
+    closing the program if the image loading has failed; thanks
+    Claudio Saavedra. GNOME #399988 (Closes: #391582)
+
+ -- Sven Arvidsson <sa@whiz.se>  Tue, 27 Feb 2007 15:07:47 +0100
+
+eog (2.16.3-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Loic Minier <lool@dooz.org>  Sat,  3 Feb 2007 11:45:07 +0100
+
 eog (2.16.3-1) experimental; urgency=low
 
   * New upstream stable release; bug fixes and translation updates.
