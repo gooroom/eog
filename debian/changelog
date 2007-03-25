@@ -8,7 +8,7 @@ eog (2.18.0.1-1) experimental; urgency=low
     - debian/patches/01_error-loading.patch:
        Dropped, included upstream.
     - Changed scroll wheel behaviour to not switch images, but actually
-      scroll. (Closes: #414218)
+      scroll. (Closes: #414128)
     - Fixed handling of external file removal. (Closes: #370452)
     - Fixed segfaults when exiting the collection view. (Closes: #404325)
 
