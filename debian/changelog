@@ -1,3 +1,10 @@
+eog (2.18.0.1-2) UNRELEASED; urgency=low
+
+  * Include the new check-dist Makefile to prevent accidental uploads to
+    unstable; bump build-dep on gnome-pkg-tools to >= 0.10.
+
+ -- Loic Minier <lool@dooz.org>  Tue, 27 Mar 2007 22:25:09 +0200
+
 eog (2.18.0.1-1) experimental; urgency=low
 
   * New upstream release:
