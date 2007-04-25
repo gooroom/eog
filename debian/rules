@@ -13,7 +13,7 @@ DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper
 
 # DIE SCROLLKEEPER
 binary-post-install/eog::
-	rm -rf debian/eog/var/scrollkeeper
+	rm -rvf debian/eog/var/scrollkeeper
 
 clean::
-	rm -f eog.desktop eog.schemas
+	rm -vf eog.desktop eog.schemas
