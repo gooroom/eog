@@ -7,8 +7,9 @@ eog (2.18.0.1-2) UNRELEASED; urgency=low
   * Preprend -Wl,-z,defs before -Wl,--as-needed in LDFLAGS.
   * Upload to unstable; drop check-dist include.
   * Wrap build-deps and deps.
+  * Bump up Debhelper compatibility level to 5.
 
- -- Loic Minier <lool@dooz.org>  Wed, 25 Apr 2007 15:26:45 +0200
+ -- Loic Minier <lool@dooz.org>  Wed, 25 Apr 2007 15:27:10 +0200
 
 eog (2.18.0.1-1) experimental; urgency=low
 
