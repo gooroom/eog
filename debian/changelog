@@ -1,3 +1,29 @@
+eog (2.18.0.1-2) UNRELEASED; urgency=low
+
+  * Include the new check-dist Makefile to prevent accidental uploads to
+    unstable; bump build-dep on gnome-pkg-tools to >= 0.10.
+  * Set LDFLAGS directly instead of via DEB_CONFIGURE_SCRIPT_ENV; build-dep on
+    cdbs >= 0.4.41.
+  * Preprend -Wl,-z,defs before -Wl,--as-needed in LDFLAGS.
+
+ -- Loic Minier <lool@dooz.org>  Fri, 30 Mar 2007 19:49:37 +0200
+
+eog (2.18.0.1-1) experimental; urgency=low
+
+  * New upstream release:
+    - debian/control.in:
+      + Updated build-depends to new requirements
+      + Added new dependency on gnome-icon-theme, as eog now uses icons from
+        there.
+    - debian/patches/01_error-loading.patch:
+       Dropped, included upstream.
+    - Changed scroll wheel behaviour to not switch images, but actually
+      scroll. (Closes: #414128)
+    - Fixed handling of external file removal. (Closes: #370452)
+    - Fixed segfaults when exiting the collection view. (Closes: #404325)
+
+ -- Marc 'HE' Brockschmidt <he@debian.org>  Sun, 25 Mar 2007 13:17:10 +0200
+
 eog (2.16.3-3) unstable; urgency=medium
 
   [ Sven Arvidsson ]
