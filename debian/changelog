@@ -1,3 +1,9 @@
+eog (2.18.2-1) unstable; urgency=low
+
+  * New upstream translation and bugfix release.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 02 Jun 2007 09:26:11 +0200
+
 eog (2.18.1-1) unstable; urgency=low
 
   * Include the new check-dist Makefile to prevent accidental uploads to
