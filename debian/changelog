@@ -1,3 +1,9 @@
+eog (2.18.2-2) UNRELEASED; urgency=low
+
+  * Add a -dbg package. (Closes: #427410)
+
+ -- Sven Arvidsson <sa@whiz.se>  Sun, 10 Jun 2007 23:37:59 +0200
+
 eog (2.18.2-1) unstable; urgency=low
 
   * New upstream translation and bugfix release.
