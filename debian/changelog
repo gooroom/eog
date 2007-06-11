@@ -1,8 +1,12 @@
-eog (2.18.2-2) UNRELEASED; urgency=low
+eog (2.18.2-2) experimental; urgency=low
 
+  [ Sven Arvidsson ]
   * Add a -dbg package. (Closes: #427410)
 
- -- Sven Arvidsson <sa@whiz.se>  Sun, 10 Jun 2007 23:37:59 +0200
+  [ Loic Minier ]
+  * Target at experimental for binary package addition.
+
+ -- Loic Minier <lool@dooz.org>  Mon, 11 Jun 2007 10:13:57 +0200
 
 eog (2.18.2-1) unstable; urgency=low
 
