@@ -1,12 +1,31 @@
-eog (2.18.0.1-2) UNRELEASED; urgency=low
+eog (2.18.2-2) UNRELEASED; urgency=low
+
+  * Add a -dbg package. (Closes: #427410)
+
+ -- Sven Arvidsson <sa@whiz.se>  Sun, 10 Jun 2007 23:37:59 +0200
+
+eog (2.18.2-1) unstable; urgency=low
+
+  * New upstream translation and bugfix release.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 02 Jun 2007 09:26:11 +0200
+
+eog (2.18.1-1) unstable; urgency=low
 
   * Include the new check-dist Makefile to prevent accidental uploads to
     unstable; bump build-dep on gnome-pkg-tools to >= 0.10.
   * Set LDFLAGS directly instead of via DEB_CONFIGURE_SCRIPT_ENV; build-dep on
     cdbs >= 0.4.41.
   * Preprend -Wl,-z,defs before -Wl,--as-needed in LDFLAGS.
+  * Upload to unstable; drop check-dist include.
+  * Wrap build-deps and deps.
+  * Bump up Debhelper compatibility level to 5.
+  * Fix watch file to track all stable releases and use HTTP.
+  * Verbose the rm calls.
+  * Drop obsolete debian/NEWS which concerns pre-sarge versions.
+  * New upstream stable release.
 
- -- Loic Minier <lool@dooz.org>  Fri, 30 Mar 2007 19:49:37 +0200
+ -- Loic Minier <lool@dooz.org>  Wed, 25 Apr 2007 15:32:14 +0200
 
 eog (2.18.0.1-1) experimental; urgency=low
 
@@ -41,15 +60,10 @@ eog (2.16.3-2) unstable; urgency=low
 
 eog (2.16.3-1) experimental; urgency=low
 
+  * Add a get-orig-source target to retrieve the upstream tarball.
   * New upstream stable release; bug fixes and translation updates.
 
  -- Loic Minier <lool@dooz.org>  Mon, 29 Jan 2007 22:07:49 +0100
-
-eog (2.16.2-2) UNRELEASED; urgency=low
-
-  * Add a get-orig-source target to retrieve the upstream tarball.
-
- -- Loic Minier <lool@dooz.org>  Tue,  9 Jan 2007 14:22:57 +0100
 
 eog (2.16.2-1) unstable; urgency=low
 
