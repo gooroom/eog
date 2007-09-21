@@ -1,3 +1,18 @@
+eog (2.20.0-1) unstable; urgency=low
+
+  * New upstream release.
+    + Fix crash when switching between normal and fullscreen modes.
+      Closes: #382164.
+    + Add WBMP to supported file types. Closes: #270595.
+    + Shows file type in properties dialog. Closes: #439798.
+    + Features a command line option to start in fullscreen mode.
+      Closes: #134684.
+  * Massive build-depends update.
+  * Fix section for the menu file.
+  * Don't ship the headers and pkg-config files for now.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 21 Sep 2007 22:39:07 +0200
+
 eog (2.18.2-2) experimental; urgency=low
 
   [ Sven Arvidsson ]
