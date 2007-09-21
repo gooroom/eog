@@ -56,3 +56,13 @@ Description: Eye of Gnome graphics viewer program
  viewer for future releases of Gnome.
  .
  This package contains the debugging symbols for eog.
+
+Package: eog-dev
+Architecture: all
+Depends: eog (>= ${source:Version})
+Description: Development files for the Eye of Gnome
+ eog or the Eye of Gnome is a graphics viewer for GNOME which uses the
+ gdk-pixbuf library.
+ .
+ This package contains header files and development information, which 
+ is needed to build plugins for the Eye of Gnome.
