@@ -1,3 +1,11 @@
+eog (2.20.1-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * debian/menu:
+    + Fix section in the menu file.
+
+ -- Sebastian Dröge <slomo@debian.org>  Thu, 25 Oct 2007 11:07:36 +0200
+
 eog (2.20.0-2) unstable; urgency=low
 
   * Remove obsolete manual pages.
