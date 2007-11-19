@@ -1,3 +1,12 @@
+eog (2.20.1-2) unstable; urgency=low
+
+  * debian/patches/01_eog_xmp.patch,
+    debian/control.in:
+    + Build against exempi 1.99.5, patch by Michael Biebl.
+      (Closes: #450485, #451726)
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 19 Nov 2007 14:07:16 +0100
+
 eog (2.20.1-1) unstable; urgency=low
 
   * New upstream bugfix release.
