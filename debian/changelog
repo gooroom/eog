@@ -4,6 +4,8 @@ eog (2.20.2-2) unstable; urgency=low
     debian/control.in:
     + Build against exempi 1.99.5, patch by Michael Biebl.
       (Closes: #450485, #451726)
+  * debian/menu:
+    + Fix section.
 
  -- Sebastian Dröge <slomo@debian.org>  Mon, 19 Nov 2007 16:44:43 +0100
 
