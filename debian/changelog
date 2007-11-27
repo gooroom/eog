@@ -1,3 +1,11 @@
+eog (2.20.3-1) unstable; urgency=low
+
+  * New upstream bugfix release:
+    + debian/patches/01_eog_xmp.patch:
+      - Dropped, merged upstream.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 27 Nov 2007 05:40:17 +0100
+
 eog (2.20.2-2) unstable; urgency=low
 
   * debian/patches/01_eog_xmp.patch,
