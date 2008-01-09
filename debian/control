@@ -39,30 +39,30 @@ Depends: ${shlibs:Depends},
          shared-mime-info (>= 0.20)
 Recommends: librsvg2-common
 Conflicts: eog2
-Description: Eye of Gnome graphics viewer program
- eog or the Eye of Gnome is a graphics viewer for GNOME which uses the
- gdk-pixbuf library.  It can deal with large images, and zoom and
- scroll with constant memory usage.   The goal is a standard graphics
- viewer for future releases of Gnome.
+Description: Eye of GNOME graphics viewer program
+ eog or the Eye of GNOME is a simple graphics viewer for the GNOME 
+ desktop which uses the gdk-pixbuf library.  It can deal with large 
+ images, and zoom and scroll with constant memory usage.  Its goals are 
+ simplicity and standards compliance.
 
 Package: eog-dbg
 Architecture: any
 Priority: extra
 Depends: eog (= ${binary:Version})
-Description: Eye of Gnome graphics viewer program
- eog or the Eye of Gnome is a graphics viewer for GNOME which uses the
- gdk-pixbuf library.  It can deal with large images, and zoom and
- scroll with constant memory usage.   The goal is a standard graphics
- viewer for future releases of Gnome.
+Description: Eye of GNOME graphics viewer program - debugging symbols
+ eog or the Eye of GNOME is a simple graphics viewer for the GNOME 
+ desktop which uses the gdk-pixbuf library.  It can deal with large 
+ images, and zoom and scroll with constant memory usage.  Its goals are 
+ simplicity and standards compliance.
  .
  This package contains the debugging symbols for eog.
 
 Package: eog-dev
 Architecture: all
 Depends: eog (>= ${source:Version})
-Description: Development files for the Eye of Gnome
- eog or the Eye of Gnome is a graphics viewer for GNOME which uses the
- gdk-pixbuf library.
+Description: Development files for the Eye of GNOME
+ eog or the Eye of GNOME is a graphics viewer for the GNOME desktop 
+ which uses the gdk-pixbuf library.
  .
  This package contains header files and development information, which 
- is needed to build plugins for the Eye of Gnome.
+ is needed to build plugins for the Eye of GNOME.
