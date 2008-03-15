@@ -1,3 +1,9 @@
+eog (2.22.0-2) UNRELEASED; urgency=low
+
+  * debian/control.in: Bump build-depends on libglib2.0-dev to (>= 2.15.3).
+
+ -- Romain Francoise <rfrancoise@debian.org>  Sat, 15 Mar 2008 12:36:10 +0100
+
 eog (2.22.0-1) unstable; urgency=low
 
   [ Josselin Mouette ]

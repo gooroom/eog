@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 Build-Depends: cdbs (>= 0.4.41),
                debhelper (>= 5),
                libgtk2.0-dev (>= 2.11.6),
-               libglib2.0-dev (>= 2.12),
+               libglib2.0-dev (>= 2.15.3),
                libgnomevfs2-dev (>= 2.10.0),
                libgnomeui-dev (>= 2.6.1.1-2),
                libglade2-dev (>= 2.3.6),
