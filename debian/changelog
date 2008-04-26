@@ -1,3 +1,10 @@
+eog (2.22.1-2) UNRELEASED; urgency=low
+
+  * New patch, 60_compressed-svg-mime-type, adds support for the compressed
+    SVG MIME type in eog.desktop; thanks Franklin Piat; closes: 477436.
+
+ -- Loic Minier <lool@dooz.org>  Sat, 26 Apr 2008 20:46:03 +0200
+
 eog (2.22.1-1) unstable; urgency=low
 
   [ Romain Francoise ]

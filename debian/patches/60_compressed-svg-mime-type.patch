@@ -1,0 +1,14 @@
+GNOME #530102, Debian #477436
+
+Add support for the compressed SVG MIME type in eog.desktop
+
+Index: data/eog.desktop.in.in
+===================================================================
+--- data/eog.desktop.in.in (revision 4546)
++++ data/eog.desktop.in.in (working copy)
+@@ -13,4 +13,4 @@ X-GNOME-Bugzilla-Product=EOG
+ X-GNOME-Bugzilla-Component=general
+ X-GNOME-Bugzilla-Version=@VERSION@
+ X-GNOME-DocPath=eog/eog.xml
+-MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/svg+xml;image/vnd.wap.wbmp;
++MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/svg+xml;image/vnd.wap.wbmp;image/svg+xml-compressed;
