@@ -1,10 +1,10 @@
-eog (2.22.2-1) UNRELEASED; urgency=low
+eog (2.22.2-1) unstable; urgency=low
 
   * New upstream release.
     - adds "image/svg+xml-compressed" to the list of supported file types
       (Closes: #477436).
 
- -- Guilherme de S. Pastore <gpastore@debian.org>  Fri, 30 May 2008 22:03:19 -0300
+ -- Guilherme de S. Pastore <gpastore@debian.org>  Fri, 30 May 2008 23:07:01 -0300
 
 eog (2.22.1-1) unstable; urgency=low
 
