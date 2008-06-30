@@ -1,3 +1,11 @@
+eog (2.22.2-2) UNRELEASED; urgency=low
+
+  * 01_nodisplay.patch: do not display the menu entry by default; an 
+    image viewer is mostly useless except when launched from the file 
+    browser.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 30 Jun 2008 22:59:39 +0200
+
 eog (2.22.2-1) unstable; urgency=low
 
   * New upstream release.
