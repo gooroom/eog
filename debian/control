@@ -2,8 +2,8 @@ Source: eog
 Section: gnome
 Priority: optional
 Maintainer: Guilherme de S. Pastore <gpastore@debian.org>
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Josselin Mouette <joss@debian.org>, Loic Minier <lool@dooz.org>, Romain Francoise <rfrancoise@debian.org>, Sebastian Dröge <slomo@debian.org>
-Standards-Version: 3.7.3
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Josselin Mouette <joss@debian.org>, Romain Francoise <rfrancoise@debian.org>, Sebastian Dröge <slomo@debian.org>
+Standards-Version: 3.8.0
 Build-Depends: cdbs (>= 0.4.41),
                debhelper (>= 5),
                libgtk2.0-dev (>= 2.11.6),

@@ -1,10 +1,16 @@
-eog (2.22.2-2) UNRELEASED; urgency=low
+eog (2.22.3-1) unstable; urgency=low
 
+  [ Josselin Mouette ]
   * 01_nodisplay.patch: do not display the menu entry by default; an 
     image viewer is mostly useless except when launched from the file 
     browser.
 
- -- Josselin Mouette <joss@debian.org>  Mon, 30 Jun 2008 22:59:39 +0200
+  [ Sebastian Dröge ]
+  * New upstream bugfix release.
+  * debian/control.in:
+    + Updated Standards-Version to 3.8.0, no additional changes needed.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 01 Jul 2008 11:49:13 +0200
 
 eog (2.22.2-1) unstable; urgency=low
 
