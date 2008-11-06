@@ -1,3 +1,13 @@
+eog (2.22.3-2) UNRELEASED; urgency=high
+
+  * 02_sanitize_sys.path.patch: fix possible security problem caused by
+    empty sys.path which allows the possibility to run arbitrary code by a
+    file matches the name of a python module in user's working directory.
+    Thanks James Vega <jamessan@debian.org> for the patch.
+    (Closes: #504352)
+
+ -- Deng Xiyue <manphiz-guest@users.alioth.debian.org>  Thu, 06 Nov 2008 09:05:45 +0800
+
 eog (2.22.3-1) unstable; urgency=low
 
   [ Josselin Mouette ]
