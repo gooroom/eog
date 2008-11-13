@@ -6,6 +6,7 @@ eog (2.24.1-1) experimental; urgency=low
   * Don’t build with -z defs, it fails for the plugins.
   * eog.install: install the plugins.
   * eog-dev.install: install the documentation.
+  * Pass --no-act to dh_makeshlibs.
 
  -- Josselin Mouette <joss@debian.org>  Thu, 13 Nov 2008 18:06:45 +0100
 
