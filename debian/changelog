@@ -4,6 +4,8 @@ eog (2.24.1-1) experimental; urgency=low
   * Update build-dependencies, add missing dependencies for eog-dev.
   * Remove broken changelog entry at the end.
   * Don’t build with -z defs, it fails for the plugins.
+  * eog.install: install the plugins.
+  * eog-dev.install: install the documentation.
 
  -- Josselin Mouette <joss@debian.org>  Thu, 13 Nov 2008 18:06:45 +0100
 
