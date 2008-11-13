@@ -1,3 +1,128 @@
+eog (2.22.3-2) unstable; urgency=high
+
+  [ Deng Xiyue ]
+  * 02_sanitize_sys.path.patch: fix possible security problem caused by
+    empty sys.path which allows the possibility to run arbitrary code by a
+    file matches the name of a python module in user's working directory.
+    Thanks James Vega <jamessan@debian.org> for the patch.
+    (Closes: #504352)
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 06 Nov 2008 09:04:21 +0100
+
+eog (2.22.3-1) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * 01_nodisplay.patch: do not display the menu entry by default; an 
+    image viewer is mostly useless except when launched from the file 
+    browser.
+
+  [ Sebastian Dröge ]
+  * New upstream bugfix release.
+  * debian/control.in:
+    + Updated Standards-Version to 3.8.0, no additional changes needed.
+    + Build depend on intltool as it's required now.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 01 Jul 2008 11:49:13 +0200
+
+eog (2.22.2-1) unstable; urgency=low
+
+  * New upstream release.
+    - adds "image/svg+xml-compressed" to the list of supported file types
+      (Closes: #477436).
+
+ -- Guilherme de S. Pastore <gpastore@debian.org>  Fri, 30 May 2008 23:07:01 -0300
+
+eog (2.22.1-1) unstable; urgency=low
+
+  [ Romain Francoise ]
+  * debian/control.in: Bump build-depends on libglib2.0-dev to (>= 2.15.3).
+
+  [ Sebastian Dröge ]
+  * New upstream bugfix release.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 08 Apr 2008 05:44:49 +0200
+
+eog (2.22.0-1) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * Fix capitalization of GNOME.
+  * Rework description to make it a bit more up to date.
+    Closes: #463221.
+
+  [ Romain Francoise ]
+  * New upstream release:
+    + Handles XPM files properly again (closes: #444742).
+    + Includes performance improvements (closes: #463112).
+    + No longer crashes if ~/.gnome2/eog is not a directory (closes: #445544).
+  * debian/control: Bump build-depends on libglib2.0-dev to (>= 2.15.3).
+
+ -- Romain Francoise <rfrancoise@debian.org>  Fri, 14 Mar 2008 23:38:03 +0100
+
+eog (2.20.4-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * debian/control.in:
+    + Update Standards-Version to 3.7.3, no additional changes needed.
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 07 Jan 2008 21:21:09 +0100
+
+eog (2.20.3-1) unstable; urgency=low
+
+  * New upstream bugfix release:
+    + debian/patches/01_eog_xmp.patch:
+      - Dropped, merged upstream.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 27 Nov 2007 05:40:17 +0100
+
+eog (2.20.2-2) unstable; urgency=low
+
+  * debian/patches/01_eog_xmp.patch,
+    debian/control.in:
+    + Build against exempi 1.99.5, patch by Michael Biebl.
+      (Closes: #450485, #451726)
+  * debian/menu:
+    + Fix section.
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 19 Nov 2007 16:44:43 +0100
+
+eog (2.20.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Sebastian Dröge <slomo@debian.org>  Wed, 31 Oct 2007 06:51:09 +0100
+
+eog (2.20.1-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * debian/menu:
+    + Fix section in the menu file.
+
+ -- Sebastian Dröge <slomo@debian.org>  Thu, 25 Oct 2007 11:07:36 +0200
+
+eog (2.20.0-2) unstable; urgency=low
+
+  * Remove obsolete manual pages.
+  * rules: cleanup.
+  * Add a new package: eog-dev, containing the headers and pkg-config 
+    files.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 22 Sep 2007 00:07:47 +0200
+
+eog (2.20.0-1) unstable; urgency=low
+
+  * New upstream release.
+    + Fix crash when switching between normal and fullscreen modes.
+      Closes: #382164.
+    + Add WBMP to supported file types. Closes: #270595.
+    + Shows file type in properties dialog. Closes: #439798.
+    + Features a command line option to start in fullscreen mode.
+      Closes: #134684.
+  * Massive build-depends update.
+  * Fix section for the menu file.
+  * Don't ship the headers and pkg-config files for now.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 21 Sep 2007 22:39:07 +0200
+
 eog (2.18.2-2) experimental; urgency=low
 
   [ Sven Arvidsson ]
@@ -520,3 +645,9 @@ eog2 (0.114.0-1) experimental; urgency=low
   * Initial Release, closes: #130119.
 
  -- Davide Puricelli (evo) <evo@debian.org>  Sun, 17 Mar 2002 12:49:05 +0100  
+eog (2.22.0-2.1) UNRELEASED; urgency=low
+
+  * debian/control.in: Bump build-depends on libglib2.0-dev to (>= 2.15.3).
+  * 
+
+ -- Romain Francoise <rfrancoise@debian.org>  Sat, 15 Mar 2008 12:36:10 +0100

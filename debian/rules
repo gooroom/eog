@@ -10,10 +10,3 @@ include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
 LDFLAGS += -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
 
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper
-
-# DIE SCROLLKEEPER
-binary-post-install/eog::
-	rm -rvf debian/eog/var/scrollkeeper
-
-clean::
-	rm -vf eog.desktop eog.schemas
