@@ -6,9 +6,12 @@ Uploaders: @GNOME_TEAM@
 Standards-Version: 3.8.0
 Build-Depends: cdbs (>= 0.4.41),
                debhelper (>= 5),
+               gnome-pkg-tools (>= 0.10),
+               gtk-doc-tools (>= 1.9),
+               intltool (>= 0.40.0),
+               gnome-doc-utils,
                libgtk2.0-dev (>= 2.11.6),
                libglib2.0-dev (>= 2.15.3),
-               libgnomevfs2-dev (>= 2.10.0),
                libgnomeui-dev (>= 2.6.1.1-2),
                libglade2-dev (>= 2.3.6),
                libgconf2-dev (>= 2.6.1-2),
@@ -26,10 +29,7 @@ Build-Depends: cdbs (>= 0.4.41),
                python-gobject-dev (>= 2.11.5),
                python-gtk2-dev (>= 2.9.7),
                python-gnome2-dev (>= 2.18.2),
-               scrollkeeper,
-               intltool,
-               gnome-pkg-tools (>= 0.10),
-               gnome-doc-utils
+               scrollkeeper
 
 Package: eog
 Architecture: any
@@ -59,7 +59,10 @@ Description: Eye of GNOME graphics viewer program - debugging symbols
 
 Package: eog-dev
 Architecture: all
-Depends: eog (>= ${source:Version})
+Depends: eog (>= ${source:Version}),
+         libgnomeui-dev (>= 2.6.1.1-2),
+         libglade2-dev (>= 2.3.6),
+         libgconf2-dev (>= 2.6.1-2)
 Description: Development files for the Eye of GNOME
  eog or the Eye of GNOME is a graphics viewer for the GNOME desktop 
  which uses the gdk-pixbuf library.

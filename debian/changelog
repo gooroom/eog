@@ -1,3 +1,23 @@
+eog (2.24.2-1) experimental; urgency=low
+
+  * 99_ltmain_as-needed.patch: introduce patch to make --as-needed work 
+    on shared objects.
+  * New upstream release.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 31 Dec 2008 16:24:42 +0100
+
+eog (2.24.1-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update build-dependencies, add missing dependencies for eog-dev.
+  * Remove broken changelog entry at the end.
+  * Don’t build with -z defs, it fails for the plugins.
+  * eog.install: install the plugins.
+  * eog-dev.install: install the documentation.
+  * Pass --no-act to dh_makeshlibs.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 13 Nov 2008 18:06:45 +0100
+
 eog (2.22.3-2) unstable; urgency=high
 
   [ Deng Xiyue ]
@@ -645,9 +665,3 @@ eog2 (0.114.0-1) experimental; urgency=low
   * Initial Release, closes: #130119.
 
  -- Davide Puricelli (evo) <evo@debian.org>  Sun, 17 Mar 2002 12:49:05 +0100  
-eog (2.22.0-2.1) UNRELEASED; urgency=low
-
-  * debian/control.in: Bump build-depends on libglib2.0-dev to (>= 2.15.3).
-  * 
-
- -- Romain Francoise <rfrancoise@debian.org>  Sat, 15 Mar 2008 12:36:10 +0100
