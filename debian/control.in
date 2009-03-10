@@ -30,6 +30,7 @@ Build-Depends: cdbs (>= 0.4.41),
                python-gtk2-dev (>= 2.9.7),
                python-gnome2-dev (>= 2.18.2),
                scrollkeeper
+Build-Depends-Indep: libglib2.0-doc, libgtk2.0-doc
 
 Package: eog
 Architecture: any
