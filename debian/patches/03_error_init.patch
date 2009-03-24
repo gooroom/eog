@@ -1,0 +1,20 @@
+--- src/eog-image.c.orig	2009-03-24 13:18:31.087998827 +0100
++++ src/eog-image.c	2009-03-24 13:19:20.472861008 +0100
+@@ -1323,7 +1323,7 @@
+ 		      GError **error)
+ {
+ 	gboolean result;
+-	GError **ioerror = NULL;
++	GError *ioerror = NULL;
+ 	
+ 	result = g_file_move (tmpfile,
+ 			      file,
+@@ -1332,7 +1332,7 @@
+ 			      NULL, 
+ 			      (GFileProgressCallback) transfer_progress_cb,
+ 			      image,
+-			      ioerror);
++			      &ioerror);
+ 
+ 	if (result == FALSE) {
+ 		if (g_error_matches (*ioerror, G_IO_ERROR,

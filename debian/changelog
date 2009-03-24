@@ -2,6 +2,8 @@ eog (2.24.3.1-2) UNRELEASED; urgency=low
 
   * Add libglib2.0-doc and libgtk2.0-doc to b-d-i to ensure proper 
     xrefs.
+  * 03_error_init.patch: new patch. Fix wrong passing of GError.
+    Closes: #507991.
 
  -- Josselin Mouette <joss@debian.org>  Tue, 10 Mar 2009 12:37:19 +0100
 
