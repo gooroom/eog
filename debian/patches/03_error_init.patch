@@ -1,5 +1,5 @@
---- src/eog-image.c.orig	2009-03-24 13:18:31.087998827 +0100
-+++ src/eog-image.c	2009-03-24 13:19:20.472861008 +0100
+--- src/eog-image.c.orig	2008-10-20 18:31:54.000000000 +0200
++++ src/eog-image.c	2009-03-24 16:33:39.156583521 +0100
 @@ -1323,7 +1323,7 @@
  		      GError **error)
  {
@@ -9,7 +9,7 @@
  	
  	result = g_file_move (tmpfile,
  			      file,
-@@ -1332,7 +1332,7 @@
+@@ -1332,10 +1332,10 @@
  			      NULL, 
  			      (GFileProgressCallback) transfer_progress_cb,
  			      image,
@@ -17,4 +17,17 @@
 +			      &ioerror);
  
  	if (result == FALSE) {
- 		if (g_error_matches (*ioerror, G_IO_ERROR,
+-		if (g_error_matches (*ioerror, G_IO_ERROR,
++		if (g_error_matches (ioerror, G_IO_ERROR,
+ 				     G_IO_ERROR_EXISTS)) {
+ 			g_set_error (error, EOG_IMAGE_ERROR,
+ 				     EOG_IMAGE_ERROR_FILE_EXISTS,
+@@ -1345,7 +1345,7 @@
+ 			     EOG_IMAGE_ERROR_VFS, 
+ 			     "VFS error moving the temp file");
+ 		}
+-		g_error_free (*ioerror);
++		g_clear_error (&ioerror);
+ 	} 
+ 
+ 	return result;
