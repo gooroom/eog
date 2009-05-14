@@ -1,11 +1,27 @@
-eog (2.24.3.1-2) UNRELEASED; urgency=low
+eog (2.26.1-1) UNRELEASED; urgency=low
 
+  [ Josselin Mouette ]
   * Add libglib2.0-doc and libgtk2.0-doc to b-d-i to ensure proper 
     xrefs.
-  * 03_error_init.patch: new patch. Fix wrong passing of GError.
-    Closes: #507991.
 
- -- Josselin Mouette <joss@debian.org>  Tue, 10 Mar 2009 12:37:19 +0100
+  [ Luca Bruno ]
+  * New upstream release:
+    - Fix GError usage and avoid crashes when the tempfile can't be moved
+      to the destination. Closes: #507991
+  * debian/patches/02_sanitize_sys.path.patch:
+    - Remove as applied upstream.
+  * debian/control.in:
+    - Build-Depends:
+      + Remove libart-2.0-dev.
+      + Add libxml2-dev for toolbareditor support.
+      + Bump libgtk2.0-dev to 2.15.1.
+      + Bump libgnome-desktop-dev to 2.25.1.
+    - eog-dev Depends:
+      + Remove libgnomeui-dev and libglade2-dev.
+      + Add libgtk2.0-dev.
+    - Specify section for debug package.
+
+ -- Luca Bruno <lethalman88@gmail.com>  Sat, 18 Apr 2009 22:00:28 +0200
 
 eog (2.24.3.1-1) unstable; urgency=low
 
