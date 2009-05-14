@@ -1,4 +1,4 @@
-eog (2.26.1-1) UNRELEASED; urgency=low
+eog (2.26.1-1) unstable; urgency=low
 
   [ Josselin Mouette ]
   * Add libglib2.0-doc and libgtk2.0-doc to b-d-i to ensure proper 
@@ -21,7 +21,10 @@ eog (2.26.1-1) UNRELEASED; urgency=low
       + Add libgtk2.0-dev.
     - Specify section for debug package.
 
- -- Luca Bruno <lethalman88@gmail.com>  Sat, 18 Apr 2009 22:00:28 +0200
+  [ Josselin Mouette ]
+  * Remove useless build-dependencies on libglade and libgnomeui.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 14 May 2009 08:42:20 +0200
 
 eog (2.24.3.1-1) unstable; urgency=low
 
