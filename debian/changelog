@@ -1,7 +1,8 @@
-eog (2.26.1-2) unstable; urgency=low
+eog (2.26.2-1) unstable; urgency=low
 
   * Update build-dependencies to the 2.26 requirements.
     Closes: #530649.
+  * New upstream release.
 
  -- Josselin Mouette <joss@debian.org>  Tue, 26 May 2009 22:18:58 +0200
 
