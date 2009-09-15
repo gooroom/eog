@@ -1,3 +1,15 @@
+eog (2.26.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control:
+    - bumped Standards-version to latest 3.8.3. No changes needed.
+    - added homepage field pointing it to the right project's
+      homepage.
+    - added ${misc:Depends} on both eog-dbg / eog-dev binaries making
+      lintian happy again.
+
+ -- Andrea Veri <andrea.veri89@gmail.com>  Tue, 15 Sep 2009 21:28:38 +0200
+
 eog (2.26.2-1) unstable; urgency=low
 
   * Update build-dependencies to the 2.26 requirements.
