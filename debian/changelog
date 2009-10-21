@@ -1,3 +1,15 @@
+eog (2.28.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright:
+    - added missing copyright holders.
+    - added copyright informations about src/eog-image-jpeg.c,
+       cut-n-paste/totem-screensaver/totem-scrsaver.h and
+       cut-n-paste/totem-screensaver/totem-scrsaver.c files, which 
+       are licensed under the LGPL-2.
+
+ -- Andrea Veri <andrea.veri89@gmail.com>  Wed, 21 Oct 2009 23:29:28 +0200
+
 eog (2.28.0-1) unstable; urgency=low
 
   * New upstream release.
