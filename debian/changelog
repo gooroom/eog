@@ -1,3 +1,10 @@
+eog (2.28.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/watch: don't uupdate.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 18 Dec 2009 15:32:33 +0100
+
 eog (2.28.1-1) unstable; urgency=low
 
   * New upstream release.
