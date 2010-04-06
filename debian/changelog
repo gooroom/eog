@@ -1,3 +1,17 @@
+eog (2.30.0-1) UNRELEASED; urgency=low
+
+  * New upstream release:
+    - Update Japanese translation. Closes: #550830.
+  * debian/control.in:
+    - Update Standards-version to latest 3.8.4. No changes needed.
+    - Bump libgtk2.0-dev build-depend to 2.17.15.
+  * debian/patches/01_nodisplay.patch:
+    - Refreshed.
+  * debian/copyright:
+    - Fix FSF address.
+
+ -- Luca Bruno <lethalman88@gmail.com>  Tue, 06 Apr 2010 14:44:50 +0200
+
 eog (2.28.2-1) unstable; urgency=low
 
   * New upstream release.
