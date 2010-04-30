@@ -12,10 +12,12 @@ eog (2.30.1-1) UNRELEASED; urgency=low
     - Fix FSF address.
 
   [ Michael Biebl ]
-  * Switch to source format 3.0 (quilt):
+  * Switch to source format 3.0 (quilt)
     - Add debian/source/format.
     - Add debian/patches/series.
     - Remove /usr/share/cdbs/1/rules/simple-patchsys.mk from debian/rules.
+  * debian/control.in
+    - Add Vcs-* fields.
 
  -- Michael Biebl <biebl@debian.org>  Fri, 30 Apr 2010 04:30:42 +0200
 

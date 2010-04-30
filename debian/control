@@ -35,6 +35,8 @@ Build-Depends: cdbs (>= 0.4.41),
                python-gtk2-dev (>= 2.13.0),
                scrollkeeper
 Build-Depends-Indep: libglib2.0-doc, libgtk2.0-doc
+Vcs-Svn: svn://svn.debian.org/pkg-gnome/desktop/unstable/eog/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnome/desktop/unstable/eog/
 
 Package: eog
 Architecture: any
