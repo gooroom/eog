@@ -1,6 +1,7 @@
 eog (2.30.2-1) UNRELEASED; urgency=low
 
   * New upstream bugfix release.
+  * Bump Standards-Version to 3.9.0. No further changes.
 
  -- Michael Biebl <biebl@debian.org>  Sat, 03 Jul 2010 00:38:48 +0200
 
