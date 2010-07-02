@@ -1,3 +1,9 @@
+eog (2.30.2-1) UNRELEASED; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Michael Biebl <biebl@debian.org>  Sat, 03 Jul 2010 00:38:48 +0200
+
 eog (2.30.1-1) unstable; urgency=low
 
   [ Luca Bruno ]
