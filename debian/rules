@@ -1,7 +1,6 @@
 #! /usr/bin/make -f 
 
 include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/rules/simple-patchsys.mk
 include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/gnome.mk
 include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
@@ -9,6 +8,9 @@ include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
 
 LDFLAGS += -Wl,-O1 -Wl,--as-needed
 
-DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper
+DEB_CONFIGURE_EXTRA_FLAGS += --enable-gtk-doc --disable-scrollkeeper
 
 DEB_DH_MAKESHLIBS_ARGS_ALL += --no-act
+
+binary-post-install/eog::
+	rm -rf `pwd`/debian/devhelp/usr/share/eog/gir-1.0/

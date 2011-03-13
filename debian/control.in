@@ -3,58 +3,60 @@ Section: gnome
 Priority: optional
 Maintainer: Guilherme de S. Pastore <gpastore@debian.org>
 Uploaders: @GNOME_TEAM@
-Standards-Version: 3.8.0
+Standards-Version: 3.9.0
+Homepage: http://projects.gnome.org/eog
 Build-Depends: cdbs (>= 0.4.41),
                debhelper (>= 5),
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.9),
                intltool (>= 0.40.0),
                gnome-doc-utils,
-               libgtk2.0-dev (>= 2.15.1),
-               libglib2.0-dev (>= 2.15.3),
-               libgnomeui-dev (>= 2.6.1.1-2),
-               libglade2-dev (>= 2.3.6),
-               libgconf2-dev (>= 2.6.1-2),
-               libgnome-desktop-dev (>= 2.25.1),
+               libgtk-3-dev (>= 3.0.0),
+               libglib2.0-dev (>= 2.25.15),
+               libgnome-desktop-3-dev (>= 2.91.2),
                gnome-icon-theme (>= 2.19.1),
                shared-mime-info (>= 0.20),
-               libexempi-dev (>= 1.99.5),
+               libpeas-dev (>= 0.7.2),
+               zlib1g-dev,
                libexif-dev (>= 0.6.14),
                liblcms-dev,
+               libexempi-dev (>= 1.99.5),
                libjpeg62-dev,
-               libxml2-dev (>= 2.0),
                libdbus-glib-1-dev (>= 0.71),
+               libxml2-dev (>= 2.0),
                x11proto-core-dev,
-               python-dev (>= 2.3),
-               python-gobject-dev (>= 2.11.5),
-               python-gtk2-dev (>= 2.9.7),
-               python-gnome2-dev (>= 2.18.2),
-               scrollkeeper
-Build-Depends-Indep: libglib2.0-doc, libgtk2.0-doc
+               gir1.2-glib-2.0,
+               gir1.2-gtk-3.0 (>= 3.0.0),
+               gobject-introspection (>= 0.9.12-4~),
+               libgirepository1.0-dev (>= 0.9.12)
+Build-Depends-Indep: libglib2.0-doc, libgtk-3-doc
+Vcs-Svn: svn://svn.debian.org/pkg-gnome/desktop/experimental/eog/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnome/desktop/experimental/eog/
 
 Package: eog
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
+         gir1.2-eog-3.0 (= ${binary:Version}),
          gnome-icon-theme (>= 2.19.1),
          shared-mime-info (>= 0.20)
 Recommends: librsvg2-common
-Conflicts: eog2
 Description: Eye of GNOME graphics viewer program
- eog or the Eye of GNOME is a simple graphics viewer for the GNOME 
- desktop which uses the gdk-pixbuf library.  It can deal with large 
- images, and zoom and scroll with constant memory usage.  Its goals are 
+ eog or the Eye of GNOME is a simple graphics viewer for the GNOME
+ desktop which uses the gdk-pixbuf library.  It can deal with large
+ images, and zoom and scroll with constant memory usage.  Its goals are
  simplicity and standards compliance.
 
 Package: eog-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: eog (= ${binary:Version})
+Depends: eog (= ${binary:Version}),
+         ${misc:Depends}
 Description: Eye of GNOME graphics viewer program - debugging symbols
- eog or the Eye of GNOME is a simple graphics viewer for the GNOME 
- desktop which uses the gdk-pixbuf library.  It can deal with large 
- images, and zoom and scroll with constant memory usage.  Its goals are 
+ eog or the Eye of GNOME is a simple graphics viewer for the GNOME
+ desktop which uses the gdk-pixbuf library.  It can deal with large
+ images, and zoom and scroll with constant memory usage.  Its goals are
  simplicity and standards compliance.
  .
  This package contains the debugging symbols for eog.
@@ -62,11 +64,25 @@ Description: Eye of GNOME graphics viewer program - debugging symbols
 Package: eog-dev
 Architecture: all
 Depends: eog (>= ${source:Version}),
-         libgtk2.0-dev (>= 2.15.1),
-         libgconf2-dev (>= 2.6.1-2)
+         libgtk-3-dev (>= 3.0.0),
+         ${misc:Depends}
 Description: Development files for the Eye of GNOME
- eog or the Eye of GNOME is a graphics viewer for the GNOME desktop 
+ eog or the Eye of GNOME is a graphics viewer for the GNOME desktop
  which uses the gdk-pixbuf library.
  .
- This package contains header files and development information, which 
+ This package contains header files and development information, which
  is needed to build plugins for the Eye of GNOME.
+
+Package: gir1.2-eog-3.0
+Section: libs
+Architecture: any
+Depends: eog (>= ${binary:Version}),
+         ${gir:Depends},
+         ${shlibs:Depends},
+         ${misc:Depends}
+Description: GObject introspection data for the Eye of GNOME
+ eog or the Eye of GNOME is a graphics viewer for the GNOME desktop
+ which uses the gdk-pixbuf library.
+ .
+ This package contains introspection data for the GNOME web browser.
+
