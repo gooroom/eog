@@ -13,4 +13,8 @@ DEB_CONFIGURE_EXTRA_FLAGS += --enable-gtk-doc --disable-scrollkeeper
 DEB_DH_MAKESHLIBS_ARGS_ALL += --no-act
 
 binary-post-install/eog::
-	rm -rf `pwd`/debian/devhelp/usr/share/eog/gir-1.0/
+	# remove gir file from eog package, it will be in eog-dev
+	rm -rf `pwd`/debian/eog/usr/share/eog/gir-1.0/
+
+binary-predeb/gir1.2-eog-3.0::
+	dh_girepository -ldebian/eog-dev/usr/share/eog/gir-1.0/ /usr/lib/eog/girepository-1.0/

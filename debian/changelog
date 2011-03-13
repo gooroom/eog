@@ -1,3 +1,13 @@
+eog (2.91.91-2) experimental; urgency=low
+
+  * debian/eog.install: install eog.convert, for porting configuration from
+    gconf to gsettings.
+  * debian/rules: fix removal of gir file from eog package.
+  * debian/rules: fix generation of gir:Depends, looking for files in their
+    private directories.
+
+ -- Frederic Peters <fpeters@debian.org>  Sun, 13 Mar 2011 15:25:28 +0100
+
 eog (2.91.91-1) experimental; urgency=low
 
   * New upstream development release.
