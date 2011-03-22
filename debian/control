@@ -7,7 +7,7 @@ Source: eog
 Section: gnome
 Priority: optional
 Maintainer: Guilherme de S. Pastore <gpastore@debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Frederic Peters <fpeters@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sebastian Dröge <slomo@debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Frederic Peters <fpeters@debian.org>, Michael Biebl <biebl@debian.org>
 Standards-Version: 3.9.0
 Homepage: http://projects.gnome.org/eog
 Build-Depends: cdbs (>= 0.4.41),
@@ -30,6 +30,7 @@ Build-Depends: cdbs (>= 0.4.41),
                libdbus-glib-1-dev (>= 0.71),
                libxml2-dev (>= 2.0),
                x11proto-core-dev,
+               libatk1.0-dev (>= 1.32.0-2~),
                gir1.2-glib-2.0,
                gir1.2-gtk-3.0 (>= 3.0.0),
                gobject-introspection (>= 0.9.12-4~),
@@ -42,6 +43,7 @@ Package: eog
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
+         gir1.2-eog-3.0 (= ${binary:Version}),
          gnome-icon-theme (>= 2.19.1),
          shared-mime-info (>= 0.20)
 Recommends: librsvg2-common
