@@ -1,3 +1,10 @@
+eog (2.91.92-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/control.in: added missing dependency on gsettings-desktop-schemas.
+
+ -- Frederic Peters <fpeters@debian.org>  Mon, 28 Mar 2011 11:48:04 +0530
+
 eog (2.91.91-4) experimental; urgency=low
 
   * debian/control.in: add build-dep on a recent version of libatk1.0-dev to
