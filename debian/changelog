@@ -1,3 +1,9 @@
+eog (2.91.92-2) UNRELEASED; urgency=low
+
+  * Make the -dev package depend on the gir package.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 30 Mar 2011 17:08:25 +0200
+
 eog (2.91.92-1) experimental; urgency=low
 
   * New upstream release.
