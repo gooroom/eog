@@ -4,7 +4,6 @@ eog (3.0.0-1) experimental; urgency=low
   * New upstream release.
   * Update build-dependencies.
   * Put the gir in the eog package, since it’s in a private directory.
-  * Remove useless cleanup in rules.
 
  -- Josselin Mouette <joss@debian.org>  Sun, 10 Apr 2011 22:57:14 +0200
 
