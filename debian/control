@@ -51,6 +51,8 @@ Depends: ${shlibs:Depends},
          gsettings-desktop-schemas (>= 2.91.92)
 Recommends: librsvg2-common
 Breaks: eog-plugins (<< 2.91)
+Conflicts: gir1.2-eog-3.0
+Replaces: gir1.2-eog-3.0
 Description: Eye of GNOME graphics viewer program
  eog or the Eye of GNOME is a simple graphics viewer for the GNOME
  desktop which uses the gdk-pixbuf library.  It can deal with large

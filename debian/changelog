@@ -1,3 +1,9 @@
+eog (3.0.0-2) UNRELEASED; urgency=low
+
+  * Add Conflicts and Replaces against gir1.2-eog-3.0 to eog (Closes: #622636).
+
+ -- Fabian Greffrath <fabian+debian@greffrath.com>  Fri, 15 Apr 2011 22:29:03 +0200
+
 eog (3.0.0-1) experimental; urgency=low
 
   * Make the -dev package depend on the gir package.
