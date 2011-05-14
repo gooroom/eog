@@ -1,4 +1,4 @@
-eog (3.0.1-1) UNRELEASED; urgency=low
+eog (3.0.1-1) experimental; urgency=low
 
   [ Fabian Greffrath ]
   * Add Conflicts and Replaces against gir1.2-eog-3.0 to eog (Closes: #622636).
@@ -6,7 +6,7 @@ eog (3.0.1-1) UNRELEASED; urgency=low
   [ Sjoerd Simons ]
   * New upstream release
 
- -- Sjoerd Simons <sjoerd@debian.org>  Sat, 14 May 2011 19:16:57 +0100
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 14 May 2011 19:47:05 +0100
 
 eog (3.0.0-1) experimental; urgency=low
 
