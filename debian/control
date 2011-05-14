@@ -7,7 +7,7 @@ Source: eog
 Section: gnome
 Priority: optional
 Maintainer: Guilherme de S. Pastore <gpastore@debian.org>
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Frederic Peters <fpeters@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Frederic Peters <fpeters@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Standards-Version: 3.9.0
 Homepage: http://projects.gnome.org/eog
 Build-Depends: cdbs (>= 0.4.41),
