@@ -1,3 +1,63 @@
+eog (3.0.1-1) experimental; urgency=low
+
+  [ Fabian Greffrath ]
+  * Add Conflicts and Replaces against gir1.2-eog-3.0 to eog (Closes: #622636).
+
+  [ Sjoerd Simons ]
+  * New upstream release
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 14 May 2011 19:47:05 +0100
+
+eog (3.0.0-1) experimental; urgency=low
+
+  * Make the -dev package depend on the gir package.
+  * New upstream release.
+  * Update build-dependencies.
+  * Put the gir in the eog package, since it’s in a private directory.
+  * Break eog-plugins < 2.91.
+  * Pass arguments to dh_girepository in a more canonical way.
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 10 Apr 2011 22:57:14 +0200
+
+eog (2.91.92-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/control.in: added missing dependency on gsettings-desktop-schemas.
+
+ -- Frederic Peters <fpeters@debian.org>  Mon, 28 Mar 2011 11:48:04 +0530
+
+eog (2.91.91-4) experimental; urgency=low
+
+  * debian/control.in: add build-dep on a recent version of libatk1.0-dev to
+    make sure the necessary gobject introspection files get installed.
+
+ -- Frederic Peters <fpeters@debian.org>  Tue, 22 Mar 2011 22:27:47 +0100
+
+eog (2.91.91-3) experimental; urgency=low
+
+  * debian/rules: get gir dependencies using file from debian/tmp/.
+
+ -- Frederic Peters <fpeters@debian.org>  Mon, 21 Mar 2011 23:49:15 +0100
+
+eog (2.91.91-2) experimental; urgency=low
+
+  * debian/eog.install: install eog.convert, for porting configuration from
+    gconf to gsettings.
+  * debian/rules: fix removal of gir file from eog package.
+  * debian/rules: fix generation of gir:Depends, looking for files in their
+    private directories.
+
+ -- Frederic Peters <fpeters@debian.org>  Sun, 13 Mar 2011 15:25:28 +0100
+
+eog (2.91.91-1) experimental; urgency=low
+
+  * New upstream development release.
+    + Update debian/control.in for new dependencies.
+    + Create a gir1.2-eog-3.0 package.
+    + Make eog depends on gir1.2-eog-3.0 as it is required for plugins.
+
+ -- Frederic Peters <fpeters@debian.org>  Sun, 13 Mar 2011 13:38:33 +0100
+
 eog (2.30.2-1) unstable; urgency=low
 
   * New upstream bugfix release.
