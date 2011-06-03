@@ -5,6 +5,7 @@ eog (3.0.2-1) UNRELEASED; urgency=low
   * Switch to debhelper compatibility level 8.
     - Bump Build-Depends on debhelper.
     - Strip leading debian/tmp/ from .install files.
+  * Bump Standards-Version to 3.9.2. No further changes.
 
  -- Michael Biebl <biebl@debian.org>  Fri, 03 Jun 2011 20:02:05 +0200
 
