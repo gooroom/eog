@@ -8,6 +8,8 @@ eog (3.0.2-1) UNRELEASED; urgency=low
   * debian/control.in
     - Bump Standards-Version to 3.9.2. No further changes.
     - Add Build-Depends on librsvg2-dev (>= 2.26.0) for scaling svg images.
+  * debian/eog-dev.install
+    - Install gtk-doc API documentation.
 
  -- Michael Biebl <biebl@debian.org>  Fri, 03 Jun 2011 20:02:05 +0200
 
