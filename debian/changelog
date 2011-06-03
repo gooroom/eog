@@ -1,6 +1,7 @@
 eog (3.0.2-1) UNRELEASED; urgency=low
 
   * New upstream stable release.
+  * debian/watch: Switch to .bz2 tarballs.
 
  -- Michael Biebl <biebl@debian.org>  Fri, 03 Jun 2011 20:02:05 +0200
 
