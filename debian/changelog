@@ -1,3 +1,18 @@
+eog (3.0.2-1) UNRELEASED; urgency=low
+
+  * New upstream stable release.
+  * debian/watch: Switch to .bz2 tarballs.
+  * Switch to debhelper compatibility level 8.
+    - Bump Build-Depends on debhelper.
+    - Strip leading debian/tmp/ from .install files.
+  * debian/control.in
+    - Bump Standards-Version to 3.9.2. No further changes.
+    - Add Build-Depends on librsvg2-dev (>= 2.26.0) for scaling svg images.
+  * debian/eog-dev.install
+    - Install gtk-doc API documentation.
+
+ -- Michael Biebl <biebl@debian.org>  Fri, 03 Jun 2011 20:02:05 +0200
+
 eog (3.0.1-1) experimental; urgency=low
 
   [ Fabian Greffrath ]

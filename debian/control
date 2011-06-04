@@ -7,11 +7,11 @@ Source: eog
 Section: gnome
 Priority: optional
 Maintainer: Guilherme de S. Pastore <gpastore@debian.org>
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Frederic Peters <fpeters@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
-Standards-Version: 3.9.0
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Frederic Peters <fpeters@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Standards-Version: 3.9.2
 Homepage: http://projects.gnome.org/eog
 Build-Depends: cdbs (>= 0.4.41),
-               debhelper (>= 5),
+               debhelper (>= 8),
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.9),
                intltool (>= 0.40.0),
@@ -29,6 +29,7 @@ Build-Depends: cdbs (>= 0.4.41),
                liblcms-dev,
                libexempi-dev (>= 1.99.5),
                libjpeg62-dev,
+               librsvg2-dev (>= 2.26.0),
                libdbus-glib-1-dev (>= 0.71),
                libxml2-dev (>= 2.0),
                libx11-dev,
