@@ -3,6 +3,7 @@ eog (3.0.2-2) UNRELEASED; urgency=low
   * debian/control.in:
     - Change Build-Depends on libjpeg62-dev to libjpeg-dev in preparation of
       the libjpeg8 transition.
+    - Add Depends on gir1.2-peas-1.0 to eog. (Closes: #630910)
 
  -- Michael Biebl <biebl@debian.org>  Fri, 15 Jul 2011 17:40:30 +0200
 
