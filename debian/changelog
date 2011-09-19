@@ -1,3 +1,10 @@
+eog (3.0.2-3) UNRELEASED; urgency=low
+
+  * 01_nodisplay.patch: dropped. Let’s show applications in the shell 
+    now. Closes: #624560.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 19 Sep 2011 18:08:44 +0200
+
 eog (3.0.2-2) unstable; urgency=low
 
   * debian/control.in:
