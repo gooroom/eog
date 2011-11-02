@@ -1,4 +1,4 @@
-eog (3.2.1-1) UNRELEASED; urgency=low
+eog (3.2.1-1) experimental; urgency=low
 
   [ Josselin Mouette ]
   * 01_nodisplay.patch: dropped. Let’s show applications in the shell 
@@ -10,7 +10,7 @@ eog (3.2.1-1) UNRELEASED; urgency=low
   * debian/control.in: Update glib build-depends
   * debian/eog.install: Remove omf dir, no longer used
 
- -- Sjoerd Simons <sjoerd@debian.org>  Wed, 02 Nov 2011 20:31:11 +0000
+ -- Sjoerd Simons <sjoerd@debian.org>  Wed, 02 Nov 2011 20:35:55 +0000
 
 eog (3.0.2-2) unstable; urgency=low
 
