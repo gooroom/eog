@@ -1,6 +1,8 @@
 eog (3.2.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * debian/control.in:
+    - Drop Build-Depends on libdbus-glib-1-dev, no longer required.
 
  -- Michael Biebl <biebl@debian.org>  Thu, 17 Nov 2011 20:41:55 +0100
 
