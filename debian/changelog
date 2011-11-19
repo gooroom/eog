@@ -1,9 +1,26 @@
-eog (3.0.2-3) UNRELEASED; urgency=low
+eog (3.2.2-1) experimental; urgency=low
 
+  * New upstream release.
+  * debian/control.in:
+    - Drop Build-Depends on libdbus-glib-1-dev, no longer required.
+  * debian/watch:
+    - Fix regex to correctly match directories.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 17 Nov 2011 20:59:59 +0100
+
+eog (3.2.1-1) experimental; urgency=low
+
+  [ Josselin Mouette ]
   * 01_nodisplay.patch: dropped. Let’s show applications in the shell 
     now. Closes: #624560.
 
- -- Josselin Mouette <joss@debian.org>  Mon, 19 Sep 2011 18:08:44 +0200
+  [ Sjoerd Simons ]
+  * New upstream release (3.2.1)
+  * debian/watch: Monitor xz tarballs
+  * debian/control.in: Update glib build-depends
+  * debian/eog.install: Remove omf dir, no longer used
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Wed, 02 Nov 2011 20:35:55 +0000
 
 eog (3.0.2-2) unstable; urgency=low
 
