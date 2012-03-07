@@ -5,6 +5,7 @@ eog (3.3.91-1) experimental; urgency=low
   * Set Maintainer to the GNOME team.
   * Update Standards-Version to 3.9.3, no changes needed.
   * Point to versioned GPL-2 file.
+  * Build-Depend on libgdk-pixbuf2.0-doc to fix cross-reference links.
 
  -- Jordi Mallach <jordi@debian.org>  Wed, 07 Mar 2012 14:23:42 +0100
 
