@@ -1,4 +1,4 @@
-eog (3.3.91-1) unstable; urgency=low
+eog (3.3.91-1) experimental; urgency=low
 
   * New upstream release.
   * Bump libglib2.0-dev, libgtk-3-dev and libgdk-pixbuf2.0-dev Build-Deps.
