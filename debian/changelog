@@ -4,6 +4,7 @@ eog (3.3.91-1) experimental; urgency=low
   * Bump libglib2.0-dev, libgtk-3-dev and libgdk-pixbuf2.0-dev Build-Deps.
   * Set Maintainer to the GNOME team.
   * Update Standards-Version to 3.9.3, no changes needed.
+  * Point to versioned GPL-2 file.
 
  -- Jordi Mallach <jordi@debian.org>  Wed, 07 Mar 2012 14:23:42 +0100
 
