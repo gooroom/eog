@@ -1,3 +1,9 @@
+eog (3.4.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 28 Mar 2012 00:10:48 +0200
+
 eog (3.3.92-1) experimental; urgency=low
 
   * New upstream development release.
