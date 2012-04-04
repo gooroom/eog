@@ -1,3 +1,13 @@
+eog (3.2.2-3) UNRELEASED; urgency=low
+
+  * debian/patches/0001-Don-t-lock-GDK-around-g_application_run.patch:
+    Don't lock GDK around g_application_run(). An unintended interaction
+    between GtkApplication and GDK threading made this necessary before.
+    That code has since been simplified, breaking this formerly-working code.
+    Patch cherry-picked from upstream Git. (Closes: #665374)
+
+ -- Michael Biebl <biebl@debian.org>  Sat, 19 Nov 2011 01:38:53 +0100
+
 eog (3.2.2-2) unstable; urgency=low
 
   * Upload to unstable.
