@@ -1,4 +1,4 @@
-eog (3.2.2-3) UNRELEASED; urgency=low
+eog (3.2.2-3) unstable; urgency=low
 
   * debian/patches/0001-Don-t-lock-GDK-around-g_application_run.patch:
     Don't lock GDK around g_application_run(). An unintended interaction
@@ -6,7 +6,7 @@ eog (3.2.2-3) UNRELEASED; urgency=low
     That code has since been simplified, breaking this formerly-working code.
     Patch cherry-picked from upstream Git. (Closes: #665374)
 
- -- Michael Biebl <biebl@debian.org>  Sat, 19 Nov 2011 01:38:53 +0100
+ -- Michael Biebl <biebl@debian.org>  Wed, 04 Apr 2012 23:23:23 +0200
 
 eog (3.2.2-2) unstable; urgency=low
 
