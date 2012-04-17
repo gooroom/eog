@@ -1,3 +1,9 @@
+eog (3.4.1-1) UNRELEASED; urgency=low
+
+  * New upstream translation release.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 17 Apr 2012 16:30:02 +0200
+
 eog (3.4.0-1) experimental; urgency=low
 
   * New upstream release.
