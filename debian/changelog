@@ -1,8 +1,8 @@
-eog (3.4.1-2) UNRELEASED; urgency=low
+eog (3.4.1-2) unstable; urgency=low
 
   * Upload to unstable.
 
- -- Michael Biebl <biebl@debian.org>  Thu, 19 Apr 2012 03:58:08 +0200
+ -- Michael Biebl <biebl@debian.org>  Thu, 19 Apr 2012 03:58:38 +0200
 
 eog (3.4.1-1) experimental; urgency=low
 
