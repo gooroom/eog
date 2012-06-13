@@ -1,4 +1,4 @@
-eog (3.4.2-1) UNRELEASED; urgency=low
+eog (3.4.2-1) unstable; urgency=low
 
   [ Jeremy Bicha ]
   * debian/control.in: Recommend yelp
@@ -6,7 +6,7 @@ eog (3.4.2-1) UNRELEASED; urgency=low
   [ Michael Biebl ]
   * New upstream release.
 
- -- Michael Biebl <biebl@debian.org>  Wed, 13 Jun 2012 23:15:05 +0200
+ -- Michael Biebl <biebl@debian.org>  Wed, 13 Jun 2012 23:21:35 +0200
 
 eog (3.4.1-2) unstable; urgency=low
 
