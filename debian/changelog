@@ -1,11 +1,11 @@
-eog (3.6.1-1) UNRELEASED; urgency=low
+eog (3.6.1-1) experimental; urgency=low
 
   * Team upload.
   * New upstream release
     - adjust to new help location
     - increase build-dependencies
 
- -- Simon McVittie <smcv@debian.org>  Mon, 22 Oct 2012 19:16:54 +0100
+ -- Simon McVittie <smcv@debian.org>  Mon, 22 Oct 2012 20:24:02 +0100
 
 eog (3.4.2-1) unstable; urgency=low
 
