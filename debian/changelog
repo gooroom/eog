@@ -1,3 +1,10 @@
+eog (3.6.1-1) UNRELEASED; urgency=low
+
+  * Team upload.
+  * New upstream release
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 22 Oct 2012 19:16:54 +0100
+
 eog (3.4.2-1) unstable; urgency=low
 
   [ Jeremy Bicha ]
