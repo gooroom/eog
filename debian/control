@@ -50,7 +50,8 @@ Depends: ${shlibs:Depends},
          shared-mime-info (>= 0.20),
          gsettings-desktop-schemas (>= 2.91.92),
          gir1.2-peas-1.0
-Recommends: librsvg2-common
+Recommends: librsvg2-common,
+            yelp
 Breaks: eog-plugins (<< 2.91)
 Conflicts: gir1.2-eog-3.0
 Replaces: gir1.2-eog-3.0
