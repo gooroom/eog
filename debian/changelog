@@ -1,9 +1,9 @@
-eog (3.7.91-1) UNRELEASED; urgency=low
+eog (3.7.91-1) experimental; urgency=low
 
   * New upstream release
   * Bump build-dependency on libgtk-3-dev to (>= 3.5.4)
 
- -- Andreas Henriksson <andreas@fatal.se>  Fri, 15 Mar 2013 21:23:20 +0100
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 18 Mar 2013 21:04:05 +0100
 
 eog (3.6.1-1) experimental; urgency=low
 
