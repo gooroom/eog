@@ -1,10 +1,10 @@
-eog (3.8.0-1.1) UNRELEASED; urgency=low
+eog (3.8.0-2) experimental; urgency=low
 
   * debian/control.in:
     + Bump libgnome-desktop-3-dev build dependency to ensure a
       dependency on the new SONAME.
 
- -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 29 Mar 2013 12:17:28 +0100
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 29 Mar 2013 12:20:48 +0100
 
 eog (3.8.0-1) experimental; urgency=low
 
