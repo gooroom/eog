@@ -3,6 +3,8 @@ eog (3.8.2-1) UNRELEASED; urgency=low
   * Upload to unstable.
   * New upstream release.
   * Drop obsolete --disable-scrollkeeper configure flag.
+  * Lower Build-Depends on libgnome-desktop-3-dev again. It's not really
+    required and unstable still has a old libgnome-desktop version.
 
  -- Michael Biebl <biebl@debian.org>  Thu, 06 Jun 2013 06:47:11 +0200
 
