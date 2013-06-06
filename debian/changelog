@@ -1,3 +1,9 @@
+eog (3.8.0-3) UNRELEASED; urgency=low
+
+  * Upload to unstable.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 06 Jun 2013 06:47:11 +0200
+
 eog (3.8.0-2) experimental; urgency=low
 
   * debian/control.in:
