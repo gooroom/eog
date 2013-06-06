@@ -12,6 +12,7 @@ Standards-Version: 3.9.4
 Homepage: http://projects.gnome.org/eog
 Build-Depends: cdbs (>= 0.4.41),
                debhelper (>= 8),
+               autotools-dev,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.9),
                intltool (>= 0.40.0),
