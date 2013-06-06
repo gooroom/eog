@@ -1,4 +1,4 @@
-eog (3.8.2-1) UNRELEASED; urgency=low
+eog (3.8.2-1) unstable; urgency=low
 
   * Upload to unstable.
   * New upstream release.
@@ -7,7 +7,7 @@ eog (3.8.2-1) UNRELEASED; urgency=low
     required and unstable still has a old libgnome-desktop version.
   * Bump Standards-Version to 3.9.4. No further changes.
 
- -- Michael Biebl <biebl@debian.org>  Thu, 06 Jun 2013 06:47:11 +0200
+ -- Michael Biebl <biebl@debian.org>  Thu, 06 Jun 2013 07:04:51 +0200
 
 eog (3.8.0-2) experimental; urgency=low
 
