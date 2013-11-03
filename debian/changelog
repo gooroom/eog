@@ -1,3 +1,9 @@
+eog (3.10.1-2) experimental; urgency=low
+
+  * For build against experimental version of gnome-desktop
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 03 Nov 2013 11:25:04 +0100
+
 eog (3.10.1-1) unstable; urgency=low
 
   * New upstream release.
