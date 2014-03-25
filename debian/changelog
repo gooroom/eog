@@ -1,3 +1,27 @@
+eog (3.12.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Revert changes in 3.10.1-2
+    - i.e. lower gnome-desktop build-dependency again
+  * eog: Install appdata file
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 25 Mar 2014 13:11:12 +0100
+
+eog (3.11.90-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update build-dependencies according to configure.ac changes:
+    - bump Gtk+ 3.10.6, glib 2.38.0, gtk-doc 1.16
+    - drop libx11-dev (sunkeysym)
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 18 Feb 2014 01:36:19 +0100
+
+eog (3.10.1-2) experimental; urgency=low
+
+  * Force build against experimental version of gnome-desktop
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 03 Nov 2013 11:25:04 +0100
+
 eog (3.10.1-1) unstable; urgency=low
 
   * New upstream release.
