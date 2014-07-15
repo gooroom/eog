@@ -1,4 +1,4 @@
-eog (3.12.2-1) UNRELEASED; urgency=medium
+eog (3.12.2-1) unstable; urgency=medium
 
   [ Josselin Mouette ]
   * Relax gnome-desktop dependencies again.
@@ -6,8 +6,8 @@ eog (3.12.2-1) UNRELEASED; urgency=medium
   [ Jean Schurger ]
   * New upstream release
   * Bump Standards-Version to 3.9.5. No further changes.
- 
- -- Jean Schurger <jean@schurger.org>  Fri, 30 May 2014 10:54:42 -0400
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 15 Jul 2014 13:07:34 +0200
 
 eog (3.12.1-1) experimental; urgency=medium
 
