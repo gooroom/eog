@@ -1,3 +1,14 @@
+eog (3.12.2-1) unstable; urgency=medium
+
+  [ Josselin Mouette ]
+  * Relax gnome-desktop dependencies again.
+
+  [ Jean Schurger ]
+  * New upstream release
+  * Bump Standards-Version to 3.9.5. No further changes.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 15 Jul 2014 13:07:34 +0200
+
 eog (3.12.1-1) experimental; urgency=medium
 
   * New upstream translation release.
