@@ -1,3 +1,9 @@
+eog (3.13.90-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 06 Sep 2014 13:52:06 +0200
+
 eog (3.12.2-1) unstable; urgency=medium
 
   [ Josselin Mouette ]
