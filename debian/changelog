@@ -1,3 +1,9 @@
+eog (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 23 Sep 2014 09:13:34 +0200
+
 eog (3.13.92-1) unstable; urgency=medium
 
   * New upstream release
