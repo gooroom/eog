@@ -1,4 +1,4 @@
-eog (3.14.1-1) UNRELEASED; urgency=medium
+eog (3.14.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Bump Build-Depends on libgtk-3-dev to (>= 3.14.0) as per configure.ac.
@@ -6,7 +6,7 @@ eog (3.14.1-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6. No further changes.
   * Drop obsolete Conflicts/Replaces: gir1.2-eog-3.0.
 
- -- Michael Biebl <biebl@debian.org>  Tue, 14 Oct 2014 22:55:08 +0200
+ -- Michael Biebl <biebl@debian.org>  Tue, 14 Oct 2014 23:03:14 +0200
 
 eog (3.14.0-1) unstable; urgency=medium
 
