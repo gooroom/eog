@@ -1,7 +1,11 @@
-eog (3.14.2-1) UNRELEASED; urgency=medium
+eog (3.14.3-1) UNRELEASED; urgency=medium
 
+  [ Jackson Doak ]
   * New upstream release
   * Drop depends on gnome-icon-theme, it's no longer needed
+
+  [ Iain Lane ]
+  * New upstream release 3.14.3
 
  -- Jackson Doak <noskcaj@ubuntu.com>  Fri, 14 Nov 2014 06:29:55 +1100
 
