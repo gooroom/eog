@@ -1,4 +1,4 @@
-eog (3.14.3-1) UNRELEASED; urgency=medium
+eog (3.14.3-1) experimental; urgency=medium
 
   [ Jackson Doak ]
   * New upstream release
@@ -7,7 +7,7 @@ eog (3.14.3-1) UNRELEASED; urgency=medium
   [ Iain Lane ]
   * New upstream release 3.14.3
 
- -- Jackson Doak <noskcaj@ubuntu.com>  Fri, 14 Nov 2014 06:29:55 +1100
+ -- Jackson Doak <noskcaj@ubuntu.com>  Tue, 06 Jan 2015 13:04:23 +0000
 
 eog (3.14.1-1) unstable; urgency=medium
 
