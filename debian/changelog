@@ -3,6 +3,9 @@ eog (3.14.4-1) UNRELEASED; urgency=medium
   * New upstream release 3.14.4, fixing bug:
     + eog crashes when attempting two-finger zoom gesture on touchpad (LP:
     #1436920)
+  * disable-appmenu-when-not-needed.patch: Take a patch from Ubuntu to disable
+    the app menu when we're showing the traditional menu, which has all of the
+    same actions.
 
  -- Iain Lane <laney@debian.org>  Wed, 01 Apr 2015 16:11:14 +0100
 
