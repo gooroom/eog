@@ -1,3 +1,9 @@
+eog (3.16.3-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 20 Aug 2015 23:51:24 +0200
+
 eog (3.16.2-1) unstable; urgency=medium
 
   * New upstream release.
