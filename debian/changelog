@@ -1,9 +1,9 @@
-eog (3.18.1-1) UNRELEASED; urgency=medium
+eog (3.18.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Remove Breaks from pre-oldstable.
 
- -- Michael Biebl <biebl@debian.org>  Tue, 10 Nov 2015 23:37:10 +0100
+ -- Michael Biebl <biebl@debian.org>  Tue, 10 Nov 2015 23:40:49 +0100
 
 eog (3.18.0-1) unstable; urgency=medium
 
