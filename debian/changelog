@@ -1,6 +1,17 @@
 eog (3.18.2-1) UNRELEASED; urgency=medium
 
   * New upstrem release.
+  * debian/patches/0001-Add-a-traditional-menu-bar.patch: Show a traditional
+    menu bar if the DE requests it - happens for Xfce for example. (Closes:
+    #793445)
+  * debian/patches/0002-Show-traditional-title-bar-in-unity.patch: Since we're
+    doing ↑, take a small patch to not use the headerbar on Unity - easily
+    extended to other desktops in Debian if they want it.
+  * debian/patches/Put-Exit-Fullscreen-button-into-toolbar.patch: Cherry-pick
+    from upstream to pack the "Exit Fullscreen" button correctly, so that it
+    is themed right.
+  * debian/patches/disable-appmenu-when-not-needed.patch: Drop, not needed
+    with the above.
 
  -- Iain Lane <laney@debian.org>  Mon, 15 Feb 2016 15:03:28 +0000
 
