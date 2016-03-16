@@ -4,6 +4,8 @@ eog (3.19.92-2) UNRELEASED; urgency=medium
   * debian/patches/0001-Add-a-traditional-menu-bar.patch,
     debian/patches/0002-Show-traditional-title-bar-in-unity.patch: Fix to
     apply, and make smaller while achieving the same result (thanks, GTK!).
+  * debian/patches/Put-Exit-Fullscreen-button-into-toolbar.patch: Drop,
+    applied upstream.
 
  -- Iain Lane <laney@debian.org>  Wed, 16 Mar 2016 15:04:39 +0000
 
