@@ -1,11 +1,12 @@
-eog (3.20.1-1) UNRELEASED; urgency=medium
+eog (3.20.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Drop eog-dbg package now that we have automatic dbgsym packages.
   * Suggest eog-plugins. (Closes: #637831)
   * Track stable releases (again) via debian/watch.
+  * Upload to unstable.
 
- -- Michael Biebl <biebl@debian.org>  Sun, 17 Apr 2016 15:30:52 +0200
+ -- Michael Biebl <biebl@debian.org>  Sun, 17 Apr 2016 15:40:11 +0200
 
 eog (3.19.92-2) experimental; urgency=medium
 
