@@ -1,6 +1,7 @@
 eog (3.20.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Drop eog-dbg package now that we have automatic dbgsym packages.
 
  -- Michael Biebl <biebl@debian.org>  Sun, 17 Apr 2016 15:30:52 +0200
 
