@@ -11,11 +11,11 @@ Subject: [PATCH 1/2] Add a traditional menu bar
  4 files changed, 259 insertions(+), 30 deletions(-)
  create mode 100644 data/eog-menubar.xml
 
-Index: eog-3.18.0/data/eog-menubar.xml
+Index: b/data/eog-menubar.xml
 ===================================================================
 --- /dev/null
-+++ eog-3.18.0/data/eog-menubar.xml
-@@ -0,0 +1,205 @@
++++ b/data/eog-menubar.xml
+@@ -0,0 +1,209 @@
 +<?xml version="1.0" encoding="utf-8"?>
 +<interface>
 +  <menu id="menubar">
@@ -214,6 +214,10 @@ Index: eog-3.18.0/data/eog-menubar.xml
 +          <attribute name="accel">F1</attribute>
 +        </item>
 +        <item>
++          <attribute name="action">win.show-help-overlay</attribute>
++          <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
++        </item>
++        <item>
 +          <attribute name="label" translatable="yes">_About</attribute>
 +          <attribute name="action">app.about</attribute>
 +        </item>
@@ -221,60 +225,11 @@ Index: eog-3.18.0/data/eog-menubar.xml
 +    </submenu>
 +  </menu>
 +</interface>
-Index: eog-3.18.0/src/eog-application.c
+Index: b/src/eog-window.c
 ===================================================================
---- eog-3.18.0.orig/src/eog-application.c
-+++ eog-3.18.0/src/eog-application.c
-@@ -169,17 +169,34 @@ eog_application_init_app_menu (EogApplic
- 					 application);
- 
- 	builder = gtk_builder_new ();
--	gtk_builder_add_from_resource (builder,
--				       "/org/gnome/eog/ui/eog-app-menu.xml",
--				       &error);
- 
--	if (error == NULL) {
--		gtk_application_set_app_menu (GTK_APPLICATION (application),
--					      G_MENU_MODEL (gtk_builder_get_object (builder,
--		                                                                    "app-menu")));
--	} else {
--		g_critical ("Unable to add the application menu: %s\n", error->message);
--		g_error_free (error);
-+	if (gtk_application_prefers_app_menu (GTK_APPLICATION (application))) {
-+		gtk_builder_add_from_resource (builder,
-+					       "/org/gnome/eog/ui/eog-app-menu.xml",
-+					       &error);
-+
-+		if (error == NULL) {
-+			gtk_application_set_app_menu (GTK_APPLICATION (application),
-+						      G_MENU_MODEL (gtk_builder_get_object (builder,
-+											    "app-menu")));
-+		} else {
-+			g_critical ("Unable to add the application menu: %s\n", error->message);
-+			g_error_free (error);
-+		}
-+	}
-+	else {
-+		gtk_builder_add_from_resource (builder,
-+					       "/org/gnome/eog/ui/eog-menubar.xml",
-+					       &error);
-+
-+		if (error == NULL) {
-+			gtk_application_set_menubar (GTK_APPLICATION (application),
-+						     G_MENU_MODEL (gtk_builder_get_object (builder,
-+											   "menubar")));
-+		} else {
-+			g_critical ("Unable to add the application menu: %s\n", error->message);
-+			g_error_free (error);
-+		}
- 	}
- 
- 	action = g_action_map_lookup_action (G_ACTION_MAP (application),
-Index: eog-3.18.0/src/eog-window.c
-===================================================================
---- eog-3.18.0.orig/src/eog-window.c
-+++ eog-3.18.0/src/eog-window.c
-@@ -4330,18 +4330,30 @@ eog_window_construct_ui (EogWindow *wind
+--- a/src/eog-window.c
++++ b/src/eog-window.c
+@@ -4332,23 +4332,36 @@
  			   priv->zoom_scale);
  	gtk_widget_show (priv->zoom_scale);
  
@@ -287,6 +242,14 @@ Index: eog-3.18.0/src/eog-window.c
 -	builder_object = gtk_builder_get_object (builder, "gear-menu");
 -	gtk_menu_button_set_menu_model (GTK_MENU_BUTTON (menu_button),
 -					G_MENU_MODEL (builder_object));
+-
+-	gtk_header_bar_pack_end (GTK_HEADER_BAR (headerbar), menu_button);
+-	gtk_widget_show (menu_button);
+-
+-	action = G_ACTION (g_property_action_new ("toggle-gear-menu",
+-						  menu_button, "active"));
+-	g_action_map_add_action (G_ACTION_MAP (window), action);
+-	g_object_unref (action);
 +	priv->open_with_menu = g_menu_new ();
 +	priv->appinfo = g_ptr_array_new_with_free_func (g_object_unref);
 +
@@ -295,9 +258,7 @@ Index: eog-3.18.0/src/eog-window.c
 +		menu_image = gtk_image_new_from_icon_name ("open-menu-symbolic",
 +							   GTK_ICON_SIZE_BUTTON);
 +		gtk_button_set_image (GTK_BUTTON (menu_button), menu_image);
- 
--	gtk_header_bar_pack_end (GTK_HEADER_BAR (headerbar), menu_button);
--	gtk_widget_show (menu_button);
++
 +		builder = gtk_builder_new_from_resource ("/org/gnome/eog/ui/eog-gear-menu.ui");
 +		builder_object = gtk_builder_get_object (builder, "gear-menu");
 +		gtk_menu_button_set_menu_model (GTK_MENU_BUTTON (menu_button),
@@ -312,11 +273,17 @@ Index: eog-3.18.0/src/eog-window.c
 +				       G_MENU_MODEL (priv->open_with_menu));
 +		priv->gear_menu_builder = builder;
 +		builder = NULL;
++
++		action = G_ACTION (g_property_action_new ("toggle-gear-menu",
++							  menu_button, "active"));
++		g_action_map_add_action (G_ACTION_MAP (window), action);
++		g_object_unref (action);
++
 +	}
  
  	fullscreen_button = gtk_button_new_from_icon_name ("view-fullscreen-symbolic",
  							   GTK_ICON_SIZE_BUTTON);
-@@ -4352,15 +4364,6 @@ eog_window_construct_ui (EogWindow *wind
+@@ -4359,15 +4372,6 @@
  	gtk_header_bar_pack_end (GTK_HEADER_BAR (headerbar), fullscreen_button);
  	gtk_widget_show (fullscreen_button);
  
@@ -332,7 +299,7 @@ Index: eog-3.18.0/src/eog-window.c
  	priv->cbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
  	gtk_box_pack_start (GTK_BOX (priv->box), priv->cbox, TRUE, TRUE, 0);
  	gtk_widget_show (priv->cbox);
-@@ -5300,6 +5303,9 @@ eog_window_get_gear_menu_section (EogWin
+@@ -5307,6 +5311,9 @@
  	GObject *object;
  	g_return_val_if_fail (EOG_IS_WINDOW (window), NULL);
  
@@ -342,22 +309,22 @@ Index: eog-3.18.0/src/eog-window.c
  	object = gtk_builder_get_object (window->priv->gear_menu_builder, id);
  	if (object == NULL || !G_IS_MENU (object))
  		return NULL;
-Index: eog-3.18.0/src/eog.gresource.xml
+Index: b/src/eog.gresource.xml
 ===================================================================
---- eog-3.18.0.orig/src/eog.gresource.xml
-+++ eog-3.18.0/src/eog.gresource.xml
-@@ -3,6 +3,7 @@
-   <gresource prefix="/org/gnome/eog/ui">
-     <file>eog.css</file>
-     <file compressed="true" preprocess="xml-stripblanks">eog-app-menu.xml</file>
-+    <file compressed="true" preprocess="xml-stripblanks">eog-menubar.xml</file>
-     <file compressed="true" preprocess="xml-stripblanks">eog-gear-menu.ui</file>
-     <file compressed="true" preprocess="xml-stripblanks">eog-image-properties-dialog.ui</file>
-     <file compressed="true" preprocess="xml-stripblanks">eog-multiple-save-as-dialog.ui</file>
-Index: eog-3.18.0/po/POTFILES.in
+--- a/src/eog.gresource.xml
++++ b/src/eog.gresource.xml
+@@ -13,6 +13,7 @@
+   </gresource>
+   <gresource prefix="/org/gnome/eog/gtk">
+     <file alias="menus.ui" compressed="true" preprocess="xml-stripblanks">eog-app-menu.xml</file>
++    <file alias="menus-traditional.ui" compressed="true" preprocess="xml-stripblanks">eog-menubar.xml</file>
+     <file compressed="true" preprocess="xml-stripblanks">help-overlay.ui</file>
+   </gresource>
+ </gresources>
+Index: b/po/POTFILES.in
 ===================================================================
---- eog-3.18.0.orig/po/POTFILES.in
-+++ eog-3.18.0/po/POTFILES.in
+--- a/po/POTFILES.in
++++ b/po/POTFILES.in
 @@ -1,6 +1,7 @@
  # List of source files containing translatable strings.
  # Please keep this file sorted alphabetically.
