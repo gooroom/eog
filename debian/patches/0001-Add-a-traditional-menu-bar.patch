@@ -2,6 +2,8 @@ From b7cf1b9c79f6c547ac8daec82d3fa851ceec839d Mon Sep 17 00:00:00 2001
 From: Lars Uebernickel <lars.uebernickel@canonical.com>
 Date: Fri, 25 Sep 2015 10:27:24 +0200
 Subject: [PATCH 1/2] Add a traditional menu bar
+Bug: https://bugzilla.gnome.org/749976
+Bug-Debian: https://bugs.debian.org/793445
 
 ---
  data/eog-menubar.xml  | 205 ++++++++++++++++++++++++++++++++++++++++++++++++++
