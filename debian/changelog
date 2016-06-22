@@ -6,6 +6,7 @@ eog (3.20.3-1) UNRELEASED; urgency=medium
   * Convert to multiarch. Mark eog-dev as Architecture: any as the package now
     ships files in architecture specific paths. Add versioned Breaks against
     eog-plugins which needs to be updated to use multiarch paths as well.
+  * Turn Build-Depends-Indep into Build-Depends.
 
  -- Michael Biebl <biebl@debian.org>  Wed, 22 Jun 2016 20:44:23 +0200
 
