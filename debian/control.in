@@ -5,7 +5,7 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Uploaders: @GNOME_TEAM@
 Standards-Version: 3.9.8
 Homepage: https://wiki.gnome.org/Apps/EyeOfGnome
-Build-Depends: debhelper (>= 8),
+Build-Depends: debhelper (>= 9),
                autotools-dev,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.16),
