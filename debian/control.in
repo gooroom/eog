@@ -54,7 +54,7 @@ Description: Eye of GNOME graphics viewer program
 
 Package: eog-dev
 Architecture: any
-Depends: eog (>= ${source:Version}),
+Depends: eog (= ${binary:Version}),
          libgtk-3-dev,
          ${misc:Depends}
 Description: Development files for the Eye of GNOME
