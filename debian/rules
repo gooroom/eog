@@ -12,8 +12,6 @@ override_dh_auto_configure:
 
 override_dh_install:
 	dh_install --list-missing
-	# remove gir file from eog package, it will be in eog-dev
-	rm -rf `pwd`/debian/eog/usr/share/eog/gir-1.0/
 
 override_dh_girepository:
 	dh_girepository -ldebian/tmp/usr/share/eog/gir-1.0/ /usr/lib/$(DEB_HOST_MULTIARCH)/eog/girepository-1.0/
