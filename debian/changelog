@@ -1,3 +1,10 @@
+eog (3.20.4-1) unstable; urgency=medium
+
+  * New upstream release.
+    - fixes CVE-2016-6855 out-of-bounds write in eog 3.10.2
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sun, 21 Aug 2016 22:39:41 +0200
+
 eog (3.20.3-1) unstable; urgency=medium
 
   * New upstream release.
