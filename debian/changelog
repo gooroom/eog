@@ -1,4 +1,4 @@
-eog (3.20.5-1) UNRELEASED; urgency=medium
+eog (3.20.5-1) unstable; urgency=medium
 
   * New upstream release.
   * Bump Build-Depends on libgtk-3-dev to (>= 3.19.11) as per configure.ac.
@@ -8,7 +8,7 @@ eog (3.20.5-1) UNRELEASED; urgency=medium
   * Exclude libtool .la files from list-missing.
   * Use dh-autoreconf --as-needed for reduced runtime dependencies.
 
- -- Michael Biebl <biebl@debian.org>  Tue, 11 Oct 2016 23:26:34 +0200
+ -- Michael Biebl <biebl@debian.org>  Tue, 11 Oct 2016 23:46:24 +0200
 
 eog (3.20.4-1) unstable; urgency=medium
 
