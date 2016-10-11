@@ -6,6 +6,7 @@ eog (3.20.5-1) UNRELEASED; urgency=medium
     (Closes: #558501)
   * Add Build-Depends on gnome-common, required by autoreconf.
   * Exclude libtool .la files from list-missing.
+  * Use dh-autoreconf --as-needed for reduced runtime dependencies.
 
  -- Michael Biebl <biebl@debian.org>  Tue, 11 Oct 2016 23:26:34 +0200
 
