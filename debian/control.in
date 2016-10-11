@@ -7,6 +7,7 @@ Standards-Version: 3.9.8
 Homepage: https://wiki.gnome.org/Apps/EyeOfGnome
 Build-Depends: debhelper (>= 10),
                gnome-pkg-tools (>= 0.10),
+               gnome-common,
                gtk-doc-tools (>= 1.16),
                intltool (>= 0.40.0),
                pkg-config,
