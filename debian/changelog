@@ -5,6 +5,7 @@ eog (3.20.5-1) UNRELEASED; urgency=medium
   * Bump debhelper compat level to 10 (automatic dh-autoreconf).
     (Closes: #558501)
   * Add Build-Depends on gnome-common, required by autoreconf.
+  * Exclude libtool .la files from list-missing.
 
  -- Michael Biebl <biebl@debian.org>  Tue, 11 Oct 2016 23:26:34 +0200
 
