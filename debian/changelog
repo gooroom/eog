@@ -1,6 +1,8 @@
 eog (3.25.90-1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * debian/control.in:
+    - Bump minimum GTK+ to 3.22
   * Refresh patches (copied from Ubuntu)
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Tue, 29 Aug 2017 14:24:31 -0400
