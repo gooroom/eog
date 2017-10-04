@@ -1,10 +1,14 @@
-eog (3.26.0-1) UNRELEASED; urgency=medium
+eog (3.26.1-1) unstable; urgency=medium
 
+  [ Michael Biebl ]
   * New upstream release.
   * Bump Build-Depends on libgdk-pixbuf2.0-dev to (>= 2.36.5) as per
     configure.ac.
 
- -- Michael Biebl <biebl@debian.org>  Mon, 18 Sep 2017 00:38:21 +0200
+  [ Laurent Bigonville ]
+  * debian/control.in: Bump Standards-Version to 4.1.1 (no further changes)
+
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 04 Oct 2017 20:54:36 +0200
 
 eog (3.25.92-1) unstable; urgency=medium
 

@@ -6,8 +6,8 @@ Source: eog
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Michael Biebl <biebl@debian.org>
-Standards-Version: 4.1.0
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Standards-Version: 4.1.1
 Homepage: https://wiki.gnome.org/Apps/EyeOfGnome
 Build-Depends: debhelper (>= 10),
                gnome-pkg-tools (>= 0.10),
