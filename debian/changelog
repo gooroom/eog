@@ -1,6 +1,7 @@
 eog (3.26.2-1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Switch to dh_missing and abort on uninstalled files
 
  -- Michael Biebl <biebl@debian.org>  Fri, 10 Nov 2017 00:58:02 +0100
 
