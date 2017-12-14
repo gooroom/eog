@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="zoom" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#viewing"/>
+    <link type="seealso" xref="shortcuts#zoom-rotate"/>
+    <desc>Enlarge the picture on the screen.</desc>
+
+    <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2006-2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Vincent Untz</mal:name>
+      <mal:email>vuntz@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sébastien Seguin</mal:name>
+      <mal:email>seb24b@free.fr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Zoom</title>
+
+<p>Vous pouvez zoomer en avant et en arrière pour afficher une partie plus ou moins grande de l'image à l'écran à la fois. Cela sert pour afficher une grande image entièrement ou si vous voulez examiner de petits détails d'une image.</p>
+
+<list>
+ <item>
+  <p>Vous pouvez faire un zoom en utilisant la souris. Faites défiler la molette vers le haut pour zoomer en avant, vers le bas pour zoomer en arrière.</p>
+ </item>
+ <item>
+  <p>You can also zoom using the buttons in the title bar. To zoom in, click the 
+  <gui>Enlarge the image</gui> icon, and to zoom out click the <gui>Shrink the 
+  image</gui> icon. These look like "plus" and "minus" signs.</p>
+ </item>
+ <item>
+ <p>Alternatively, use the keyboard shortcuts <keyseq><key>Ctrl</key><key>+</key></keyseq> or
+ <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+ </item>
+</list>
+
+<p>To view the picture in its original, unscaled size, choose the
+<gui style="menuitem">100%</gui> zoom level from the dropdown in the title bar.
+Alternatively, use the keyboard shortcuts <keyseq><key>Ctrl</key><key>0</key></keyseq> or
+<key>1</key>.</p>
+
+<section id="bestfit">
+ <title>Zoom à la taille idéale en fonction de la fenêtre</title>
+ <p>You can choose to zoom in so that the picture fits fully in the window, 
+ even if you resize it. Enable <gui style="menuitem">Best fit</gui> 
+ in the dropdown in the title bar to do this.</p>
+</section>
+</page>

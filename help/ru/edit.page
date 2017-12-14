@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="edit" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#edit"/>
+    <desc>Click <gui style="menuitem">Open With</gui> to edit a picture using an external image editor.</desc>
+
+    <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Fabiana Simões</name>
+      <email>fabianapsimoes@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Василий Фаронов &lt;qvvx@yandex.ru&gt;, 2007Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+<title>Редактирование или удаление изображения</title>
+
+<section id="edit"><title>Редактирование изображения</title>
+<p>Программа просмотра изображений может использоваться только для просмотра изображений, но не для их редактирования. Для редактирование нужно использовать стороннее приложение, например графический редактор GIMP. Чтобы открыть изображение для редактирования в другом приложении:</p>
+<steps>
+ <item>
+  <p>Click <gui style="menuitem">Open With</gui>,
+or right-click on the image.</p>
+ </item>
+ <item>
+  <p>Выберите приложение, которое необходимо использовать для редактирования изображения.</p>
+ </item>
+ <item>
+  <p>После завершения редактирования сохраните изображение и закройте приложение.</p>
+ </item>
+ <item>
+  <p><app>Программа просмотра изображений</app> определит, что изображение было изменено, и перезагрузит его.</p>
+ </item>
+</steps>
+</section>
+
+<section id="delete">
+<title>Удаление изображения</title>
+<p>To delete a picture that you don't want any more, 
+right-click the picture and select <gui>Move to Trash</gui>.</p>
+</section>
+
+</page>

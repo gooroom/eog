@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="develop" xml:lang="lv">
+
+  <info>
+   <link type="guide" xref="index#get-involved"/>
+   <desc>Esi sveicināts <app>Attēlu skatītājā</app></desc> 
+    <revision pkgversion="3.4" version="0.1" date="2012-03-08" status="final"/>
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 license.</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Viesturs Ružāns</mal:name>
+      <mal:email>viesty@exs.lv</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Palīdzi veidot</title>
+ <p><gui>Attēlu skatītāju</gui> veido izstrādātāju un uzturētāju kopiena. Tu esi laipni lūgts piedalīties.</p>
+ <p>Ja vēlaties <link href="https://wiki.gnome.org/Apps/EyeOfGnome/PlaceForNewIdeas">palīdzēt veidot</link> <app>attēlu skatītāju</app>, varat sazināties ar izstrādātājiem, izmantojot <link href="https://cbe005.chat.mibbit.com/?url=irc%3A%2F%2Firc.gnome.org%2Feog">irc</link>, vai ar <link href="https://mail.gnome.org/mailman/listinfo/eog-list">adresātu sarakstu</link>.</p>
+
+</page>

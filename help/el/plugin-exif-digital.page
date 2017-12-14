@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-exif-digital" xml:lang="el">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Προβολή πληροφοριών όπως ρυθμίσεις κάμερας και ιστόγραμμα, γεωτοποθεσία και ημερομηνία.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <credit type="editor">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Προβολή λεπτομερών πληροφοριών για μια εικόνα</title>
+
+<p>Εικόνες που πάρθηκαν με ψηφιακές κάμερες αποθηκεύονται με έναν οικοδεσπότη πρόσθετων πληροφοριών ενσωματωμένο σε αυτές, όπως ημερομηνία λήψης, ρυθμίσεις έκθεσης και σε κάποιες περιπτώσεις, ακόμα και τοποθεσία λήψης.</p>
+
+<p>Αυτό το θέμα εμφανίζει πώς θα προσπελάσετε αυτές τις πληροφορίες.</p>
+
+<section id="date">
+<title>Προβολή της ημερομηνίας στη γραμμή κατάστασης</title>
+  <media type="image" src="figures/prefs-plugins-date.png" width="300" style="floatend"/>
+  <p>Μπορείτε να εμφανίσετε την ημερομηνία λήψης της εικόνας στη γραμμή κατάστασης στον πυθμένα του παραθύρου.</p>
+  <p> To do this, open the application menu on the
+  top bar, click <gui style="menuitem">Preferences</gui> and go to the
+  <gui>Plugins</gui> tab. Then, check <gui>Date in statusbar</gui>.</p>
+</section>
+
+<section id="exif">
+ <title>Λεπτομερή δεδομένα Exif</title>
+  <p>Οι λεπτομερείς αποθηκευμένες πληροφορίες με ψηφιακές φωτογραφίες λέγονται <em>δεδομένα Exif</em>. Μπορείτε να τις προβάλετε εγκαθιστώντας ένα πρόσθετο για τον προβολέα εικόνας.</p>
+
+  <steps>
+   <item>
+    <p>Για να ενεργοποιήσετε αυτό το γνώρισμα, θα χρειαστείτε να έχετε εγκαταστήσει το <link xref="plugins">πρόσθετα eog</link>.</p>
+   </item>
+   <item>
+    <p>If <sys>eog-plugins</sys> is installed, open the application menu on the
+    top bar and click <gui style="menuitem">Preferences</gui>. Then, check
+    <gui>Exif display</gui> and close the dialog.</p>
+   </item>
+   <item>
+    <p>Enable the <gui style="menuitem">Side Pane</gui> to view the
+    camera settings used to take the photo. To also view histograms showing the balance
+    of colors and light/shade in the picture, select <gui>Exif display</gui> in the
+    <gui>Plugins</gui> tab and click <gui>Preferences</gui>. Check the histograms you    
+    want to view, listed under <gui>Histogram</gui>.</p>
+   </item>
+   <item>
+    <p>Μπορείτε επίσης να δείτε τις ρυθμίσεις της κάμερας που χρησιμοποιούνται για τη λήψη μιας φωτογραφίας στη μπάρα κατάστασης. Επιλέξτε <gui>προβολή Exif</gui> στη καρτέλα <gui>πρόσθετα</gui> και κάντε κλικ στις <gui>προτιμήσεις</gui>. Επιλέξτε <gui>προβολή ρυθμίσεων κάμερας στη μπάρα κατάστασης</gui>.</p>
+   </item>
+  </steps>
+</section>
+
+<section id="map">
+ <title>Εμφάνιση ενός χάρτη τοποθεσίας φωτογραφίας</title>
+  <p>Μερικές κάμερες μπορούν να επισυνάψουν πληροφορίες <em>γεωτοποθεσίας</em> (γεωετικέτες) σε ψηφιακές φωτογραφίες. Οι γεωετικέτες είναι συνήθως απλώς οι συντεταγμένες GPS (γεωγραφικό πλάτος και μήκος) για την τοποθεσία λήψης μιας φωτογραφίας.</p>
+
+  <steps>
+   <item>
+    <p>Για να ενεργοποιήσετε αυτό το γνώρισμα, θα χρειαστείτε να έχετε εγκαταστήσει το <link xref="plugins">πρόσθετα eog</link>.</p>
+   </item>
+   <item>
+    <p>If <sys>eog-plugins</sys> is installed, open the application menu on the
+    top bar, click <gui style="menuitem">Preferences</gui>, and go to the
+    <gui>Plugins</gui> tab. Then, check <gui>Map</gui> and close the dialog.</p>
+   </item>
+   <item>
+    <p>Enable the <gui style="menuitem">Side Pane</gui> to show the map.</p>
+   </item>
+  </steps>
+  <p>Ο χάρτης θα εμφανίσει την τοποθεσία λήψης της εικόνας μόνο εάν υπάρχουν πληροφορίες γεωτοποθεσίας προσαρτημένες στη φωτογραφία. Πολλές κάμερες δεν επισυνάπτουν πληροφορίες γεωτοποθεσίας στις εικόνες.</p>
+</section>
+
+
+</page>

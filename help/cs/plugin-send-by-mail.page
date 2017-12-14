@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-send-by-mail" xml:lang="cs">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Posílejte obrázky jednoduše přiložením k novému e-mailu.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  </info>
+
+<title>Jak poslat obrázky e-mailem</title>
+
+<p>Můžete si přidat tlačítko, které poskytne pohodlný způsob, jak posílat obrázky ostatním lidem e-mailem.</p>
+
+<p>Uděláte to tak, že otevřete nabídku aplikace, kliknete na <gui style="menuitem">Předvolby</gui> a přejdete na kartu <gui>Zásuvné moduly</gui>. Pak zaškrtněte <gui>Poslat e-mailem</gui> a klikněte na <gui>Zavřít</gui>. Tím získáte v nabídce položku <gui style="menuitem">Poslat e-mailem</gui>.</p>
+
+<p>Aby šla tato funkce vůbec zapnout, musíte mít nainstalován balíček <link xref="plugins">eog-plugins</link>.</p>
+
+<note>
+ <p>Také musíte mít správně nastaveného <app>poštovního klienta Evolution</app> pro svůj poštovní účet.</p>
+</note>
+
+<media type="image" src="figures/plugin-send-by-mail.png" style="floatend"/>
+
+</page>

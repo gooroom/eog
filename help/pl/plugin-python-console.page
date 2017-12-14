@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-python-console" xml:lang="pl">
+
+  <info>
+   <link type="guide" xref="index#advanced"/>
+   <desc>Można używać konsoli języka Python, aby dodawać dodatkowe funkcje i wykonywać skrypty w przeglądarce obrazów.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Konsola języka Python</title>
+
+<p>Przeglądarka obrazów ma system wtyczek, który używa języka skryptowego Python. Włączenie <em>konsoli języka Python</em> daje bezpośredni dostęp do interpretera języka Python z poziomu przeglądarki obrazów, co umożliwia na przykład pisanie skryptów i programistyczne manipulowanie obrazami.</p>
+
+<steps>
+ <item>
+  <p>Aby włączyć tę funkcję, należy zainstalować pakiet <link xref="plugins">eog-plugins</link>.</p>
+ </item>
+ <item>
+  <p>Po zainstalowaniu pakietu <sys>eog-plugins</sys> otwórz menu programu na górnym pasku, kliknij <gui style="menuitem">Preferencje</gui> i przejdź do karty <gui>Wtyczki</gui>.</p>
+ </item>
+ <item>
+  <p>Zaznacz <gui>Konsola języka Python</gui> i kliknij przycisk <gui>Zamknij</gui>.</p>
+ </item>
+ <item>
+  <p>Kliknij menu <gui style="menuitem">Konsola języka Python</gui>, aby wywołać konsolę.</p>
+ </item>
+</steps>
+
+</page>

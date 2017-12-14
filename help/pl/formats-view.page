@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="formats-view" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <link type="seealso" xref="formats-save"/>
+    <desc>Przeglądarka obrazów może wyświetlać obrazy w wielu formatach, w tym PNG, JPEG i TIFF.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="final"/>
+  <credit type="author">
+    <name>Tiffany Antopolski</name>
+    <email>tiffany.antopolski@gmail.com</email>
+  </credit>
+  <license>
+   <p>Creative Commons Share Alike 3.0</p>
+  </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+ <title>Obsługiwane formaty obrazów</title>
+
+  <p>Przeglądarka obrazów może otwierać obrazy w tych formatach:</p>
+  <list>
+   <item><p>ANI — animacje</p></item>
+   <item><p>BMP — bitmapy</p></item>
+   <item><p>GIF — animowane koty</p></item>
+   <item><p>ICO — ikony systemu Windows</p></item>
+   <item><p>JPEG/JPG — zdjęcia</p></item>
+   <item><p>PCX — „PC Paintbrush”</p></item>
+   <item><p>PNG — obrazy w Internecie</p></item>
+   <item><p>PNM — obrazy zestawu narzędzi PPM</p></item>
+   <item><p>RAS — rastrowa grafika firmy Sun</p></item>
+   <item><p>SVG — grafika wektorowa</p></item>
+   <item><p>TGA — Targa</p></item>
+   <item><p>TIFF — obrazy wielostronicowe</p></item>
+   <item><p>WBMP — bitmapy bezprzewodowe</p></item>
+   <item><p>XBM — bitmapy systemu X</p></item>
+   <item><p>XPM — piksmapy systemu X</p></item>
+  </list>
+  <p>Próba otwarcia obrazu w nieobsługiwanym formacie spowoduje wyświetlenie błędu <gui>Nie można wczytać obrazu „nazwa obrazu”</gui>.</p>
+</page>

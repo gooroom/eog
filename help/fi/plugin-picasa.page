@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-picasa" xml:lang="fi">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Kuvien lähettäminen PicasaWeb:iin suoraan kuvakatselimesta.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2012-08-11" status="final"/>
+   <credit type="author">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jukka Heikkilä</mal:name>
+      <mal:email>jutsco@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Lähetä kuvat <app>PicasaWeb:iin</app></title>
+
+<p><em>PicasaWeb</em> on valokuvapalvelu, joka mahdollistaa kuvien jakamisen verkossa. Kuvakatselimeen voi lisätä pikapainikkeen, joka tekee kuvien lähettämisestä PicasaWeb:iin helppoa.</p>
+
+<p>To do this, open the application menu on the top bar, click
+<gui style="menuitem">Preferences</gui>, go to the <gui>Plugins</gui> tab, and check
+<gui>PicasaWeb Uploader</gui>.</p>
+<p>This will give you a convenient <gui style="menuitem">Upload to
+PicasaWeb</gui> menu item.</p>
+
+<p>Tämän ominaisuuden käyttöönotto vaatii <link xref="plugins">eog-plugins</link> -paketin asentamisen.</p>
+
+</page>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-fullscreen-background" xml:lang="es">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Activa el color de fondo cambiante en modo a pantalla completa.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2012-08-11" status="final"/>
+   <credit type="author">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Compartir Igual 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2008-2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@openshine.com</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Cambiar el color de fondo a pantalla completa</title>
+
+<p>Si le gusta, puede cambiar el color de fondo en el modo a pantalla completa.</p>
+
+<p>Para hacer esto, abra el menú de la aplicación en la barra superior, pulse en <gui style="menuitem">Preferencias</gui>, y vaya a la pestaña <gui>Complementos</gui>. Luego pulse en <gui>Fondo a pantalla completa</gui> y pulse en <gui>Preferencias</gui>. Elija el color que quiere en el modo a pantalla completa y cierre el diálogo.</p>
+
+<p>Ahora, cuando esté en modo a pantalla completa, el color de fondo será el que haya elegido.</p>
+
+<p>Para poder añadir esta funcionalidad necesitará tener instalado <link xref="plugins">eog-plugins</link>.</p>
+
+</page>

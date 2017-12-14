@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="print" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#printing"/>
+    <desc>Kliknij <gui style="menuitem">Wydrukuj…</gui>, a następnie użyj kart, aby zmienić ustawienia wydruku.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-06" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Drukowanie obrazu</title>
+
+<p>Aby wydrukować obecnie otwarty obraz:</p>
+
+<steps>
+ <item>
+  <p>Kliknij <gui style="menuitem">Wydrukuj…</gui>.</p>
+ </item>
+ <item>
+  <p>W karcie <gui>Ogólne</gui> wybierz drukarkę do użycia i liczbę kopii do wydrukowania.</p>
+ </item>
+ <item>
+  <p>W karcie <gui>Ustawienia obrazu</gui> można dostosować <gui>Położenie</gui> i <gui>Rozmiar</gui> obrazu.</p>
+  <p>Położenie obrazu na stronie można dostosować także przeciągając go na podglądzie.</p>
+ </item>
+ <item>
+  <p>Jeśli używany jest wysokiej jakości papier fotograficzny, to przejdź do karty <gui>Ustawienia strony</gui> i wybierz właściwy <gui>Typ papieru</gui>. Aby uzyskać najwyższą możliwą jakość zdjęcia, należy także przejść do karty <gui>Jakość obrazu</gui> i wybrać ustawienie wysokiej jakości.</p>
+ </item>
+ <item>
+  <p>Kliknij przycisk <gui>Wydrukuj</gui>.</p>
+ </item>
+</steps>
+
+<p>Zauważ, że część kart wymienionych powyżej nie jest wyświetlanych w przypadku pewnych modeli drukarek. Dzieje się tak, ponieważ <em>sterowniki</em> tych drukarek nie umożliwiają zmiany części ustawień. Jeśli, na przykład, nie widać karty <gui>Jakość obrazu</gui>, to prawdopodobnie używany sterownik nie obsługuje tych ustawień.</p>
+
+</page>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-fullscreen-background" xml:lang="hu">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Lehetővé teszi a teljes képernyős mód háttérszínének módosítását.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2012-08-11" status="final"/>
+   <credit type="author">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014, 2017.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Teljes képernyő háttérszínének módosítása</title>
+
+<p>Megváltoztathatja a háttérszínt teljes képernyős módban.</p>
+
+<p>Ehhez nyissa meg az alkalmazásmenüt a felső sávon, válassza a <gui style="menuitem">Beállítások</gui> menüpontot, és lépjen a <gui>Bővítmények</gui> lapra. Jelölje be a <gui>Teljes képernyős háttér</gui> bővítményt, majd nyomja meg a <gui>Beállítások</gui> gombot. Válassza ki a teljes képernyős módban használni kívánt színt, és zárja be az ablakot.</p>
+
+<p>Ezután teljes képernyős módban a háttérszín az imént kiválasztott lesz.</p>
+
+<p>A funkció használatához telepítenie kell az <link xref="plugins">eog-plugins</link> csomagot.</p>
+
+</page>

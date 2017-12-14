@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-fullscreen-background" xml:lang="ja">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>フルスクリーンモードでの背景色変更を有効にする。</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2012-08-11" status="final"/>
+   <credit type="author">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  </info>
+
+<title>フルスクリーン時の背景色の変更</title>
+
+<p>お好みであれば、フルスクリーンモードでの背景色を変更できます。</p>
+
+<p>To do this, open the application menu on the top bar, click
+<gui style="menuitem">Preferences</gui>, and go to the <gui>Plugins</gui> tab.
+Then, check <gui>Fullscreen Background</gui> and click <gui>Preferences</gui>.
+Choose the color you want in fullscreen mode and close the dialog.</p>
+
+<p>これでフルスクリモードでは、背景色が選択した色になります。</p>
+
+<p>この機能を有効にするためには、<link xref="plugins">eog-plugins</link> がインストールされている必要があります。</p>
+
+</page>

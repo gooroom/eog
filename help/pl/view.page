@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="view" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#viewing"/>
+    <desc>Naciśnij klawisz <key>W lewo</key> lub <key>W prawo</key>, aby przełączyć obraz, albo użyj galerii obrazów do wyświetlenia wszystkich.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="final"/>
+  <credit type="author">
+    <name>Tiffany Antopolski</name>
+    <email>tiffany.antopolski@gmail.com</email>
+  </credit>
+  <license>
+   <p>Creative Commons Share Alike 3.0</p>
+  </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+<title>Wyświetlenie wszystkich obrazów w katalogu</title>
+
+<p>Można szybko przeglądać wszystkie obrazy w katalogu otwierając jeden z obrazów, a następnie klikając przyciski <gui>Dalej</gui> i <gui>Wstecz</gui> po lewej i prawej stronie wyświetlanego obrazu. Można także wyświetlić <em>galerię obrazów</em> z małym podglądem wszystkich obrazów w katalogu.</p>
+
+<section id="browse">
+ <title>Przeglądanie wszystkich obrazów w katalogu</title>
+ <p>Jeśli w katalogu jest wiele obrazów, to można je wygodnie przeglądać bez potrzeby otwierania każdego z osobna.</p>
+ <steps>
+  <item>
+   <p><link xref="open">Otwórz</link> jeden z obrazów z danego katalogu.</p>
+  </item>
+  <item>
+   <p>Kliknij przyciski <gui>Dalej</gui> i <gui>Wstecz</gui> po lewej i prawej stronie wyświetlanego obrazu lub naciśnij klawisze <key>W prawo</key> i <key>W lewo</key>, aby przełączać między obrazami.</p>
+   <p>Można także używać klawiszy <key>W górę</key> i <key>W dół</key> lub <key>spacji</key> i <key>Backspace</key>.</p>
+  </item>
+  <item>
+   <p>Można przeglądać obrazy w trybie pełnoekranowym klikając przycisk <gui>Pełny ekran</gui> na pasku tytułowym lub naciskając klawisz <key>F11</key>. Użyj klawiszy, aby przełączać między obrazami.</p>
+ <p>Aby wrócić do zwykłego okna, naciśnij klawisz <key>Esc</key> lub <key>F11</key>.</p>
+  </item>
+ </steps>
+</section>
+
+
+<section id="image-gallery"><title>Przeglądanie galerii obrazów</title>
+ <p><em>Galeria obrazów</em> wyświetla mały podgląd (miniatury) wszystkich obrazów w katalogu. Ułatwia to szybkie przeglądanie dużych kolekcji obrazów.</p>
+ 
+ <steps>
+  <item> 
+   <p>Aby wyświetlić galerię obrazów, kliknij <gui style="menuitem">Galeria obrazów</gui> lub naciśnij klawisz <key>F9</key>.</p>
+  </item>
+  <item>
+   <p>Kliknij obraz w galerii, aby wyświetlić go w pełnym rozmiarze.</p>
+   <p>Można także używać klawiszy <key>W lewo</key> i <key>W prawo</key>, aby przechodzić między obrazami w galerii.</p>
+  </item>
+  <item>
+   <p>Aby ukryć galerię, kliknij <gui style="menuitem">Galeria obrazów</gui> jeszcze raz lub naciśnij klawisz <key>F9</key>.</p>
+  </item>
+ </steps>
+ </section>
+</page>

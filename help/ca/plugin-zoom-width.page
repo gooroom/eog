@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-zoom-width" xml:lang="ca">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Ajusta el nivell d'ampliació per ajustar la imatge horitzontal de la imatge a la finestra.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  </info>
+
+<title>Ampliació per ajustar l'amplada de la imatge</title>
+
+<p>Si voleu que les imatges s'escalin per omplir tota l'amplada de la pantalla activeu el connector <app>Amplia per ajustar-se a l'amplada de la imatge</app>.</p>
+
+<p>To do this, open the application menu on the top bar, click
+<gui style="menuitem">Preferences</gui>, and go to the <gui>Plugins</gui> tab.
+Then, check <gui>Zoom to fit image width</gui> and close the dialog.</p>
+
+<p>Per afegir la funció heu de tenir instal·lat l'<link xref="plugins">eog-plugins</link>.</p>
+
+</page>
