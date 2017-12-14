@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-picasa" xml:lang="pl">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Łatwe wysyłanie obrazów do serwisu PicasaWeb bezpośrednio z przeglądarki obrazów.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2012-08-11" status="final"/>
+   <credit type="author">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Wysyłanie zdjęć do serwisu <app>Picasa Web</app></title>
+
+<p><em>Picasa Web</em> to serwis umożliwiający udostępnianie obrazów innym osobom w Internecie. Można dodać przycisk skrótu zapewniający wygodny sposób wysyłania obrazów do serwisu.</p>
+
+<p>Aby to zrobić, otwórz menu programu na górnym pasku, kliknij <gui style="menuitem">Preferencje</gui>, przejdź do karty <gui>Wtyczki</gui> i zaznacz <gui>Wysyłanie do serwisu Picasa Web</gui>.</p>
+<p>Doda to wygodne menu <gui style="menuitem">Wyślij do serwisu PicasaWeb</gui>.</p>
+
+<p>Aby włączyć tę funkcję, należy zainstalować pakiet <link xref="plugins">eog-plugins</link>.</p>
+
+</page>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-fullscreen-background" xml:lang="gl">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Permite cambiar a cor de fondo en modo a pantalla completa.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2012-08-11" status="final"/>
+   <credit type="author">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Compartir Igual 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Modificar a cor de fondo a pantalla completa</title>
+
+<p>Se o desexa, pode cambiar a cor de fondo en modo a pantalla completa.</p>
+
+<p>To do this, open the application menu on the top bar, click
+<gui style="menuitem">Preferences</gui>, and go to the <gui>Plugins</gui> tab.
+Then, check <gui>Fullscreen Background</gui> and click <gui>Preferences</gui>.
+Choose the color you want in fullscreen mode and close the dialog.</p>
+
+<p>Agora, cando estea no modo a pantalla completa, a cor de fondo será a que seleccionou.</p>
+
+<p>Para poder engadir esta funcionalidade precisará ter instalado <link xref="plugins">eog-plugins</link>.</p>
+
+</page>

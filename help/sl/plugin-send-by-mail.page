@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-send-by-mail" xml:lang="sl">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Enostavno pošiljanje slik s pripenjanjem novi e-pošti.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+   </license>
+
+  </info>
+
+<title>Pošiljanje slik po e-pošti</title>
+
+<p>Dodate lahko gumb, ki zagotavlja priročen način za pošiljanje slik preko e-pošte.</p>
+
+<p>To do this, open the application menu on the top bar, click
+<gui style="menuitem">Preferences</gui>, and go to the <gui>Plugins</gui>
+tab. Then, check <gui>Send By Mail</gui> and click <gui>Close</gui>. This
+will give you a <gui style="menuitem">Send by mail</gui> menu item.</p>
+
+<p>Za dodajanje te zmožnosti boste morali namestiti paket <link xref="plugins">eog-plugins</link>.</p>
+
+<note>
+ <p>Da to deluje, mora biti <app>pošta Evolution</app> nastavljena za povezavo z vašim računom e-pošte.</p>
+</note>
+
+<media type="image" src="figures/plugin-send-by-mail.png" style="floatend"/>
+
+</page>

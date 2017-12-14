@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="open" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#viewing"/>
+    <desc>Obrazy otwierają się w nowym oknie.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="final"/>
+  <credit type="author">
+    <name>Tiffany Antopolski</name>
+    <email>tiffany.antopolski@gmail.com</email>
+  </credit>
+  <license>
+   <p>Creative Commons Share Alike 3.0</p>
+  </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+
+<title>Otwieranie obrazu</title>
+
+<p>Obrazy powinny automatycznie otwierać się w przeglądarce obrazów po podwójnym kliknięciu ich w <app>Menedżerze plików</app>. Jeśli tak się nie dzieje, należy ustawić przeglądarkę obrazów <link xref="default">domyślnym programem</link> do wyświetlania obrazów.</p>
+
+<p>Każdy podwójnie kliknięty obraz domyślnie jest otwierany w nowym oknie przeglądarki obrazów, ale można też <link xref="view">przeglądać wiele obrazów</link> w jednym oknie.</p>
+
+<p>Można także otwierać obrazy w przeglądarce obrazów:</p>
+<steps>
+ <item><p>Kliknij <gui style="menuitem">Otwórz…</gui> (lub naciśnij klawisze <keyseq><key>Ctrl</key><key>O</key></keyseq>). Zostanie otwarte okno <gui>Otwarcie obrazu</gui>.</p></item>
+ <item><p>Wybierz obraz do otwarcia i kliknij przycisk <gui>Otwórz</gui>.</p></item>
+</steps>
+
+</page>

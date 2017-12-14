@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-exif-digital" xml:lang="pl">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Wyświetlanie informacji, takich jak ustawienia aparatu i histogram, geolokalizacja i data.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <credit type="editor">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Wyświetlanie szczegółowych informacji o obrazie</title>
+
+<p>Zdjęcia wykonane aparatem cyfrowym są przechowywane z wieloma dodatkowymi informacjami osadzonymi w plikach, takimi jak data wykonania, użyte ustawienia ekspozycji oraz, w niektórych przypadkach, nawet miejsce wykonania zdjęcia.</p>
+
+<p>Ten temat wyjaśnia, jak wyświetlić te informacje.</p>
+
+<section id="date">
+<title>Wyświetlanie daty na pasku stanu</title>
+  <media type="image" src="figures/prefs-plugins-date.png" width="300" style="floatend"/>
+  <p>Można wyświetlać datę wykonania zdjęcia na pasku stanu na dole okna.</p>
+  <p>Aby to zrobić, otwórz menu programu na górnym pasku, kliknij <gui style="menuitem">Preferencje</gui> i przejdź do karty <gui>Wtyczki</gui>. Następnie zaznacz opcję <gui>Data na pasku stanu</gui>.</p>
+</section>
+
+<section id="exif">
+ <title>Szczegółowe dane Exif</title>
+  <p>Szczegółowe informacje przechowywane w zdjęciach cyfrowych nazywają się <em>Exif</em>. Można je wyświetlić instalując wtyczkę dla przeglądarki obrazów.</p>
+
+  <steps>
+   <item>
+    <p>Aby włączyć tę funkcję, należy zainstalować pakiet <link xref="plugins">eog-plugins</link>.</p>
+   </item>
+   <item>
+    <p>Jeśli pakiet <sys>eog-plugins</sys> jest zainstalowany, to otwórz menu programu na górnym pasku i kliknij <gui style="menuitem">Preferencje</gui>. Następnie zaznacz <gui>Wyświetlanie danych Exif</gui> i zamknij okno.</p>
+   </item>
+   <item>
+    <p>Włącz <gui style="menuitem">Panel boczny</gui>, aby wyświetlić ustawienia aparatu użyte do wykonania zdjęcia. Aby wyświetlić także histogramy zawierające balans kolorów i światło/cień zdjęcia, zaznacz <gui>Wyświetlanie danych Exif</gui> w karcie <gui>Wtyczki</gui> i kliknij przycisk <gui>Preferencje</gui>. Zaznacz histogramy do wyświetlenia pod napisem <gui>Histogram</gui>.</p>
+   </item>
+   <item>
+    <p>Można także wyświetlić na pasku stanu ustawienia aparatu użyte do wykonania zdjęcia. Zaznacz <gui>Wyświetlanie danych Exif</gui> w karcie <gui>Wtyczki</gui> i kliknij przycisk <gui>Preferencje</gui>. Zaznacz opcję <gui>Wyświetlanie ustawień aparatu na pasku stanu</gui>.</p>
+   </item>
+  </steps>
+</section>
+
+<section id="map">
+ <title>Wyświetlanie mapy z położeniem zdjęcia</title>
+  <p>Część aparatów może dołączać informacje o <em>geolokalizacji</em> (geotagi) do zdjęć cyfrowych. Geotagi to zwykle po prostu współrzędne GPS (szerokość i długość geograficzna) miejsca, w którym zdjęcie zostało wykonane.</p>
+
+  <steps>
+   <item>
+    <p>Aby włączyć tę funkcję, należy zainstalować pakiet <link xref="plugins">eog-plugins</link>.</p>
+   </item>
+   <item>
+    <p>Jeśli pakiet <sys>eog-plugins</sys> jest zainstalowany, to otwórz menu programu na górnym pasku i kliknij <gui style="menuitem">Preferencje</gui> i przejdź do karty <gui>Wtyczki</gui>. Następnie zaznacz <gui>Mapa</gui> i zamknij okno.</p>
+   </item>
+   <item>
+    <p>Włącz <gui style="menuitem">Panel boczny</gui>, aby wyświetlić mapę.</p>
+   </item>
+  </steps>
+  <p>Mapa wyświetli miejsce wykonania zdjęcia tylko, jeśli dołączono do niego informacje o geolokalizacji. Wiele aparatów tego nie robi.</p>
+</section>
+
+
+</page>

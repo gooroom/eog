@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-python-console" xml:lang="sl">
+
+  <info>
+   <link type="guide" xref="index#advanced"/>
+   <desc>Konzolo Python lahko uporabite za dodajanje dodatnih zmožnosti in poganjanje skriptov v pregledovalniku slik.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+   </license>
+
+  </info>
+
+<title>Konzola python</title>
+
+<p>Pregledovalnik slik ima sistem vstavkov, ki uporablja skriptni jezik Python. Če <em>konzolo Python</em> omogočite, lahko dobite neposreden dostop do tolmača Python iz pregledovalnika slik, ki ga lahko nato uporabite za pisanje skriptov ali programersko upravljanje slik.</p>
+
+<steps>
+ <item>
+  <p>Za dodajanje te zmožnosti boste morali namestiti paket <link xref="plugins">eog-plugins</link>.</p>
+ </item>
+ <item>
+  <p>Once <sys>eog-plugins</sys> is installed, open the application menu on the
+  top bar, click <gui style="menuitem">Preferences</gui>, and go to the
+  <gui>Plugins</gui> tab.</p>
+ </item>
+ <item>
+  <p>Izberite <gui>Konzola Python</gui> in kliknite <gui>Zapri</gui>.</p>
+ </item>
+ <item>
+  <p>Click the <gui style="menuitem">Python Console</gui> menu item to 
+  bring up the console.</p>
+ </item>
+</steps>
+
+</page>

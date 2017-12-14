@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="zoom" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="index#viewing"/>
+    <link type="seealso" xref="shortcuts#zoom-rotate"/>
+    <desc>Enlarge the picture on the screen.</desc>
+
+    <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jukka Heikkilä</mal:name>
+      <mal:email>jutsco@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Suurennus</title>
+
+<p>Kuvaa voi lähentää ja loitontaa, jolloin kuvasta näytöllä näkyvä osa pienenee tai kasvaa. Lähentäminen ja loitontaminen mahdollistaa suurikokoisen kuvan yksityiskohtien tai kokonaisuuden tarkastelun.</p>
+
+<list>
+ <item>
+  <p>Kuvaa voi lähentää ja loitontaa hiiren rullalla. Kuva lähentyy vierittämällä rullaa ylöspäin  ja loittonee vierittämällä alaspäin.</p>
+ </item>
+ <item>
+  <p>You can also zoom using the buttons in the title bar. To zoom in, click the 
+  <gui>Enlarge the image</gui> icon, and to zoom out click the <gui>Shrink the 
+  image</gui> icon. These look like "plus" and "minus" signs.</p>
+ </item>
+ <item>
+ <p>Alternatively, use the keyboard shortcuts <keyseq><key>Ctrl</key><key>+</key></keyseq> or
+ <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+ </item>
+</list>
+
+<p>To view the picture in its original, unscaled size, choose the
+<gui style="menuitem">100%</gui> zoom level from the dropdown in the title bar.
+Alternatively, use the keyboard shortcuts <keyseq><key>Ctrl</key><key>0</key></keyseq> or
+<key>1</key>.</p>
+
+<section id="bestfit">
+ <title>Sovita kuva ikkunan kokoon</title>
+ <p>You can choose to zoom in so that the picture fits fully in the window, 
+ even if you resize it. Enable <gui style="menuitem">Best fit</gui> 
+ in the dropdown in the title bar to do this.</p>
+</section>
+</page>

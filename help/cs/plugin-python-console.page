@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-python-console" xml:lang="cs">
+
+  <info>
+   <link type="guide" xref="index#advanced"/>
+   <desc>Konzolu jazyka Python můžete použít k přidání doplňujících funkcí a ke spouštění skriptů v prohlížeči obrázků.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  </info>
+
+<title>Konzola jazyka Python</title>
+
+<p>Prohlížeč obrázků má systém zásuvných modulů, který využívá skriptovacího jazyka Python. Když aktivujete <em>Konzolu jazyka Python</em>, můžete získat přímý přístup k interpretu jazyka Python v rámci prohlížeče obrázků, čehož lze využít například k psaní skriptů nebo k programové manipulaci s obrázky.</p>
+
+<steps>
+ <item>
+  <p>Aby šla tato funkce vůbec zapnout, musíte mít nainstalován balíček <link xref="plugins">eog-plugins</link>.</p>
+ </item>
+ <item>
+  <p>Až jej máte nainstalovaný, otevřete nabídku aplikace na horní liště, klikněte na <gui style="menuitem">Předvolby</gui> a přejděte na kartu <gui>Zásuvné moduly</gui>.</p>
+ </item>
+ <item>
+  <p>Zaškrtněte <gui>Konzola jazyka Python</gui> a klikněte na <gui>Zavřít</gui>.</p>
+ </item>
+ <item>
+  <p>Kliknutím na <gui style="menuitem">Konzola jazyka Python</gui> si konzolu zobrazíte.</p>
+ </item>
+</steps>
+
+</page>

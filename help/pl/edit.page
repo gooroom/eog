@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="edit" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#edit"/>
+    <desc>Kliknij <gui style="menuitem">Otwórz za pomocą</gui>, aby zmodyfikować obraz w zewnętrznym edytorze obrazów.</desc>
+
+    <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Fabiana Simões</name>
+      <email>fabianapsimoes@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+<title>Modyfikowanie lub usuwanie obrazu</title>
+
+<section id="edit"><title>Modyfikacja obrazu</title>
+<p>Przeglądarka obrazów może tylko wyświetlać obrazy — nie może ich modyfikować. W celu należy używać programu do modyfikowania obrazów, takiego jak edytor GIMP. Aby otworzyć obraz do modyfikacji w innym programie:</p>
+<steps>
+ <item>
+  <p>Kliknij <gui style="menuitem">Otwórz za pomocą</gui> lub kliknij obraz prawym przyciskiem myszy.</p>
+ </item>
+ <item>
+  <p>Wybierz program, w którym zmodyfikować obraz.</p>
+ </item>
+ <item>
+  <p>Po ukończeniu modyfikowania zapisz obraz i zamknij drugi program.</p>
+ </item>
+ <item>
+  <p><app>Przeglądarka obrazów</app> wykryje, że obraz został zmieniony i wczyta go ponowie.</p>
+ </item>
+</steps>
+</section>
+
+<section id="delete">
+<title>Usuwanie obrazu</title>
+<p>Aby usunąć niechciany obraz, kliknij go prawym przyciskiem myszy i wybierz <gui>Przenieś do kosza</gui>.</p>
+</section>
+
+</page>

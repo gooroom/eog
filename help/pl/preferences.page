@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="preferences" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <desc><link xref="preferences#view">Wyświetlanie obrazu</link>, <link xref="preferences#slideshow">pokaz slajdów</link> and <link xref="preferences#plugins">wtyczki</link>.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-06" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Preferencje</title>
+<p>Ten temat wyjaśnia wszystkie ustawienia, które można zmienić w przeglądarce obrazów. Otwórz menu programu na górnym pasku i kliknij <gui style="menuitem">Preferencje</gui>, aby zacząć zmieniać preferencje.</p>
+
+<links type="section"/>
+
+<section id="view">
+<title>Preferencje wyświetlania obrazu</title>
+<media type="image" src="figures/image-view-prefs.png" style="floatend" width="300"/>
+<terms>
+  <item>
+    <title>Ulepszenia obrazu</title>
+    <p>Zaznacz opcję <gui>Interpolacja obrazu przy pomniejszaniu</gui>, aby włączyć <em>wygładzanie obrazów</em> podczas powiększania i pomniejszania. Sprawia to, że obrazy w niskiej rozdzielczości wyglądają lepiej dzięki wygładzaniu krawędzi.</p>
+    <p>Włączenie opcji <gui>Orientacja automatyczna</gui> sprawi, że obrazy będą automatycznie obracane zgodnie z <em>metadanymi Exif</em>. Są to dane o obrazie, automatycznie wstawiane przez aparat cyfrowy, które mogą zawierać informację o ułożeniu aparatu podczas wykonywania zdjęcia. Na przykład, kiedy automatyczna orientacja jest włączona, pionowe zdjęcia są automatycznie obracane do góry. Obrót nie jest zapisywany do czasu <link xref="flip-rotate#rotate">zapisania obróconego obrazu</link>.</p> 
+    <p>Orientacja automatyczna nie działa ze wszystkimi obrazami. Tylko zdjęcia wykonane za pomocą aparatu zapisującego metadane orientacji Exif będą obracane.</p>
+  </item>
+  <item>
+    <title>Części przezroczyste</title>
+     <p>Zaznacz jedną z poniższych opcji, aby ustawić sposób wyświetlania przezroczystych części obrazów:</p>
+    <list>
+      <item>
+       <p><gui>Wzór szachownicy:</gui></p>
+       <p>Wyświetla przezroczyste części obrazu jako wzór szachownicy.</p>
+      </item>
+      <item>
+       <p><gui>Inny kolor:</gui></p>
+       <p>Wyświetla przezroczyste części obrazu jako jeden kolor, który można ustawić klikając przycisk wyboru koloru.</p>
+      </item>
+      <item>
+       <p><gui>Tło:</gui></p>
+       <p>Wyświetla przezroczyste części obrazu jako kolor <gui>tła</gui>, jeśli zaznaczono <gui>Inny kolor</gui> pod <gui>Tło</gui>. W przeciwnym wypadku używany jest domyślny kolor tła.</p>
+      </item>
+    </list>
+  </item>
+ </terms>
+</section>
+
+
+<section id="slideshow">
+<title>Preferencje pokazu slajdów</title>
+<media type="image" src="figures/slideshow-prefs.png" style="floatend" width="300"/> 
+<p>Aby dostosować ustawienia pokazu slajdów:</p>
+<list>
+ <item>
+  <p>Pod <gui>Skalowanie obrazu</gui> można wybrać, czy powiększać obrazy mniejsze od ekranu.</p>
+ </item>
+ <item>
+  <p>Pod <gui>Sekwencja</gui> można wybrać, przez ile sekund obraz jest wyświetlany (między 1 a 100) przez wyświetleniem następnego.</p>
+ </item>
+ <item>
+  <p>Zaznacz opcję <gui>Zapętlanie</gui>, aby pokaz slajdów był powtarzany bez przerwy. Jeśli nie jest zaznaczona, pokaz slajdów zacznie się wybranym obrazem, a zakończy ostatnim obrazem w katalogu.</p>
+ </item>
+</list>
+</section>
+
+
+<section id="plugins">
+<title>Preferencje wtyczek</title>
+
+<media type="image" src="figures/plugins-all.png" width="300" style="floatend"/>
+<media type="image" src="figures/prefs-plugins.png" width="300" style="floatstart"/>
+
+<p>Tutaj można włączyć/wyłączyć dodatkowe funkcje. Ilustracja po lewej pokazuje domyślnie dostępne wtyczki.</p>
+
+<p>Można także zainstalować pakiet <link xref="plugins">eog-plugins</link>, zawierający wtyczki dostarczające liczne dodatkowe funkcje. Po jego instalacji można włączyć <link xref="index#plugins">dodatkowe wtyczki</link>, takie jak te pokazane na ilustracji po prawej.</p>
+</section>
+
+</page>
