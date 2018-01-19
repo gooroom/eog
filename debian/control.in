@@ -3,8 +3,6 @@ Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Standards-Version: 4.1.2
-Homepage: https://wiki.gnome.org/Apps/EyeOfGnome
 Build-Depends: debhelper (>= 10.3),
                gnome-pkg-tools (>= 0.10),
                gnome-common,
@@ -31,8 +29,10 @@ Build-Depends: debhelper (>= 10.3),
                libgdk-pixbuf2.0-doc,
                libglib2.0-doc,
                libgtk-3-doc
-Vcs-Git: https://anonscm.debian.org/git/pkg-gnome/eog.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-gnome/eog.git
+Standards-Version: 4.1.2
+Vcs-Browser: https://salsa.debian.org/gnome-team/eog
+Vcs-Git: https://salsa.debian.org/gnome-team/eog.git
+Homepage: https://wiki.gnome.org/Apps/EyeOfGnome
 
 Package: eog
 Architecture: any
