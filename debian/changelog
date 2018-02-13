@@ -1,6 +1,7 @@
 eog (3.27.90-1) UNRELEASED; urgency=medium
 
   * New upstream development release
+  * Build with meson
 
  -- Jeremy Bicha <jbicha@debian.org>  Tue, 13 Feb 2018 08:12:08 -0500
 
