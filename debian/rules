@@ -15,3 +15,8 @@ override_dh_missing:
 
 override_dh_girepository:
 	dh_girepository -ldebian/tmp/usr/share/eog/gir-1.0/ /usr/lib/$(DEB_HOST_MULTIARCH)/eog/girepository-1.0/
+
+# Needed by Ubuntu
+override_dh_translations:
+	ninja -C obj-$(DEB_HOST_GNU_TYPE) eog-pot
+	dh_translations
