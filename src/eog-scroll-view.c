@@ -647,11 +647,8 @@ scroll_to (EogScrollView *view, int x, int y, gboolean change_adjustments)
 
 	window = gtk_widget_get_window (GTK_WIDGET (priv->display));
 
-	/* Scroll the window area and process exposure synchronously. */
-
 	if (!gtk_gesture_is_recognized (priv->zoom_gesture)) {
 		gdk_window_scroll (window, -xofs, -yofs);
-		gdk_window_process_updates (window, TRUE);
 	}
 
  out:
@@ -2816,7 +2813,7 @@ eog_scroll_view_set_popup (EogScrollView *view,
 	g_return_if_fail (EOG_IS_SCROLL_VIEW (view));
 	g_return_if_fail (view->priv->menu == NULL);
 
-	view->priv->menu = g_object_ref (menu);
+	view->priv->menu = g_object_ref (GTK_WIDGET (menu));
 
 	gtk_menu_attach_to_widget (GTK_MENU (view->priv->menu),
 	                           GTK_WIDGET (view),
