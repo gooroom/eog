@@ -1,11 +1,19 @@
-msgfmt = find_program('msgfmt')
+msgfmt_plugin_cmd = [
+  find_program('msgfmt'),
+  '--desktop',
+  '--keyword=Name',
+  '--keyword=Description',
+  '--template=@INPUT@',
+  '-d', po_dir,
+  '--output=@OUTPUT@'
+]
 
 plugins = [
   'fullscreen',
   'reload'
 ]
 
-if have_exif
+if enable_libexif
   plugins += 'statusbar-date'
 endif
 
@@ -27,7 +35,7 @@ foreach plugin: plugins
     plugin_data,
     input: '@0@/@1@.desktop.in'.format(plugin, plugin_data),
     output: plugin_data,
-    command: [msgfmt, '--desktop', '--keyword=Name', '--keyword=Description', '--template', '@INPUT@', '-d', po_dir, '-o', '@OUTPUT@'],
+    command: msgfmt_plugin_cmd,
     install: true,
     install_dir: eog_pluginsdir
   )
