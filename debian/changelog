@@ -1,3 +1,9 @@
+eog (3.27.91-1) UNRELEASED; urgency=medium
+
+  * New upstream development release
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 10 Mar 2018 17:08:59 -0500
+
 eog (3.27.90-1) experimental; urgency=medium
 
   * New upstream development release
