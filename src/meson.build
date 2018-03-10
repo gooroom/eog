@@ -1,10 +1,5 @@
 src_inc = include_directories('.')
 
-cflags = [
-  '-DEOG_DATA_DIR="@0@"'.format(eog_datadir),
-  '-DEOG_LOCALE_DIR="@0@"'.format(eog_localedir)
-]
-
 enum_headers = files(
   'eog-scroll-view.h',
   'eog-window.h'
@@ -88,12 +83,12 @@ sources = files(
   'zoom.c'
 )
 
-if have_exif
+if enable_libexif
   headers += files('eog-exif-util.h')
   sources += files('eog-exif-util.c')
 endif
 
-if have_exif or have_exempi
+if enable_libexif or enable_exempi
   sources += files('eog-metadata-details.c')
 endif
 
@@ -129,12 +124,18 @@ sources += gnome.genmarshal(
   internal: true
 )
 
-deps = eog_deps + jpeg_deps
+deps = common_deps + [
+  gio_unix_dep,
+  gnome_desktop_dep,
+  libpeas_gtk_dep,
+  zlib_dep,
+  cc.find_library('m')
+]
 
-libeog_cflags = cflags + [
-  '-DEOG_PLUGIN_DIR="@0@"'.format(eog_pluginsdir),
-  '-DEOG_PREFIX="@0@"'.format(eog_prefix),
+cflags = [
   '-DG_LOG_DOMAIN="@0@"'.format(meson.project_name().to_upper()),
+  '-DEOG_DATA_DIR="@0@"'.format(eog_datadir),
+  '-DEOG_PLUGIN_DIR="@0@"'.format(eog_pluginsdir),
   '-DLIBDIR="@0@"'.format(eog_libdir)
 ]
 
@@ -145,22 +146,34 @@ if have_version_script
   ldflags += '-Wl,--version-script,@0@'.format(symbol_map)
 endif
 
+if enable_introspection
+  deps += gir_dep
+endif
+
+if enable_libjpeg
+  deps += libjpegutils_dep
+endif
+
+if enable_x11
+  deps += x11_dep
+endif
+
 libeog = shared_library(
   meson.project_name(),
   sources: sources,
   include_directories: top_inc,
   dependencies: deps,
-  c_args: libeog_cflags,
+  c_args: cflags,
   link_args: ldflags,
   link_depends: symbol_map,
   install: true,
-  install_dir: join_paths(get_option('libdir'), meson.project_name())
+  install_dir: eog_pkglibdir
 )
 
 libeog_dep = declare_dependency(
   link_with: libeog,
   include_directories: src_inc,
-  dependencies: eog_deps
+  dependencies: common_deps
 )
 
 pkg.generate(
@@ -172,24 +185,33 @@ pkg.generate(
   subdirs: eog_api_name,
   requires: 'gtk+-3.0',
   variables: [
-    'exec_prefix=' + eog_libexecdir,
+    'exec_prefix=' + eog_prefix,
     'pluginsdir=' + eog_pluginsdir
-  ],
-  install_dir: join_paths(eog_libdir, 'pkgconfig')
+  ]
 )
+
+deps = [libeog_dep]
+
+cflags = [
+  '-DG_LOG_DOMAIN="@0@"'.format(meson.project_name().to_upper()),
+  '-DEOG_LOCALE_DIR="@0@"'.format(eog_localedir)
+]
+
+if enable_introspection
+  deps += gir_dep
+endif
 
 eog = executable(
   meson.project_name(),
   'main.c',
   include_directories: top_inc,
-  dependencies: libeog_dep,
+  dependencies: deps,
   c_args: cflags,
   install: true,
-  install_dir: eog_bindir,
   install_rpath: eog_pkglibdir
 )
 
-if have_gir
+if enable_introspection
   gir_sources = sources + headers
 
   gir_dir = join_paths(eog_pkgdatadir, 'gir-' + eog_gir_version)
@@ -201,7 +223,6 @@ if have_gir
     nsversion: eog_api_version,
     namespace: eog_gir_ns,
     includes: 'Gtk-3.0',
-    extra_args: '--warn-all',
     install: true,
     install_dir_gir: gir_dir,
     install_dir_typelib: typelib_dir
