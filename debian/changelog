@@ -1,3 +1,9 @@
+eog (3.28.0-1) UNRELEASED; urgency=medium
+
+  * New upstream development release
+
+ -- Tim Lunn <tim@feathertop.org>  Sat, 17 Mar 2018 13:06:33 +1100
+
 eog (3.27.91-1) unstable; urgency=medium
 
   * New upstream development release
