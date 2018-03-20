@@ -55,7 +55,12 @@ Package: eog-dev
 Architecture: any
 Multi-Arch: same
 Depends: eog (= ${binary:Version}),
+         libexempi-dev,
+         libgnome-desktop-3-dev (>= 2.91.2),
          libgtk-3-dev (>= 3.22.0),
+         libjpeg-dev,
+         liblcms2-dev,
+         librsvg2-dev (>= 2.36.2),
          ${misc:Depends}
 Description: Development files for the Eye of GNOME
  eog or the Eye of GNOME is a graphics viewer for the GNOME desktop
