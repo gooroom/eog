@@ -1,6 +1,6 @@
 eog (3.28.0-2) UNRELEASED; urgency=medium
 
-  * Add various build-deps to eog-dev as a workaround for bug #893067.
+  * Add various dependencies to eog-dev as a workaround for bug #892956.
     This will allow eog-plugins to build until there is a better fix 
     (Closes: #893603)
 
