@@ -1,7 +1,7 @@
-eog (3.28.0-2) UNRELEASED; urgency=medium
+eog (3.28.0-2) unstable; urgency=medium
 
   * Add various dependencies to eog-dev as a workaround for bug #892956.
-    This will allow eog-plugins to build until there is a better fix 
+    This will allow eog-plugins to build until there is a better fix
     (Closes: #893603)
 
  -- Tim Lunn <tim@feathertop.org>  Tue, 20 Mar 2018 18:30:33 +1100
@@ -423,7 +423,7 @@ eog (3.2.2-1) experimental; urgency=low
 eog (3.2.1-1) experimental; urgency=low
 
   [ Josselin Mouette ]
-  * 01_nodisplay.patch: dropped. Let’s show applications in the shell 
+  * 01_nodisplay.patch: dropped. Let’s show applications in the shell
     now. Closes: #624560.
 
   [ Sjoerd Simons ]
@@ -567,7 +567,7 @@ eog (2.28.1-1) unstable; urgency=low
     - added missing copyright holders.
     - added copyright informations about src/eog-image-jpeg.c,
        cut-n-paste/totem-screensaver/totem-scrsaver.h and
-       cut-n-paste/totem-screensaver/totem-scrsaver.c files, which 
+       cut-n-paste/totem-screensaver/totem-scrsaver.c files, which
        are licensed under the LGPL-2.
 
  -- Andrea Veri <andrea.veri89@gmail.com>  Wed, 21 Oct 2009 23:29:28 +0200
@@ -604,7 +604,7 @@ eog (2.26.2-1) unstable; urgency=low
 eog (2.26.1-1) unstable; urgency=low
 
   [ Josselin Mouette ]
-  * Add libglib2.0-doc and libgtk2.0-doc to b-d-i to ensure proper 
+  * Add libglib2.0-doc and libgtk2.0-doc to b-d-i to ensure proper
     xrefs.
 
   [ Luca Bruno ]
@@ -638,7 +638,7 @@ eog (2.24.3.1-1) unstable; urgency=low
 
 eog (2.24.2-1) experimental; urgency=low
 
-  * 99_ltmain_as-needed.patch: introduce patch to make --as-needed work 
+  * 99_ltmain_as-needed.patch: introduce patch to make --as-needed work
     on shared objects.
   * New upstream release.
 
@@ -670,8 +670,8 @@ eog (2.22.3-2) unstable; urgency=high
 eog (2.22.3-1) unstable; urgency=low
 
   [ Josselin Mouette ]
-  * 01_nodisplay.patch: do not display the menu entry by default; an 
-    image viewer is mostly useless except when launched from the file 
+  * 01_nodisplay.patch: do not display the menu entry by default; an
+    image viewer is mostly useless except when launched from the file
     browser.
 
   [ Sebastian Dröge ]
@@ -761,7 +761,7 @@ eog (2.20.0-2) unstable; urgency=low
 
   * Remove obsolete manual pages.
   * rules: cleanup.
-  * Add a new package: eog-dev, containing the headers and pkg-config 
+  * Add a new package: eog-dev, containing the headers and pkg-config
     files.
 
  -- Josselin Mouette <joss@debian.org>  Sat, 22 Sep 2007 00:07:47 +0200
@@ -833,7 +833,7 @@ eog (2.18.0.1-1) experimental; urgency=low
 eog (2.16.3-3) unstable; urgency=medium
 
   [ Sven Arvidsson ]
-  * New patch, 01_error-loading, show an error message instead of 
+  * New patch, 01_error-loading, show an error message instead of
     closing the program if the image loading has failed; thanks
     Claudio Saavedra. GNOME #399988 (Closes: #391582)
 
@@ -992,7 +992,7 @@ eog (2.10.2-3) unstable; urgency=medium
   [ Sebastien Bacher ]
   * debian/patches/02_svg.diff
     - open svg files (Closes: #306188)
-  
+
  -- Guilherme de S. Pastore <guilherme.pastore@terra.com.br>  Thu, 13 Oct 2005 14:25:20 -0300
 
 eog (2.10.2-2) unstable; urgency=low
@@ -1122,8 +1122,8 @@ eog (2.6.1-1) unstable; urgency=low
 
   * Acknowledge NMUs, thanks Sebastien.
     closes: #245329, #255186, #228639.
-  * Fixed wrong manpage header; closes: #261034.  
-  * debian/menu: used a xpm file; closes: #265940.  
+  * Fixed wrong manpage header; closes: #261034.
+  * debian/menu: used a xpm file; closes: #265940.
 
  -- Davide Puricelli (evo) <evo@debian.org>  Sun, 22 Aug 2004 17:31:59 +0200
 
@@ -1166,11 +1166,11 @@ eog (2.6.0-1) experimental; urgency=low
 
   * New upstream release; closes: #242060.
 
- -- Davide Puricelli (evo) <evo@debian.org>  Sun, 18 Apr 2004 11:55:33 +0200 
+ -- Davide Puricelli (evo) <evo@debian.org>  Sun, 18 Apr 2004 11:55:33 +0200
 
 eog (2.4.1-2) unstable; urgency=high
 
-  * Added a missing Build-Depends on libgnomeprintui2.2-dev. 
+  * Added a missing Build-Depends on libgnomeprintui2.2-dev.
 
  -- Davide Puricelli (evo) <evo@debian.org>  Sat, 25 Oct 2003 15:22:48 +0200
 
@@ -1186,7 +1186,7 @@ eog (2.4.1-1) unstable; urgency=low
 
 eog (2.2.2-2) unstable; urgency=high
 
-  * Added a missing Build-Depends on libeel2-dev. 
+  * Added a missing Build-Depends on libeel2-dev.
 
  -- Davide Puricelli (evo) <evo@debian.org>  Sat,  7 Jun 2003 10:22:39 +0200
 
@@ -1239,7 +1239,7 @@ eog2 (1.0.3-3) experimental; urgency=low
 
 eog2 (1.0.3-2) experimental; urgency=low
 
-  * Removed any external DTD call in xml files; closes: #161883. 
+  * Removed any external DTD call in xml files; closes: #161883.
 
  -- Davide Puricelli (evo) <evo@debian.org>  Sat, 28 Sep 2002 12:09:32 +0200
 
@@ -1302,4 +1302,4 @@ eog2 (0.114.0-1) experimental; urgency=low
 
   * Initial Release, closes: #130119.
 
- -- Davide Puricelli (evo) <evo@debian.org>  Sun, 17 Mar 2002 12:49:05 +0100  
+ -- Davide Puricelli (evo) <evo@debian.org>  Sun, 17 Mar 2002 12:49:05 +0100
