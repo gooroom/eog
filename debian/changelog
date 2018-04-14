@@ -1,3 +1,9 @@
+eog (3.28.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release 
+
+ -- Tim Lunn <tim@feathertop.org>  Sat, 14 Apr 2018 13:25:42 +1000
+
 eog (3.28.0-2) unstable; urgency=medium
 
   * Add various dependencies to eog-dev as a workaround for bug #892956.
