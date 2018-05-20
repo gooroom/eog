@@ -1,3 +1,9 @@
+eog (3.28.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 20 May 2018 17:19:38 -0400
+
 eog (3.28.1-1) unstable; urgency=medium
 
   * New upstream release 
