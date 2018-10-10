@@ -1,8 +1,9 @@
-eog (3.28.4-1) UNRELEASED; urgency=medium
+eog (3.28.4-1) unstable; urgency=medium
 
   * New upstream release
+  * Drop unneeded dh_translations overrides
 
- -- Jeremy Bicha <jbicha@debian.org>  Tue, 09 Oct 2018 23:04:41 -0400
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 09 Oct 2018 23:05:39 -0400
 
 eog (3.28.3-1) unstable; urgency=medium
 
