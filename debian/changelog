@@ -1,12 +1,15 @@
 eog (3.26.2-3) unstable; urgency=medium
 
+  [ Jeremy Bicha ]
   * Update Vcs fields for migration to https://salsa.debian.org/
   * Bump debhelper compat to 11
   * Drop obsolete patches (Closes: #881463)
     - 0001-Add-a-traditional-menu-bar.patch
     - 0002-Show-traditional-title-bar-in-unity.patch
 
- -- Jeremy Bicha <jbicha@debian.org>  Wed, 24 Jan 2018 11:35:49 -0500
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 13 Dec 2018 13:10:09 +0900
 
 eog (3.26.2-2) unstable; urgency=medium
 
