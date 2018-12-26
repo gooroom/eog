@@ -1,3 +1,15 @@
+eog (3.26.2-3+grm1u1) unstable; urgency=medium
+
+  [ gooroom ]
+  * [85161119] Version 3.20.5-1 released
+
+  [ donghun ]
+  * [e338ba4d] Updated wallpaper setting for gooroom
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 26 Dec 2018 14:40:59 +0900
+
 eog (3.26.2-3) unstable; urgency=medium
 
   [ Jeremy Bicha ]
