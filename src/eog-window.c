@@ -2549,17 +2549,28 @@ wallpaper_info_bar_response (GtkInfoBar *bar, gint response, EogWindow *window)
 		gchar *path;
 		GError *error = NULL;
 
-		path = g_find_program_in_path ("unity-control-center");
-		if (path && in_desktop ("Unity"))
-			app_info = g_app_info_create_from_commandline ("unity-control-center appearance",
-								       "System Settings",
-								       G_APP_INFO_CREATE_NONE,
-								       &error);
+		path = g_find_program_in_path ("gooroom-control-center");
+		if (path)
+		{
+			app_info = g_app_info_create_from_commandline ("gooroom-control-center appearance",
+									"System Settings",
+									G_APP_INFO_CREATE_NONE, 
+									&error);
+    }
 		else
-			app_info = g_app_info_create_from_commandline ("gnome-control-center background",
-								       "System Settings",
-								       G_APP_INFO_CREATE_NONE,
-								       &error);
+		{
+			path = g_find_program_in_path ("unity-control-center");
+			if (path && in_desktop ("Unity"))
+				app_info = g_app_info_create_from_commandline ("unity-control-center appearance",
+													"System Settings",
+													G_APP_INFO_CREATE_NONE,
+													&error);
+			else
+				app_info = g_app_info_create_from_commandline ("gnome-control-center background",
+									       "System Settings",
+									       G_APP_INFO_CREATE_NONE,
+									       &error);
+    }
 		g_free (path);
 
 		if (error != NULL) {

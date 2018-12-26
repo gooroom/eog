@@ -1,0 +1,56 @@
+From 11bf632f369c805cec4601f80c75b122a7dcb43e Mon Sep 17 00:00:00 2001
+From: donghun <donghun@gooroom.kr>
+Date: Wed, 26 Dec 2018 11:12:56 +0900
+Subject: [PATCH] Updated wallpaper setting for gooroom
+
+Change-Id: I4de538ef926ac8f6e183d814fcf0fe667522260a
+---
+ src/eog-window.c                                   | 31 +++++++++++++++-------
+ 1 files changed, 22 insertions(+), 10 deletions(-)
+
+diff --git a/src/eog-window.c b/src/eog-window.c
+index 81eff177..41b69ef2 100644
+--- a/src/eog-window.c
++++ b/src/eog-window.c
+@@ -2549,17 +2549,28 @@ wallpaper_info_bar_response (GtkInfoBar *bar, gint response, EogWindow *window)
+ 		gchar *path;
+ 		GError *error = NULL;
+ 
+-		path = g_find_program_in_path ("unity-control-center");
+-		if (path && in_desktop ("Unity"))
+-			app_info = g_app_info_create_from_commandline ("unity-control-center appearance",
+-								       "System Settings",
+-								       G_APP_INFO_CREATE_NONE,
+-								       &error);
++		path = g_find_program_in_path ("gooroom-control-center");
++		if (path)
++		{
++			app_info = g_app_info_create_from_commandline ("gooroom-control-center appearance",
++									"System Settings",
++									G_APP_INFO_CREATE_NONE, 
++									&error);
++    }
+ 		else
+-			app_info = g_app_info_create_from_commandline ("gnome-control-center background",
+-								       "System Settings",
+-								       G_APP_INFO_CREATE_NONE,
+-								       &error);
++		{
++			path = g_find_program_in_path ("unity-control-center");
++			if (path && in_desktop ("Unity"))
++				app_info = g_app_info_create_from_commandline ("unity-control-center appearance",
++													"System Settings",
++													G_APP_INFO_CREATE_NONE,
++													&error);
++			else
++				app_info = g_app_info_create_from_commandline ("gnome-control-center background",
++									       "System Settings",
++									       G_APP_INFO_CREATE_NONE,
++									       &error);
++    }
+ 		g_free (path);
+ 
+ 		if (error != NULL) {
+-- 
+2.11.0
+
