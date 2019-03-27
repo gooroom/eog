@@ -1,0 +1,48 @@
+From e41405a81333032f4be5e77ff0e0050daa82a825 Mon Sep 17 00:00:00 2001
+From: DongHun Lee <donghun@gooroom.kr>
+Date: Wed, 27 Mar 2019 12:51:40 +0900
+Subject: [PATCH] Removed Open With in popup menu
+
+Change-Id: I0554382d1d8b568d526e4e2035d786fbab92ac68
+---
+ data/eog-gear-menu.ui | 5 -----
+ data/popup-menus.ui   | 7 -------
+ 2 files changed, 12 deletions(-)
+
+diff --git a/data/eog-gear-menu.ui b/data/eog-gear-menu.ui
+index 77330324..5b401f5d 100644
+--- a/data/eog-gear-menu.ui
++++ b/data/eog-gear-menu.ui
+@@ -6,11 +6,6 @@
+         <attribute name="label" translatable="yes">_Open…</attribute>
+         <attribute name="action">win.open</attribute>
+       </item>
+-      <submenu>
+-        <attribute name="label" translatable="yes">Open _With</attribute>
+-        <link name="submenu" id="open-with-menu">
+-        </link>
+-      </submenu>
+     </section>
+     <section>
+       <item>
+diff --git a/data/popup-menus.ui b/data/popup-menus.ui
+index aae780c0..2a713ae5 100644
+--- a/data/popup-menus.ui
++++ b/data/popup-menus.ui
+@@ -2,13 +2,6 @@
+ <interface>
+   <menu id="view-popup-menu">
+     <section>
+-      <submenu>
+-        <attribute name="label" translatable="yes">Open _with</attribute>
+-        <link name="submenu" id="open-with-menu">
+-        </link>
+-      </submenu>
+-    </section>
+-    <section>
+       <item>
+         <attribute name="label" translatable="yes">_Save</attribute>
+         <attribute name="action">win.save</attribute>
+-- 
+2.11.0
+
