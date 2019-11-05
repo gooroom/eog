@@ -1,0 +1,54 @@
+From 71d5cdd694e4229d5992c1b5ebea2c69004c58a9 Mon Sep 17 00:00:00 2001
+From: donghun <donghun@gooroom.kr>
+Date: Tue, 5 Nov 2019 11:55:29 +0900
+Subject: [PATCH] Fixed gallery button activation in fullscreen toolbar when
+ slideshow mode
+
+---
+ src/eog-window.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/src/eog-window.c b/src/eog-window.c
+index 4e913271..9a8b0ef7 100644
+--- a/src/eog-window.c
++++ b/src/eog-window.c
+@@ -173,7 +173,7 @@ struct _EogWindowPrivate {
+ 	GtkPageSetup        *page_setup;
+ 
+ 	PeasExtensionSet    *extensions;
+-
++	GtkWidget           *button_gallery;
+ #ifdef HAVE_LCMS
+         cmsHPROFILE         *display_profile;
+ #endif
+@@ -1874,7 +1874,6 @@ fullscreen_motion_notify_cb (GtkWidget      *widget,
+ 	} else {
+ 		fullscreen_set_timeout (window);
+ 	}
+-
+ 	return FALSE;
+ }
+ 
+@@ -1947,7 +1946,10 @@ eog_window_create_fullscreen_popup (EogWindow *window)
+ 			  G_CALLBACK (fullscreen_leave_notify_cb),
+ 			  window);
+ 
++	window->priv->button_gallery = GTK_WIDGET (gtk_builder_get_object (builder, "gallery_toggle"));
++
+ 	g_object_unref (builder);
++
+ 	return revealer;
+ }
+ 
+@@ -2056,6 +2058,8 @@ eog_window_run_fullscreen (EogWindow *window, gboolean slideshow)
+ 		priv->mode = EOG_WINDOW_MODE_FULLSCREEN;
+ 	}
+ 
++	gtk_widget_set_sensitive (GTK_WIDGET (priv->button_gallery), !slideshow);
++
+ 	if (window->priv->fullscreen_popup == NULL)
+ 	{
+ 		priv->fullscreen_popup
+-- 
+2.20.1
+
