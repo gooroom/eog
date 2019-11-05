@@ -1,0 +1,74 @@
+From 0777b45df4f8be83c8e24719c0cbcc25a2a8110b Mon Sep 17 00:00:00 2001
+From: donghun <donghun@gooroom.kr>
+Date: Tue, 5 Nov 2019 11:39:13 +0900
+Subject: [PATCH] Added full-screen toolbar button Korean translation
+
+---
+ data/fullscreen-toolbar.ui | 4 ++--
+ po/en_GB.po                | 8 ++++++++
+ po/ko.po                   | 8 ++++++++
+ 3 files changed, 18 insertions(+), 2 deletions(-)
+
+diff --git a/data/fullscreen-toolbar.ui b/data/fullscreen-toolbar.ui
+index b16c00da..e09570ee 100644
+--- a/data/fullscreen-toolbar.ui
++++ b/data/fullscreen-toolbar.ui
+@@ -110,7 +110,7 @@
+       <object class="GtkToolButton" id="zoom_normal_button">
+         <property name="visible">True</property>
+         <property name="can_focus">False</property>
+-        <property name="tooltip_text" translatable="yes">Shrink the image</property>
++        <property name="tooltip_text" translatable="yes">Original the image</property>
+         <property name="action_name">win.zoom-normal</property>
+         <property name="label" translatable="yes">_Normal Size</property>
+         <property name="use_underline">True</property>
+@@ -125,7 +125,7 @@
+       <object class="GtkToggleToolButton" id="zoom_fit_toggle">
+         <property name="visible">True</property>
+         <property name="can_focus">False</property>
+-        <property name="tooltip_text" translatable="yes">Shrink the image</property>
++        <property name="tooltip_text" translatable="yes">Fit the image into window</property>
+         <property name="action_name">win.toggle-zoom-fit</property>
+         <property name="label" translatable="yes">_Best Fit</property>
+         <property name="use_underline">True</property>
+diff --git a/po/en_GB.po b/po/en_GB.po
+index 29184df8..1362a895 100644
+--- a/po/en_GB.po
++++ b/po/en_GB.po
+@@ -398,6 +398,14 @@ msgstr "Shrink the image"
+ msgid "Enlarge the image"
+ msgstr "Enlarge the image"
+ 
++#: data/fullscreen-toolbar.ui:113
++msgid "Original the image"
++msgstr "Original the image"
++
++#: data/fullscreen-toolbar.ui:128
++msgid "Fit the image into window"
++msgstr "Fit the image into window"
++
+ #: data/fullscreen-toolbar.ui:13
+ msgid "Go to the first image of the gallery"
+ msgstr "Go to the first image of the gallery"
+diff --git a/po/ko.po b/po/ko.po
+index ffcb72db..271a5872 100644
+--- a/po/ko.po
++++ b/po/ko.po
+@@ -404,6 +404,14 @@ msgstr "이미지를 작게 축소해서 봅니다"
+ msgid "Enlarge the image"
+ msgstr "이미지를 크게 확대해서 봅니다"
+ 
++#: data/fullscreen-toolbar.ui:113
++msgid "Original the image"
++msgstr "원본 이미지 봅니다"
++
++#: data/fullscreen-toolbar.ui:128
++msgid "Fit the image into window"
++msgstr "이미지를 창에 맞춰서 봅니다"
++
+ #: data/fullscreen-toolbar.ui:13
+ msgid "Go to the first image of the gallery"
+ msgstr "이미지 모음의 처음 이미지로 이동합니다"
+-- 
+2.20.1
+
