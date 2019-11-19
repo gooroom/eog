@@ -1,3 +1,10 @@
+eog (3.28.4-2) unstable; urgency=medium
+
+  * Restore -Wl,-O1 to our LDFLAGS
+  * Bump Standards-Version to 4.3.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 23 Dec 2018 20:07:15 -0500
+
 eog (3.28.4-1) unstable; urgency=medium
 
   * New upstream release
@@ -24,7 +31,7 @@ eog (3.28.2-1) unstable; urgency=medium
 
 eog (3.28.1-1) unstable; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Tim Lunn <tim@feathertop.org>  Sat, 14 Apr 2018 13:36:44 +1000
 
