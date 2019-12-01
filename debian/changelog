@@ -1,3 +1,394 @@
+eog (3.28.4-2+grm2u1) unstable; urgency=medium
+
+  [ Loïc Minier ]
+  * [ef2e3767] * Import eog.
+  * [d0ec5e1d] * Add gnome-pkg-tools to the build-deps. * Add CDBS' utils rule. * Add gnome-pkg-tools' uploaders rule.
+  * [399898b3] * Do not pass --disable-scrollkeeper.
+  * [cf0157ff] * Comment out scrollkeeper-update calls.
+  * [5cd1e1f5] * New upstream release.
+  * [19c8faa3] * New upstream release.
+  * [33971d06] * Bump up Standards-Version to 3.7.2.
+  * [170e5d4d] * Add CDBS' utils.
+  * [50a16b4b] * New upstream release. * Don't trust the upstream configure to honor its advertized   --disable-scrollkeper and remove generated /var/scrollkeeper for   additional safety.
+  * [7c99c061] * New upstream stable release with code cleanups and translations.
+  * [43c1e399] * Add a get-orig-source target to retrieve the upstream tarball.
+  * [47c215e5] * Bump revision.
+  * [aadcb748] * Include the new check-dist Makefile to prevent accidental uploads to   unstable; bump build-dep on gnome-pkg-tools to >= 0.10.
+  * [5529001a] * Set LDFLAGS directly instead of via DEB_CONFIGURE_SCRIPT_ENV; build-dep on   cdbs >= 0.4.41.
+  * [3990f8e0] * Preprend -Wl,-z,defs before -Wl,--as-needed in LDFLAGS.
+  * [b812920e] * Upload to unstable; drop check-dist include.
+  * [1d80c7fb] * Wrap build-deps and deps.
+  * [c8c759e0] * Bump up Debhelper compatibility level to 5.
+  * [5ab2b44e] * Fix watch file to track all stable releases and use HTTP.
+  * [79a50688] * Merge the never uploaded 2.16.2-2 changelog entry into 2.16.3-1.
+  * [307e64d0] * Verbose the rm calls.
+  * [3586a7f9] * Drop obsolete debian/NEWS which concerns pre-sarge versions.
+  * [871bbf24] * New upstream stable release.
+  * [2841d357] * Revert r11454 to upload the new binary package to experimental.
+  * [a3a50c38] * Target at experimental for binary package addition.
+  * [4617bf89] New patch, 60_compressed-svg-mime-type, adds support for the compressed   SVG MIME type in eog.desktop; thanks Franklin Piat; closes: 477436.
+
+  [ Guilherme de S. Pastore ]
+  * [8d5b6be9] Import eog into SVN
+  * [a4c938bb] Add patch from #287980
+  * [f5235f15] clarify explanation of eog-collection-view.1 removal
+  * [7a881222]   * debian/patches/01_threads.diff:   - don't create threads as joinable if we're not going to join     them, otherwise we end up with huge memory usage and even     crash (Closes: #288163)
+  * [cbc1de3c] release eog 2.10.2-2
+  * [02be6934] Updated my e-mail address
+  * [e7eaf172] Add a note about my e-mail address being updated to changelog
+  * [b0756f56] apply patch for #322879
+  * [81140bdc] updated eog to 2.12.0
+  * [fe13eff3] removed 02_broken_svg_crash.diff, no longer works
+  * [f7b4d1e6] * debian/control.in:   - added ${misc:Depends} dependency (higher urgency)   - bumped standards-version to 3.6.2.1 with no changes * removed patch from lucas rocha, doesn't apply to 2.10 =(
+  * [0a7a343b] Added a Closes statement to seb's entry on changelog
+  * [e0cf7401] * New upstream release   - Fixes some crashes (Closes: #322879) * debian/patches/02_svg.diff: dropped; applied upstream
+  * [dd58bc05] pass --disable-scrollkeeper to configure
+  * [27dd3f82] update for 2.14.1
+  * [c1ab8db6] forgot about debian/watch
+  * [0d2ac20d] release eog 2.16.1
+  * [0d89f289] updated for 2.22.2 and dropped 60_compressed-svg-mime-type.patch, applied upstream
+  * [4ffb5427] upload 2.22.2 to unstable
+
+  [ Gustavo Noronha ]
+  * [258537d1] auto-generated
+  * [cb22e61f] auto-generated
+  * [7f747f0d] uploading to unstable
+  * [d06ebfa0] eog (2.12.1-1) UNRELEASED; urgency=low
+  * [00afe0ef] auto-generated
+  * [1cc4db8c]   * debian/patches/00_overwrite_error.diff, debian/patches/02_svg.diff:   - updated to the new upstream version   * debian/patches/01_threads.diff:   - removed; issue fixed upstream with a different patch
+  * [cdc790ab]   * debian/control.in:   - added Build-Depends to libglade2-dev, libgnomeprint{,ui}2.2-dev     based on pkg-config requirements
+  * [85370008]   * debian/patches/00_overwrite_error.diff:   - removed, the relevant code has been rewritten, the patch no     longer applies (in both senses)
+  * [2ab7ab68] releasing to experimental
+
+  [ Ondrej Sury ]
+  * [af97bcee] desktop/unstable: updated FSF new address
+
+  [ Sebastien Bacher ]
+  * [fc5cf104]   [ Sebastien Bacher ]   * debian/patches/02_svg.diff     - open svg files.
+
+  [ Josselin Mouette ]
+  * [421b3add] eog (2.12.2-3) UNRELEASED; urgency=low
+  * [acf19f68] * New upstream translation and bugfix release.
+  * [8b190fa9] * New upstream release.   + Fix crash when switching between normal and fullscreen modes.     Closes: #382164.   + Add WBMP to supported file types. Closes: #270595.   + Shows file type in properties dialog. Closes: #439798.   + Features a command line option to start in fullscreen mode.     Closes: #134684. * Massive build-depends update. * Fix section for the menu file. * Don't ship the headers and pkg-config files for now.
+  * [b3fdde23] * Remove obsolete manual pages. * rules: cleanup. * Add a new package: eog-dev, containing the headers and pkg-config   files.
+  * [c8437428] * Fix capitalization of GNOME. * Rework description to make it a bit more up to date.
+  * [ab27abf0]   Closes: #463221.
+  * [0b5fac26] 01_nodisplay.patch: do not display the menu entry by default; an image viewer is mostly useless except when launched from the file browser.
+  * [86dcdd93] Upload to unstable.
+  * [5f5ef70c] * New upstream release. * Update build-dependencies, add missing dependencies for eog-dev. * Remove broken changelog entry at the end. * Don’t build with -z defs, it fails for the plugins.
+  * [08c2cf18] * eog.install: install the plugins. * eog-dev.install: install the documentation.
+  * [2677cd12] Pass --no-act to dh_makeshlibs.
+  * [45d71d11] 99_ltmain_as-needed.patch: introduce patch to make --as-needed work on shared objects.
+  * [9a2d41aa] New upstream release.
+  * [f8bc50d9] Add libglib2.0-doc and libgtk2.0-doc to b-d-i to ensure proper xrefs.
+  * [47e6c293] 03_error_init.patch: new patch. Fix wrong passing of GError. Closes: #507991.
+  * [9057955a] update patch from the upstream svn, some parts were missing
+  * [3b0b9513] Merge Luca’s changes from the experimental branch.
+  * [294a85f6] Remove useless build-dependencies on libglade and libgnomeui.
+  * [93b5ebe6] Update build-dependencies to the 2.26 requirements. Closes: #530649.
+  * [b19ebe58] New upstream release.
+  * [43b6e4cd] Make the -dev package depend on the gir package.
+  * [308241e6] New upstream release.
+  * [363e8cb6] * Update build-dependencies. * Put the gir in the eog package, since it’s in a private directory. * Remove useless cleanup in rules.
+  * [f3b611e1] Revert a wrong change in the previous commit.
+  * [668f7a89] Break eog-plugins < 2.91.
+  * [975e6a07] Pass arguments to dh_girepository in a more canonical way.
+  * [4c1674ea] 01_nodisplay.patch: dropped. Let’s show applications in the shell now. Closes: #624560.
+  * [642e8f8b] * New upstream translation release. * Rebuild against new gnome-desktop. * Bump gnome-desktop build-dependency accordingly.
+  * [778dc7e6] Merge experimental changelog
+  * [eb4a1c3f] Relax gnome-desktop dependencies again.
+  * [5df89063] Remove XPM icons as well.
+
+  [ Ray Dassen ]
+  * [7b0ac5ed] 2.12.3-1 upload
+  * [e2788ec6] Updated debianisation by Øystein Gisnås
+  * [f5ff2ab8] 2.14.0-1 upload
+
+  [ Kilian Krause ]
+  * [4f47e271] make sure we don't need the new gnome-pkg-tools (but can use it if it's installed), i.e. make /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk optional
+
+  [ Sven Arvidsson ]
+  * [a3e4bbd9] * New patch, 01_error-loading, show an error message instead of   closing the program if the image loading has failed; thanks   Claudio Saavedra. GNOME #399988 (Closes: #391582)
+  * [0dd4fb0a] * Add a -dbg package. (Closes: #427410)
+
+  [ Marc Brockschmidt ]
+  * [a6f521cc]   * New upstream release:     - debian/control.in:       + Updated build-depends to new requirements       + Added new dependency on gnome-icon-theme, as eog now uses icons from         there.     - debian/patches/01_error-loading.patch:        Dropped, included upstream.     - Changed scroll wheel behaviour to not switch images, but actually       scroll. (Closes: #414218)     - Fixed handling of external file removal. (Closes: #370452)     - Fixed segfaults when exiting the collection view. (Closes: #404325)
+  * [e7f4add4] Fix typo in bugnumber
+
+  [ Sebastian Dröge ]
+  * [c1a37c6f] * New upstream bugfix release. * debian/menu:   + Fix section in the menu file.
+  * [93a6c901] * debian/patches/01_eog_xmp.patch,   debian/control.in:   + Build against exempi 1.99.5, patch by Michael Biebl.     (Closes: #450485, #451726)
+  * [dc4ad34a] * New upstream bugfix release.
+  * [48ef0d48] * debian/menu:   + Fix section.
+  * [85174f8c] * New upstream bugfix release:   + debian/patches/01_eog_xmp.patch:     - Dropped, merged upstream.
+  * [368cd6b5] * New upstream bugfix release. * debian/control.in:   + Update Standards-Version to 3.7.3, no additional changes needed.
+  * [aa64b6db] * New upstream bugfix release. * debian/control.in: Bump build-depends on libglib2.0-dev to (>= 2.15.3). *
+  * [3bf2fd50] * correct version number
+  * [47cae17d] * New upstream bugfix release. * debian/control.in:   + Updated Standards-Version to 3.8.0, no additional changes needed.
+  * [f4487a96] Build depend on intltool as it's required now.
+  * [9f1d08f4] New upstream bugfix release.
+  * [830b7d57] Upload to unstable.
+  * [c889ba13] * fix version
+
+  [ Romain Francoise ]
+  * [0d23b630] * New upstream release:   + Handles XPM files properly again (closes: #444742).   + Includes performance improvements (closes: #463112).   + No longer crashes if ~/.gnome2/eog is not a directory (closes: #445544). * debian/control: Bump build-depends on libglib2.0-dev to (>= 2.15.3).
+  * [26cd1918] * debian/control.in: Bump build-depends on libglib2.0-dev to (>= 2.15.3).
+
+  [ Xiyue Deng ]
+  * [69e8343a] 02_sanitize_sys.path.patch: fix possible security problem caused by empty sys.path which allows the possibility to run arbitrary code by a file matches the name of a python module in user's working directory. Thanks James Vega <jamessan@debian.org> for the patch. (Closes: #504352)
+
+  [ Luca Bruno ]
+  * [b3ae9e1f]   * New upstream release:     - Fix GError usage and avoid crashes when the tempfile can't be moved       to the destination. Closes: #507991   * debian/patches/02_sanitize_sys.path.patch:     - Remove as applied upstream.   * debian/control.in:     - Build-Depends:       + Remove libart-2.0-dev.       + Add libxml2-dev for toolbareditor support.       + Bump libgtk2.0-dev to 2.15.1.       + Bump libgnome-desktop-dev to 2.25.1.     - eog-dev Depends:       + Remove libgnomeui-dev and libglade2-dev.       + Add libgtk2.0-dev.     - Specify section for debug package.
+  * [da761c87]   * New upstream release:     - Update Japanese translation. Closes: #550830.   * debian/control.in:     - Update Standards-version to latest 3.8.4. No changes needed.     - Bump libgtk2.0-dev build-depend to 2.17.15.   * debian/patches/01_nodisplay.patch:     - Refreshed.   * debian/copyright:     - Fix FSF address.
+
+  [ Emilio Pozuelo Monfort ]
+  * [02f4ca6a] * New upstream release. * debian/control:   - bumped Standards-version to latest 3.8.3. No changes needed.   - added homepage field pointing it to the right project's     homepage.   - added ${misc:Depends} on both eog-dbg / eog-dev binaries making     lintian happy again.
+  * [e2aa4095] * New upstream release. * debian/watch: don't uupdate.
+  * [6a9427ff] * debian/control.in:   + Bump libgnome-desktop-3-dev build dependency to ensure a     dependency on the new SONAME.
+  * [66c43693] fix version number and release to experimental
+
+  [ Andreas Henriksson ]
+  * [d7b1c376] * New upstream release. * debian/patches/99_ltmain_as-needed.patch: Dropped, already there. * debian/control{,.in}: Bump build-dependency on libgtk2.0-dev to >= 2.15.2,   drop build-dependency on libart-2.0-dev.
+  * [70192cfb] * New upstream release * Bump build-dependency on libgtk-3-dev to (>= 3.5.4)
+  * [4a57e3ce] Release to experimental
+  * [9ad8b68a] New upstream release.
+  * [033d0ea7] * New upstream release. * Bump build-dependency on libgtk-3-dev to >= 3.7.8.
+  * [a51886cd] * New upstream release. * Update build-dependencies according to configure.ac changes:   - bump Gtk+ 3.10.6, glib 2.38.0, gtk-doc 1.16   - drop libx11-dev (sunkeysym)
+  * [14b5f744] * New upstream release. * Revert changes in 3.10.1-2   - i.e. lower gnome-desktop build-dependency again * eog: Install appdata file
+  * [f32c2b55] Upload to unstable
+  * [d5f45603] New upstream release.
+  * [c2be1dac] * New upstream release. * Drop libxml2 build-dependency according to configure.ac changes. * Update debian/patches/disable-appmenu-when-not-needed.patch to apply.
+  * [b2b7f8f6] * New upstream release. * Update build-dependencies according to configure.ac changes:   - bump libgdk-pixbuf2.0-dev to >= 2.30.0
+  * [5cc3b04c] Release to unstable
+  * [1a901d8b] * New upstream release. * Bump build-dependencies according to configure.ac changes:   - libgtk-3-dev (>= 3.19.3)   - libglib2.0-dev (>= 2.42.0) * Bump Standards-Version to 3.9.7. * Temporarily disable patch which no longer applies:   - debian/patches/0001-Add-a-traditional-menu-bar.patch   - debian/patches/Put-Exit-Fullscreen-button-into-toolbar.patch * Update patch to apply:   - debian/patches/0002-Show-traditional-title-bar-in-unity.patch
+  * [03f18b99] * New upstream release.   - fixes CVE-2016-6855 out-of-bounds write in eog 3.10.2
+
+  [ Andrea Veri ]
+  * [cb640adb] * New upstream release. * debian/copyright:   - added missing copyright holders.   - added copyright informations about src/eog-image-jpeg.c,      cut-n-paste/totem-screensaver/totem-scrsaver.h and      cut-n-paste/totem-screensaver/totem-scrsaver.c files, which      are licensed under the LGPL-2.
+
+  [ Michael Biebl ]
+  * [6b8c350c] Update to 2.30.1
+  * [0984ec9b] * Switch to source format 3.0 (quilt):   - Add debian/source/format.   - Add debian/patches/series.   - Remove /usr/share/cdbs/1/rules/simple-patchsys.mk from debian/rules.
+  * [ff071288] Update debian/control
+  * [2e754df4] Add Vcs-* fields
+  * [6cdacef9] Drop Conflicts: eog2, no longer necessary.
+  * [1e4b42db] Strip trailing whitespaces
+  * [6da36524] Upload to unstable
+  * [68c67670] New upstream bugfix release.
+  * [40fcd9d2] Bump Standards-Version to 3.9.0. No further changes.
+  * [682cde83] Release version 2.30.2-1 to unstable
+  * [7f0247da] New upstream stable release.
+  * [8383daa2] debian/watch: Switch to .bz2 tarballs.
+  * [6dfcca9e] * Switch to debhelper compatibility level 8.   - Bump Build-Depends on debhelper.
+  * [fe1c9f7c] Strip leading debian/tmp/ from .install files.
+  * [ceb02beb] Bump Standards-Version to 3.9.2. No further changes.
+  * [bb26e164] Add Build-Depends on librsvg2-dev (>= 2.26.0) for scaling svg images.
+  * [8a59b3bc] * debian/eog-dev.install   - Install gtk-doc API documentation.
+  * [5ff706c8] Release version 3.0.2-1 to epxerimental
+  * [f4f193f8] * debian/control.in:   - Change Build-Depends on libjpeg62-dev to libjpeg-dev in preparation of     the libjpeg8 transition.
+  * [faf5139a] Add Depends on gir1.2-peas-1.0 to eog. (Closes: #630910)
+  * [618d7d74] Remove Build-Depends on gir1.2-gtk-3.0 and let libgtk-3-dev pull that dependency in. Bump Build-Depends on libgtk-3-dev to (>= 3.0.8-1~) accordingly.
+  * [b927cfb6] Update Vcs-* fields.
+  * [49c3b06f] Release version 3.0.2-2 to unstable
+  * [8ebbc674] New upstream release.
+  * [4c8d4130] * debian/control.in:   - Drop Build-Depends on libdbus-glib-1-dev, no longer required.
+  * [a6d2aef9] * debian/watch:   - Fix regex to correctly match directories.
+  * [9452fb08] Release version 3.2.2-1 to experimental
+  * [53aabd67] Upload to unstable.
+  * [9426809d] Release version 3.2.2-2 to unstable
+  * [eece9555] New upstream development release.
+  * [bbd0a073] Release version 3.3.92-1 to experimental
+  * [a9af704a] New upstream release.
+  * [192e46ac] Refresh debian/control
+  * [3b5410d3] Release version 3.4.0-1 to experimental
+  * [cce2e657] debian/patches/0001-Don-t-lock-GDK-around-g_application_run.patch: Don't lock GDK around g_application_run(). An unintended interaction between GtkApplication and GDK threading made this necessary before. That code has since been simplified, breaking this formerly-working code. Patch cherry-picked from upstream Git. (Closes: #665374)
+  * [2359efbb] Release version 3.2.2-3 to unstable
+  * [9efe0e88] New upstream translation release.
+  * [9d85dd5a] Release version 3.4.1-1 to experimental
+  * [fcd29f6d] Merge changelog entry from unstable branch
+  * [668402b0] Upload to unstable.
+  * [ab491581] Release version 3.4.1-2 to unstable
+  * [43341c16] New upstream release.
+  * [95aa8822] Release version 3.4.2-1 to unstable
+  * [7b5b24d0] Upload to unstable.
+  * [f7036214] New upstream release.
+  * [e9d8789b] Drop obsolete --disable-scrollkeeper configure flag.
+  * [4022a24a] Lower Build-Depends on libgnome-desktop-3-dev again. It's not really required and unstable still has a old libgnome-desktop version.
+  * [b199816e] Bump Standards-Version to 3.9.4. No further changes.
+  * [a93ad144] Release version 3.8.2-1 to unstable
+  * [1906097a] Small typo fix
+  * [952ddc13] Add Build-Depends on autotools-dev as lintian was complaining about outdated config.{guess,sub}.
+  * [d7e97e84] New upstream release.
+  * [64086734] Bump Build-Depends on libgtk-3-dev to (>= 3.14.0) as per configure.ac.
+  * [ad8e4c1a] Update Homepage URL.
+  * [a0bdc0f1] Bump Standards-Version to 3.9.6. No further changes.
+  * [241a36e2] Drop obsolete Conflicts/Replaces: gir1.2-eog-3.0.
+  * [efdd3c7d] Release version 3.14.1-1 to unstable
+  * [af876fdc] New upstream release.
+  * [a4b98b6b] Refresh patches.
+  * [2d874b8e] Release version 3.16.3-1 to unstable
+  * [9d126eaf] Remove Debian menu entries
+  * [b38a8d71] Use https:// for Vcs-Browser
+  * [cc7d7b18] New upstream release.
+  * [8cf30174] Remove Breaks from pre-oldstable.
+  * [112b7316] Release version 3.18.1-1 to unstable
+  * [70b9d209] New upstream release.
+  * [d5a42802] Drop eog-dbg package now that we have automatic dbgsym packages.
+  * [4446ae9b] Suggest eog-plugins. (Closes: #637831)
+  * [d80c0d8b] Track stable releases (again) via debian/watch.
+  * [0a1e42d4] Release version 3.20.1-1 to unstable
+  * [8b9e3940] New upstream release.
+  * [b27ffde0] Bump Standards-Versiont to 3.9.8.
+  * [606b1b1d] Release version 3.20.2-1 to unstable
+  * [acdcf9ed] New upstream release.
+  * [695ed3ac] Convert from cdbs to dh.
+  * [5b3caf66] Bump debhelper compatibility level to 9.
+  * [b9cda1c8] Convert to multiarch. Mark eog-dev as Architecture: any as the package now ships files in architecture specific paths. Add versioned Breaks against eog-plugins which needs to be updated to use multiarch paths as well.
+  * [75f7c9a0] Don't install gir directory in eog and remove it later on
+  * [083f9caf] Turn Build-Depends-Indep into Build-Depends.
+  * [832be98e] Tighten eog-dev's dependency on eog.
+  * [2b050166] Release version 3.20.3-1 to unstable
+  * [cb54b270] New upstream release.
+  * [9763c3ee] Bump Build-Depends on libgtk-3-dev to (>= 3.19.11) as per configure.ac.
+  * [5d8e64dc] Bump debhelper compat level to 10.
+  * [e43ce225] Add Build-Depends on gnome-common, required by autoreconf.
+  * [b7256eff] Add bug ref for #558501
+  * [2cf99d6a] Exclude libtool .la files from list-missing.
+  * [12051d12] Use dh-autoreconf --as-needed for reduced runtime dependencies.
+  * [309fa05c] Release version 3.20.5-1 to unstable
+  * [63eea728] Bump Build-Depends on libgdk-pixbuf2.0-dev to (>= 2.36.5) as per configure.ac.
+  * [06804d52] New upstream release.
+  * [7b719730] New upstream release
+  * [028e4578] Switch to dh_missing and abort on uninstalled files
+  * [6134bd63] Release version 3.26.2-1 to unstable
+
+  [ Frederic Peters ]
+  * [4e81dbb9] * debian/eog.install: install eog.convert, for porting configuration from   gconf to gsettings. * debian/rules: fix removal of gir file from eog package. * debian/rules: fix generation of gir:Depends, looking for files in their   private directories.
+  * [c4e56d8b] * debian/rules: get gir dependencies using file from debian/tmp/.
+  * [d0b5ede2] * debian/control.in: add build-dep on a recent version of libatk1.0-dev to   make sure the necessary gobject introspection files get installed.
+  * [369b4c5a]   * New upstream release.   * debian/control.in: added missing dependency on gsettings-desktop-schemas.
+
+  [ Fabian Greffrath ]
+  * [39f54265] Add Conflicts and Replaces against gir1.2-eog-3.0 to eog (Closes: #622636).
+
+  [ Sjoerd Simons ]
+  * [e2490196] Updated afer clean
+  * [ab24d0a8] Update after clean
+  * [f4cd7af4] Target experimental
+  * [d7f47fd0] * New upstream release (3.2.1) * debian/watch: Monitor xz tarballs * debian/control.in: Update glib build-depends * debian/eog.install: Remove omf dir, no longer used
+  * [93915d43] Target experimental
+  * [8901ae1f] For build against experimental version of gnome-desktop
+  * [80a64723] Fix typo
+  * [7ff47d34] 3.13.90 for experimental
+  * [87636f42] New upstream release
+  * [0cd13709] Target unstable
+
+  [ Jordi Mallach ]
+  * [5b6e8396] * New upstream release. * Bump libglib2.0-dev, libgtk-3-dev and libgdk-pixbuf2.0-dev Build-Deps. * Set Maintainer to the GNOME team. * Update Standards-Version to 3.9.3, no changes needed.
+  * [46a4ff9b] Set target to experimental.
+  * [175ebe0d] Point to versioned GPL-2 file.
+  * [0208d38f] Build-Depend on libgdk-pixbuf2.0-doc to fix cross-reference links.
+
+  [ Jeremy Bicha ]
+  * [fb77d83a] debian/control.in: Recommend yelp
+  * [ab6f7a0c] use canonical Vcs-* fields
+  * [f0d6a724] Use https in d/watch and use new "special strings" to help standardize format
+  * [64990f1c] Use https for copyright headers
+  * [7d28b2e3] restore trailing newlines to d/copyright and /watch
+  * [6ff910fe] add DEP3 Bug: fields to patch
+  * [e46d33f1] New upstream release
+  * [54961ff8] Refresh patches (copied from Ubuntu)
+  * [0c4b9827] Bump minimum GTK+ to 3.22
+  * [7dab6f08] Bump Standards-Version to 4.1.0
+  * [b93b2108] Release to unstable
+  * [70a27363] New upstream release
+  * [d9ea419f] Release to unstable
+  * [93831789] Add default gbp.conf
+  * [2c94e825] Update Vcs fields for conversion to git
+  * [7690fdef] Drop old files left over from git conversion
+  * [2ae8434f] Bump Standards-Version to 4.1.2
+  * [81c69dab] Mark eog-dev as Multi-Arch: same
+  * [a2139ed9] releasing package eog version 3.26.2-2
+  * [ded0bd68] Update Vcs fields for migration to https://salsa.debian.org/
+  * [1683da7a] Bump debhelper compat to 11
+  * [2a9eb193] Drop obsolete headerbar patches (Closes: #881463)
+  * [2ab63040] releasing package eog version 3.26.2-3
+  * [5d0f570d] debian/watch: Watch for unstable releases
+  * [eb16174c] New upstream development release
+  * [5a8c2546] Build with meson
+  * [ce2a7c45] releasing package eog version 3.27.90-1
+  * [b9353e0a] Add workaround for Ubuntu translations issue
+  * [242e2a7e] o
+  * [b4933629] clean up pot from Ubuntu build
+  * [eb0832cb] revert accidental changes for Ubuntu
+  * [64b2e09a] New upstream development release
+  * [26d67dea] Revert "debian/watch: Watch for unstable releases"
+  * [58588d79] releasing package eog version 3.28.0-1
+  * [c78e89ac] releasing package eog version 3.28.0-2
+  * [123e5f63] rm accidentally committed temp file
+  * [dcb4deb1] debian/gbp.conf: Add more options
+  * [46a9c9aa] New upstream release
+  * [34ea5b21] Bump Standards-Version to 4.1.4
+  * [881b7b74] releasing package eog version 3.28.2-1
+  * [95ac3164] Drop unneeded dh_translations overrides
+  * [d5c9e9ca] Update debian/gbp.conf
+  * [4f0fccde] New upstream release
+  * [e5c31009] releasing package eog version 3.28.4-1
+
+  [ Simon McVittie ]
+  * [5818cbb5] New upstream release
+  * [51a308f7] adjust to new help location
+  * [f49399ad] increase build-dependencies
+  * [4e1f95e1] upload to experimental
+  * [5f6d8ec6] New upstream release
+  * [973643d7] Set Rules-Requires-Root to no
+  * [ca4e2902] Standards-Version: 4.1.5 (no changes required)
+  * [220e27e5] 3.28.3-1
+
+  [ Jean Schurger ]
+  * [6295aad7] * New upstream release * Bump Standards-Version to 3.9.5. No further changes.
+
+  [ Jackson Doak ]
+  * [39ad25c2] Drop depends on gnome-icon-theme, it's no longer needed
+  * [ed088a6f] New upstream release
+
+  [ Iain Lane ]
+  * [5d001bf0] New upstream release 3.14.3
+  * [2d64ad2e] releasing package eog version 3.14.3-1
+  * [a9fa3330] New upstream release 3.14.4
+  * [2c3d1e3e] disable-appmenu-when-not-needed.patch: Take a patch from Ubuntu to disable the app menu when we're showing the traditional menu, which has all of the same actions.
+  * [74a6e6ba] releasing package eog version 3.14.4-1
+  * [3c7d64a0] New upstrem release.
+  * [d35e91ac] Update menubar patches
+  * [c111bf4c] releasing package eog version 3.18.2-1
+  * [a22de821] debian/watch: Find unstable versions too.
+  * [7133f85b] debian/patches/0001-Add-a-traditional-menu-bar.patch, debian/patches/0002-Show-traditional-title-bar-in-unity.patch: Fix to apply, and make smaller while achieving the same result (thanks, GTK!).
+  * [5d687bdd] changelog entry for debian/patches/Put-Exit-Fullscreen-button-into-toolbar.patch drop
+  * [104e57fc] releasing package eog version 3.19.92-2
+
+  [ Laurent Bigonville ]
+  * [18a3fda6] Release to unstable
+
+  [ Tim Lunn ]
+  * [b79c791d] releasing package eog version 3.27.91-1
+  * [1c95c1a9] New upstream development release
+  * [2af2441a] Add various build-deps to eog-dev as a workaround for bug #893067. This will allow eog-plugins to build until there is a better fix  (Closes: #893603)
+  * [27cf72b9] Fix bug ref in changelog
+  * [51830f09] New upstream release
+  * [534e9356] releasing package eog version 3.28.1-1
+
+  [ jongkyung.woo ]
+  * [4172c1db] Initial empty repository
+
+  [ donghun ]
+  * [716cb9ca] Added the patch to apply deactivate button of gallery in full screen toolbar when slideshow mode
+  * [0ada97c2] Added Korean translation patch to full screen toolbar button
+  * [e3ea63c9] Added the patch to fixed double free error when creating thumbnail after saving
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sun, 01 Dec 2019 15:00:57 +0900
+
 eog (3.28.4-2) unstable; urgency=medium
 
   * Restore -Wl,-O1 to our LDFLAGS
