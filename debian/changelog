@@ -1,3 +1,15 @@
+eog (3.28.4-2+grm2u2) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [3ef25436] Rebuild gooroom-2.0
+
+  [ donghun ]
+  * [2f6ba7fc] [Bug:1776] Changed to 1 pixel error when saving after JPEG rotation (_save_jpeg_as_jpeg to _save_any_as_jpeg)
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 13 Feb 2020 18:32:17 +0900
+
 eog (3.28.4-2+grm2u1) unstable; urgency=medium
 
   [ Loïc Minier ]
