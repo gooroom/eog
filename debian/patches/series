@@ -3,3 +3,4 @@ gooroom-full-screen-toolbar-button-Korean-translation.patch
 gooroom-double-free-error-when-creating-thumbnail-after.patch
 gooroom-changed-to-1-pixel-error-when-saving-after-rotating.patch
 gooroom-image-name-ellipsize.patch
+gooroom-sidebar-title-label.patch
