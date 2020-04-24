@@ -4,3 +4,4 @@ gooroom-double-free-error-when-creating-thumbnail-after.patch
 gooroom-changed-to-1-pixel-error-when-saving-after-rotating.patch
 gooroom-image-name-ellipsize.patch
 gooroom-sidebar-title-label.patch
+gooroom-added-an-item-to-the-popup-menu-after-the-image-is-opened.patch
