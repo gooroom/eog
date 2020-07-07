@@ -1,3 +1,15 @@
+eog (3.28.4-2+grm2u3) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [10ab0326] [Bug:2042] Fixed UI error when the image name is long in the image properties dialog
+  * [7fbc1fd0] [Bug:2012] Specify a label instead of the toggle button on the side bar
+  * [ffc3f68a] [Bug:2010] Added an item to popup-menu when open-with-menu item is greater than zero
+  * [d24e5099] [Bug:2097] Fixed the error using the same function when opening a filemanager
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 07 Jul 2020 09:38:19 +0900
+
 eog (3.28.4-2+grm2u2) unstable; urgency=medium
 
   [ jongkyung.woo ]
