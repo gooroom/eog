@@ -9,3 +9,4 @@ gooroom-implement-folder-button-click-events.patch
 gooroom-zoom-entry-digit-only-available.patch
 gooroom-preferences-dialog-remove-button.patch
 gooroom-exif-data-make-label-selectable.patch
+gooroom-remove-full-screen-button-on-fullscreen-toolbar.patch
