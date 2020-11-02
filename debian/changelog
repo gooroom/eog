@@ -1,3 +1,16 @@
+eog (3.28.4-2+grm2u5) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [ade15004] [Bug:2625] Hide the bottom button of plugin_manager
+  * [3238aba8] [Bug:2494] Fixed popup menu not to appear when there ia not the ExifData
+  * [e171252e] [Bug:2596] Removed a full screen button on the fullscreen toolbar
+  * [cbfbc0a4] [Bug:2605] Fixed gallery button not appear in EOG_WINDOW_MODE_SLIDESHOW
+  * [29968d20] [Bug:2496] Fixed gallery status after slideshow
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 02 Nov 2020 15:58:45 +0900
+
 eog (3.28.4-2+grm2u4) unstable; urgency=medium
 
   [ boyeon.choi ]
