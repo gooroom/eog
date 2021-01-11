@@ -13,3 +13,4 @@ gooroom-remove-full-screen-button-on-fullscreen-toolbar.patch
 gooroom-gallery-button-set-sensitive.patch
 gooroom-gallery-status-save-before-slideshow.patch
 gooroom-gear-menu-focus-out-the-view-after-clicking-check-boxes.patch
+gooroom-file-chooser-show-all-columns.patch
