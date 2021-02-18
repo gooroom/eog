@@ -43,6 +43,10 @@
 #include <gtk/gtk.h>
 #include <gio/gio.h>
 #include <glib/gi18n.h>
+#ifdef HAVE_LIBPORTAL
+#include <libportal/portal.h>
+#include <libportal/portal-gtk3.h>
+#endif
 
 void
 eog_util_show_help (const gchar *section, GtkWindow *parent)
@@ -503,3 +507,81 @@ eog_util_show_file_in_filemanager (GFile *file, GtkWindow *toplevel)
 	if (!done)
 		_eog_util_show_file_in_filemanager_fallback (file, toplevel);
 }
+
+/* Portal */
+
+#ifdef HAVE_LIBPORTAL
+gboolean
+eog_util_is_running_inside_flatpak (void)
+{
+	return g_file_test ("/.flatpak-info", G_FILE_TEST_EXISTS);
+}
+
+static void
+open_with_flatpak_portal_cb (GObject *source, GAsyncResult *result, gpointer user_data)
+{
+	XdpPortal *portal = XDP_PORTAL (source);
+	g_autoptr(GError) error = NULL;
+
+	if (!xdp_portal_open_uri_finish (portal, result, &error)
+	    && !g_error_matches(error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+	{
+		g_warning ("Failed to open file via portal: %s", error->message);
+	}
+}
+
+void
+eog_util_open_file_with_flatpak_portal (GFile *file, GtkWindow *window)
+{
+	g_autoptr(XdpPortal) portal = NULL;
+	g_autofree gchar *uri = NULL;
+	XdpParent *parent = NULL;
+
+	portal = xdp_portal_new ();
+	parent = xdp_parent_new_gtk (window);
+	uri = g_file_get_uri (file);
+
+	xdp_portal_open_uri (portal,
+			     parent,
+			     uri,
+			     XDP_OPEN_URI_FLAG_ASK,
+			     NULL,
+			     open_with_flatpak_portal_cb,
+			     NULL);
+	xdp_parent_free (parent);
+}
+
+static void
+set_wallpaper_with_portal_cb (GObject *source, GAsyncResult *result, gpointer user_data)
+{
+        XdpPortal *portal = XDP_PORTAL (source);
+        g_autoptr(GError) error = NULL;
+
+        if (!xdp_portal_set_wallpaper_finish (portal, result, &error)
+            && !g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+        {
+                g_warning ("Failed to set wallpaper via portal: %s", error->message);
+        }
+}
+
+void
+eog_util_set_wallpaper_with_portal (GFile *file, GtkWindow *window)
+{
+        g_autoptr(XdpPortal) portal = NULL;
+        g_autofree gchar *uri = NULL;
+        XdpParent *parent = NULL;
+
+        portal = xdp_portal_new ();
+        parent = xdp_parent_new_gtk (window);
+        uri = g_file_get_uri (file);
+
+        xdp_portal_set_wallpaper (portal,
+                                  parent,
+                                  uri,
+                                  XDP_WALLPAPER_FLAG_BACKGROUND | XDP_WALLPAPER_FLAG_PREVIEW,
+                                  NULL,
+                                  set_wallpaper_with_portal_cb,
+                                  NULL);
+        xdp_parent_free (parent);
+}
+#endif

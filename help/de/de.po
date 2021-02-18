@@ -1,17 +1,15 @@
 # German translation of eog manual.
-#
 # Jan Arne Petersen <jpetersen@jpetersen.org>, 2006.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2010-2012, 2017-2018.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2010-2012, 2017-2018, 2020.
 # Andre Klapper <ak-47@gmx.net>, 2009.
 # Felix Riemann <friemann@svn.gnome.org>, 2009.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2011, 2015.
 # Gabor Karsay <gabor.karsay@gmx.at>, 2012.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: eog manual\n"
-"POT-Creation-Date: 2018-08-30 17:05+0000\n"
-"PO-Revision-Date: 2018-09-01 23:42+0200\n"
+"POT-Creation-Date: 2020-08-30 10:30+0000\n"
+"PO-Revision-Date: 2020-08-31 19:17+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -19,18 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Lokalize 20.08.0\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Jan Arne Petersen <jpetersen@jpetersen.org>, 2006\n"
-"Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2010-2012, "
-"2017-2018\n"
+"Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2010-2012, 2017-2018, "
+"2020\n"
 "Felix Riemann <friemann@svn.gnome.org>, 2009\n"
 "Christian Kirbach <Christian.Kirbach@googlemail.com>, 2011, 2012, 2014-2015, "
-"2017"
+"2017, 2019\n"
+"Stephan Woidowski <swoidowski@t-online.de>, 2020"
 
 #. (itstool) path: info/desc
 #: C/bug-filing.page:7
@@ -40,15 +39,15 @@ msgstr "Einen Fehlerbericht zum <app>Bildbetrachter</app> schreiben."
 #. (itstool) path: credit/name
 #: C/bug-filing.page:11 C/commandline.page:12 C/copy-paste.page:14
 #: C/default.page:11 C/default.page:15 C/desktop-background.page:11
-#: C/develop.page:10 C/documentation.page:9 C/edit.page:11
-#: C/flip-rotate.page:11 C/format-change.page:11 C/formats-save.page:11
-#: C/formats-view.page:12 C/index.page:13 C/introduction.page:11 C/open.page:11
-#: C/plugin-exif-digital.page:11 C/plugin-fullscreen-double-click.page:11
-#: C/plugin-python-console.page:11 C/plugin-send-by-mail.page:11
-#: C/plugin-slideshow-shuffle.page:12 C/plugins.page:13
-#: C/plugin-zoom-width.page:11 C/preferences.page:13 C/print.page:11
+#: C/develop.page:10 C/documentation.page:9 C/edit.page:11 C/flip-rotate.page:11
+#: C/format-change.page:11 C/formats-save.page:11 C/formats-view.page:12
+#: C/index.page:13 C/introduction.page:11 C/open.page:11
+#: C/plugin-exif-digital.page:13 C/plugin-fullscreen-double-click.page:12
+#: C/plugin-python-console.page:12 C/plugin-send-by-mail.page:12
+#: C/plugin-slideshow-shuffle.page:13 C/plugins.page:13
+#: C/plugin-zoom-width.page:12 C/preferences.page:14 C/print.page:11
 #: C/rename-multiple.page:12 C/shortcuts.page:11 C/slideshow.page:13
-#: C/translate.page:10 C/view.page:11 C/zoom.page:12
+#: C/translate.page:10 C/view.page:12 C/zoom.page:12
 msgid "Tiffany Antopolski"
 msgstr "Tiffany Antopolski"
 
@@ -57,14 +56,14 @@ msgstr "Tiffany Antopolski"
 #: C/default.page:19 C/desktop-background.page:15 C/develop.page:15
 #: C/documentation.page:14 C/edit.page:19 C/flip-rotate.page:15
 #: C/format-change.page:19 C/formats-save.page:19 C/formats-view.page:16
-#: C/introduction.page:15 C/open.page:15 C/plugin-exif-digital.page:19
-#: C/plugin-fullscreen-background.page:15
-#: C/plugin-fullscreen-double-click.page:15 C/plugin-picasa.page:15
-#: C/plugin-python-console.page:15 C/plugin-send-by-mail.page:15
-#: C/plugin-slideshow-shuffle.page:16 C/plugins.page:21
-#: C/plugin-zoom-width.page:15 C/preferences.page:17 C/print.page:15
+#: C/introduction.page:15 C/open.page:15 C/plugin-exif-digital.page:21
+#: C/plugin-fullscreen-background.page:16
+#: C/plugin-fullscreen-double-click.page:16 C/plugin-picasa.page:16
+#: C/plugin-python-console.page:16 C/plugin-send-by-mail.page:16
+#: C/plugin-slideshow-shuffle.page:17 C/plugins.page:21
+#: C/plugin-zoom-width.page:16 C/preferences.page:18 C/print.page:15
 #: C/rename-multiple.page:16 C/shortcuts.page:15 C/slideshow.page:17
-#: C/translate.page:19 C/view.page:15 C/zoom.page:16
+#: C/translate.page:19 C/view.page:16 C/zoom.page:16
 msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
@@ -92,10 +91,10 @@ msgid ""
 msgstr ""
 "Falls Sie auf Probleme mit dem Bildbetrachter stoßen, beispielsweise "
 "Programmabstürze oder unerwartete Verhaltensweisen, oder falls Sie ein "
-"bestimmtes Funktionsmerkmal vermissen, erstellen Sie einen "
-"<em>Fehlerbericht</em>. Besuchen Sie hierzu <link href=\"https://gitlab."
-"gnome.org/GNOME/eog/issues/\"/>. Fehlerberichte helfen Softwareentwicklern, "
-"Probleme zu erfassen, so dass deren Ursachen beseitigt werden können."
+"bestimmtes Funktionsmerkmal vermissen, erstellen Sie einen <em>Fehlerbericht</"
+"em>. Besuchen Sie hierzu <link href=\"https://gitlab.gnome.org/GNOME/eog/"
+"issues/\"/>. Fehlerberichte helfen Softwareentwicklern, Probleme zu erfassen, "
+"so dass deren Ursachen beseitigt werden können."
 
 #. (itstool) path: page/p
 #: C/bug-filing.page:27
@@ -114,19 +113,25 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/bug-filing.page:30
+#| msgid ""
+#| "Once you have an account, log in, and click on <gui>New issue</gui>. "
+#| "Before reporting a bug, please read the <link href=\"https://bugzilla."
+#| "gnome.org/page.cgi?id=bug-writing.html\">bug writing guidelines</link>, "
+#| "and please <link href=\"https://gitlab.gnome.org/GNOME/eog/issues"
+#| "\">browse</link> for the bug to see if it already exists."
 msgid ""
 "Once you have an account, log in, and click on <gui>New issue</gui>. Before "
-"reporting a bug, please read the <link href=\"https://bugzilla.gnome.org/"
-"page.cgi?id=bug-writing.html\">bug writing guidelines</link>, and please "
-"<link href=\"https://gitlab.gnome.org/GNOME/eog/issues\">browse</link> for "
-"the bug to see if it already exists."
+"reporting a bug, please read the <link href=\"https://wiki.gnome.org/"
+"Community/GettingInTouch/BugReportingGuidelines\">bug writing guidelines</"
+"link>, and please <link href=\"https://gitlab.gnome.org/GNOME/eog/issues"
+"\">browse</link> for the bug to see if it already exists."
 msgstr ""
 "Sobald die Erstellung des Kontos abgeschlossen ist, melden Sie sich an und "
 "klicken Sie auf <gui>New Issue</gui>. Bevor Sie einen Fehler melden, lesen "
-"Sie bitte die <link href=\"https://bugzilla.gnome.org/page.cgi?id=bug-"
-"writing.html\">bug writing guidelines</link> und <link href=\"https://gitlab."
-"gnome.org/GNOME/eog/issues\">schauen Sie bitte nach</link>, ob der Fehler "
-"vielleicht schon gemeldet wurde."
+"Sie bitte die <link href=\"https://wiki.gnome.org/Community/GettingInTouch/"
+"BugReportingGuidelines\">bug writing guidelines</link> und <link href="
+"\"https://gitlab.gnome.org/GNOME/eog/issues\">schauen Sie bitte nach</link>, "
+"ob der Fehler vielleicht schon gemeldet wurde."
 
 #. (itstool) path: page/p
 #: C/bug-filing.page:34
@@ -145,8 +150,8 @@ msgstr ""
 msgid ""
 "Your report will be given an ID number, and its status will be updated as it "
 "is being dealt with. Bugs can take a while to be fixed, and the software "
-"developers might ask you for further information to help them figure out "
-"what the problem is."
+"developers might ask you for further information to help them figure out what "
+"the problem is."
 msgstr ""
 "Ihr Bericht erhält eine Kennungsnummer. Der Status des Berichts wird "
 "aktualisiert, sobald jemand sich darum kümmert. Die Fehlerbeseitigung kann "
@@ -170,8 +175,8 @@ msgstr ""
 
 #. (itstool) path: credit/name
 #: C/commandline.page:16 C/copy-paste.page:18 C/edit.page:15
-#: C/format-change.page:15 C/formats-save.page:15 C/plugin-exif-digital.page:15
-#: C/plugin-fullscreen-background.page:11 C/plugin-picasa.page:11
+#: C/format-change.page:15 C/formats-save.page:15 C/plugin-exif-digital.page:17
+#: C/plugin-fullscreen-background.page:12 C/plugin-picasa.page:12
 #: C/plugins.page:17
 msgid "Fabiana Simões"
 msgstr "Fabiana Simões"
@@ -211,8 +216,8 @@ msgid ""
 "You can open a specific folder by typing the folder name after the <cmd>eog</"
 "cmd> command:"
 msgstr ""
-"Sie können einen bestimmten Ordner öffnen, indem Sie den Ordnernamen nach "
-"dem <cmd>eog</cmd>-Befehl eingeben:"
+"Sie können einen bestimmten Ordner öffnen, indem Sie den Ordnernamen nach dem "
+"<cmd>eog</cmd>-Befehl eingeben:"
 
 #. (itstool) path: page/screen
 #: C/commandline.page:38
@@ -288,12 +293,11 @@ msgstr "Ein Bild kopieren und einfügen"
 #. (itstool) path: page/p
 #: C/copy-paste.page:28
 msgid ""
-"To copy a picture from the image viewer into another application, right-"
-"click on the picture and choose <gui>Copy</gui>."
+"To copy a picture from the image viewer into another application, right-click "
+"on the picture and choose <gui>Copy</gui>."
 msgstr ""
 "Um ein Bild vom Bildbetrachter in eine andere Anwendung zu kopieren, klicken "
-"Sie mit der rechten Maustaste auf das Bild und wählen Sie <gui>Kopieren</"
-"gui>."
+"Sie mit der rechten Maustaste auf das Bild und wählen Sie <gui>Kopieren</gui>."
 
 #. (itstool) path: page/p
 #: C/copy-paste.page:31
@@ -329,9 +333,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/default.page:30
+#| msgid ""
+#| "In the <app>files app</app>, right click the file and choose "
+#| "<gui>Properties</gui>."
 msgid ""
-"In the <app>files app</app>, right click the file and choose "
-"<gui>Properties</gui>."
+"In the <app>Files app</app>, right click the file and choose <gui>Properties</"
+"gui>."
 msgstr ""
 "Klicken Sie in der <app>Dateiverwaltung</app> mit der rechten Maustaste auf "
 "die Datei und wählen Sie <gui>Eigenschaften</gui>."
@@ -349,8 +356,8 @@ msgstr ""
 #: C/default.page:38
 msgid "Select the <gui>Image Viewer</gui> and click <gui>Set as default</gui>."
 msgstr ""
-"Wählen Sie den <app>Bildbetrachter</app> und klicken Sie auf <gui>Als "
-"Vorgabe festlegen</gui>."
+"Wählen Sie den <app>Bildbetrachter</app> und klicken Sie auf <gui>Als Vorgabe "
+"festlegen</gui>."
 
 #. (itstool) path: item/p
 #: C/default.page:40
@@ -361,9 +368,9 @@ msgid ""
 msgstr ""
 "Falls der <app>Bildbetrachter</app> nicht in der Liste der <gui>Empfohlenen "
 "Anwendungen</gui> erscheint, klicken Sie auf <gui>Weitere Anwendungen "
-"anzeigen</gui>, woraufhin die Liste <gui>Weitere Anwendungen</gui> "
-"erscheint. Wählen Sie <app>Bildbetrachter</app> und klicken Sie auf <gui>Als "
-"Vorgabe festlegen</gui>."
+"anzeigen</gui>, woraufhin die Liste <gui>Weitere Anwendungen</gui> erscheint. "
+"Wählen Sie <app>Bildbetrachter</app> und klicken Sie auf <gui>Als Vorgabe "
+"festlegen</gui>."
 
 #. (itstool) path: item/p
 #: C/default.page:46
@@ -376,8 +383,8 @@ msgid ""
 "In future, when you double-click a file of the same type, it will open up in "
 "the image viewer."
 msgstr ""
-"In der Zukunft wird bei einem Doppelklick auf eine Datei dieses Typs diese "
-"im Bildbetrachter geöffnet."
+"In der Zukunft wird bei einem Doppelklick auf eine Datei dieses Typs diese im "
+"Bildbetrachter geöffnet."
 
 #. (itstool) path: info/desc
 #: C/desktop-background.page:7
@@ -408,10 +415,10 @@ msgid ""
 "gui>, the message will disappear."
 msgstr ""
 "Dadurch wird unmittelbar für den Arbeitsflächenhintergrund das Bild "
-"verwendet, das im <app>Bildbetrachter</app> geöffnet ist. Sie werden "
-"gefragt, ob das Bild im Einstellungsfenster <gui>Hintergrund</gui> noch "
-"angepasst werden soll. Falls Sie auf <gui>Verbergen</gui> klicken, wird "
-"diese Meldung ausgeblendet."
+"verwendet, das im <app>Bildbetrachter</app> geöffnet ist. Sie werden gefragt, "
+"ob das Bild im Einstellungsfenster <gui>Hintergrund</gui> noch angepasst "
+"werden soll. Falls Sie auf <gui>Verbergen</gui> klicken, wird diese Meldung "
+"ausgeblendet."
 
 #. (itstool) path: info/desc
 #: C/develop.page:7
@@ -419,8 +426,7 @@ msgid "Improve the <app>Image Viewer</app>"
 msgstr "So verbessern Sie den <app>Bildbetrachter</app>"
 
 #. (itstool) path: credit/years
-#: C/develop.page:12 C/documentation.page:11 C/index.page:15
-#: C/translate.page:12
+#: C/develop.page:12 C/documentation.page:11 C/index.page:15 C/translate.page:12
 msgid "2011"
 msgstr "2011"
 
@@ -446,15 +452,15 @@ msgid ""
 "PlaceForNewIdeas\">help develop</link> the <app>Image Viewer</app>, you can "
 "get in touch with the developers using <link href=\"https://cbe005.chat."
 "mibbit.com/?url=irc%3A%2F%2Firc.gnome.org%2Feog\">irc</link>, or via our "
-"<link href=\"https://mail.gnome.org/mailman/listinfo/eog-list\">mailing "
-"list</link>."
+"<link href=\"https://mail.gnome.org/mailman/listinfo/eog-list\">mailing list</"
+"link>."
 msgstr ""
 "Wenn Sie bei der <link href=\"https://wiki.gnome.org/Apps/EyeOfGnome/"
 "PlaceForNewIdeas\">Entwicklung</link> des <app>Bildbetrachters</app> helfen "
 "möchten, so können Sie mittels <link href=\"https://cbe005.chat.mibbit.com/?"
 "url=irc%3A%2F%2Firc.gnome.org%2Feog\">IRC</link> oder über unsere <link href="
-"\"https://mail.gnome.org/mailman/listinfo/eog-list\">Mailing-Liste</link> "
-"mit den Entwicklern in Kontakt treten."
+"\"https://mail.gnome.org/mailman/listinfo/eog-list\">Mailing-Liste</link> mit "
+"den Entwicklern in Kontakt treten."
 
 #. (itstool) path: info/desc
 #: C/documentation.page:6
@@ -479,16 +485,16 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/documentation.page:23
 msgid ""
-"To contribute to the Documentation Project, feel free to get in touch with "
-"us using <link href=\"https://cbe003.chat.mibbit.com/?url=irc%3A%2F%2Firc."
-"gnome.org%2Fdocs\">irc</link>, or via our <link href=\"https://mail.gnome."
-"org/mailman/listinfo/gnome-doc-list\">mailing list</link>."
+"To contribute to the Documentation Project, feel free to get in touch with us "
+"using <link href=\"https://cbe003.chat.mibbit.com/?url=irc%3A%2F%2Firc.gnome."
+"org%2Fdocs\">irc</link>, or via our <link href=\"https://mail.gnome.org/"
+"mailman/listinfo/gnome-doc-list\">mailing list</link>."
 msgstr ""
 "Um das Dokumentations-Projekt zu unterstützen, sind Sie herzlich eingeladen "
 "mit uns in Kontakt zu treten mittels <link href=\"https://cbe003.chat.mibbit."
-"com/?url=irc%3A%2F%2Firc.gnome.org%2Fdocs\">IRC</link> oder über unsere "
-"<link href=\"http://mail.gnome.org/mailman/listinfo/gnome-doc-list\">Mailing-"
-"Liste</link>."
+"com/?url=irc%3A%2F%2Firc.gnome.org%2Fdocs\">IRC</link> oder über unsere <link "
+"href=\"http://mail.gnome.org/mailman/listinfo/gnome-doc-list\">Mailing-Liste</"
+"link>."
 
 #. (itstool) path: page/p
 #: C/documentation.page:25
@@ -522,8 +528,8 @@ msgstr "Ein Bild bearbeiten"
 #: C/edit.page:26
 msgid ""
 "The image viewer can only be used to view pictures; it can't edit them. For "
-"that, you must use a picture editing application, like the GIMP image "
-"editor. To open a picture for editing in a different application:"
+"that, you must use a picture editing application, like the GIMP image editor. "
+"To open a picture for editing in a different application:"
 msgstr ""
 "Der Bildbetrachter ist nur zur Bildanzeige gedacht und nicht zur "
 "Bildbearbeitung. Dafür müssen Sie ein Bearbeitungsprogramm verwenden, wie "
@@ -534,8 +540,8 @@ msgstr ""
 msgid ""
 "Click <gui style=\"menuitem\">Open With</gui>, or right-click on the image."
 msgstr ""
-"Klicken Sie auf <gui style=\"menuitem\">Öffnen mit</gui> oder klicken Sie "
-"mit der rechten Maustaste auf das Bild."
+"Klicken Sie auf <gui style=\"menuitem\">Öffnen mit</gui> oder klicken Sie mit "
+"der rechten Maustaste auf das Bild."
 
 #. (itstool) path: item/p
 #: C/edit.page:35
@@ -552,8 +558,8 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/edit.page:42
 msgid ""
-"The <app>image viewer</app> will detect that the picture has been changed "
-"and will reload it."
+"The <app>image viewer</app> will detect that the picture has been changed and "
+"will reload it."
 msgstr ""
 "Der <app>Bildbetrachter</app> erkennt, dass das Bild geändert wurde und lädt "
 "es neu."
@@ -566,8 +572,8 @@ msgstr "Ein Bild löschen"
 #. (itstool) path: section/p
 #: C/edit.page:50
 msgid ""
-"To delete a picture that you don't want any more, right-click the picture "
-"and select <gui>Move to Trash</gui>."
+"To delete a picture that you don't want any more, right-click the picture and "
+"select <gui>Move to Trash</gui>."
 msgstr ""
 "Um ein nicht mehr benötigtes Bild zu löschen, klicken Sie mit der rechten "
 "Maustaste auf das Bild und wählen Sie <gui>In den Papierkorb verschieben</"
@@ -687,8 +693,8 @@ msgstr "<keyseq><key>Strg</key><key>Umschalt</key><key>R</key></keyseq>"
 #. (itstool) path: info/desc
 #: C/format-change.page:7
 msgid ""
-"You can convert pictures from one image format to another. You can do this "
-"in a batch for multiple pictures."
+"You can convert pictures from one image format to another. You can do this in "
+"a batch for multiple pictures."
 msgstr ""
 "Sie können Bilder von einem Format in ein anderes umwandeln, auch in einer "
 "Stapelverarbeitung mit mehreren Bildern."
@@ -728,8 +734,8 @@ msgid ""
 "want to convert your image to. The file extension is the part of the file "
 "name after the period."
 msgstr ""
-"Ändern Sie im Feld <gui>Name</gui> die <em>Erweiterung</em> des Dateityps, "
-"in den Sie das Bild umwandeln wollen. Die Dateierweiterung ist der Teil des "
+"Ändern Sie im Feld <gui>Name</gui> die <em>Erweiterung</em> des Dateityps, in "
+"den Sie das Bild umwandeln wollen. Die Dateierweiterung ist der Teil des "
 "Dateinamens nach dem Punkt."
 
 #. (itstool) path: item/p
@@ -772,8 +778,8 @@ msgid ""
 "choose the file format from the drop down box."
 msgstr ""
 "Der Bildbetrachter versucht anhand der von Ihnen gewählten Dateiendung zu "
-"bestimmen, in welchem Dateiformat ein Bild gespeichert werden soll. Falls "
-"die eingegebene Dateiendung nicht erkannt werden kann oder Sie nicht wissen, "
+"bestimmen, in welchem Dateiformat ein Bild gespeichert werden soll. Falls die "
+"eingegebene Dateiendung nicht erkannt werden kann oder Sie nicht wissen, "
 "welche Sie verwenden wollen oder sollen, klicken Sie auf <gui>Unterstützte "
 "Bilddateien</gui> im <gui>Bild speichern</gui>-Fenster. Dann können Sie das "
 "Dateiformat in einer Auswahlliste wählen."
@@ -796,10 +802,10 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/format-change.page:61
 msgid ""
-"In the <link xref=\"view#image-gallery\">image gallery</link>, press and "
-"hold down the <key>Ctrl</key> key and select the pictures you want to "
-"convert one by one. Alternatively, press <keyseq><key>Ctrl</key><key>A</"
-"key></keyseq> to select all of the pictures."
+"In the <link xref=\"view#image-gallery\">image gallery</link>, press and hold "
+"down the <key>Ctrl</key> key and select the pictures you want to convert one "
+"by one. Alternatively, press <keyseq><key>Ctrl</key><key>A</key></keyseq> to "
+"select all of the pictures."
 msgstr ""
 "Drücken Sie die <key>Strg</key>-Taste und klicken Sie in der <link xref="
 "\"view#image-gallery\">Bildersammlung</link> auf die Bilder, die Sie "
@@ -824,24 +830,27 @@ msgstr ""
 msgctxt "_"
 msgid ""
 "external ref='figures/multiple-convert.png' "
-"md5='50b0ff184faaf2824df6dbe6f0875d52'"
+"md5='d415e9f6b1a50acd33e7f754791a49a2'"
 msgstr "ok"
 
 #. (itstool) path: item/p
 #: C/format-change.page:72
+#| msgid ""
+#| "The renamed pictures will be saved in the current folder by default. To "
+#| "save them elsewhere, change the <gui>Destination folder</gui>."
 msgid ""
-"The converted pictures will be saved in the current folder by default. If "
-"you want to save them elsewhere, change the <gui>Destination folder</gui>."
+"The converted pictures will be saved in the current folder by default. To "
+"save them elsewhere, change the <gui>Destination folder</gui>."
 msgstr ""
 "Die umgewandelten Bilder werden standardmäßig im aktuellen Ordner "
-"gespeichert. Falls Sie sie an einem anderen Ort speichern wollen, wählen Sie "
-"den Ordner in der Auswahlliste <gui>Ordner wählen</gui> aus."
+"gespeichert. Um sie an einem anderen Ort zu speichern, wählen Sie den Ort im "
+"Auswahlmenü <gui>Zielordner</gui> aus."
 
 #. (itstool) path: item/p
 #: C/format-change.page:76
 msgid ""
-"Select the file format you want to convert the pictures to from the drop-"
-"down list to the right of the <gui>Filename format</gui> box."
+"Select the file format you want to convert the pictures to from the drop-down "
+"list to the right of the <gui>Filename format</gui> box."
 msgstr ""
 "Wählen Sie das Dateiformat zur Umwandlung in der Auswahlliste rechts vom "
 "Eingabefeld <gui>Dateinamen-Format</gui> aus."
@@ -901,8 +910,8 @@ msgid ""
 "The image viewer can display pictures in a wide range of image formats, "
 "including PNG, JPEG, and TIFF."
 msgstr ""
-"Der Bildbetrachter deckt einen weiten Bereich von Grafikformaten ab, wie "
-"PNG, JPEG und TIFF."
+"Der Bildbetrachter deckt einen weiten Bereich von Grafikformaten ab, wie PNG, "
+"JPEG und TIFF."
 
 #. (itstool) path: page/title
 #: C/formats-view.page:20
@@ -1073,22 +1082,21 @@ msgstr "Einführung"
 #. (itstool) path: page/p
 #: C/introduction.page:22
 msgid ""
-"<app>Eye of GNOME</app> is an image viewer. With it, you can view pictures "
-"of <link xref=\"formats-view\">almost any type</link>. It can handle <link "
-"xref=\"view#image-gallery\">large collections</link> of pictures, and can "
-"display a <link xref=\"slideshow\">slideshow</link>. You can also make basic "
-"changes to pictures, like <link xref=\"flip-rotate\">rotating or flipping</"
-"link> them, or <link xref=\"format-change\">converting them</link> to a "
-"different file format."
+"<app>Eye of GNOME</app> is an image viewer. With it, you can view pictures of "
+"<link xref=\"formats-view\">almost any type</link>. It can handle <link xref="
+"\"view#image-gallery\">large collections</link> of pictures, and can display "
+"a <link xref=\"slideshow\">slideshow</link>. You can also make basic changes "
+"to pictures, like <link xref=\"flip-rotate\">rotating or flipping</link> "
+"them, or <link xref=\"format-change\">converting them</link> to a different "
+"file format."
 msgstr ""
-"<app>Eye of GNOME</app> ist ein Bildbetrachter. Damit können Sie Bilder "
-"<link xref=\"formats-view\">beinahe jeden Typs</link> betrachten. Das "
-"Programm kann mit <link xref=\"view#image-gallery\">großen Bildersammlungen</"
-"link> umgehen und zeigt diese auf Wunsch in einer <link xref=\"slideshow"
-"\">Diaschau</link> an. Sie können auch einfache Änderungen an Ihren Bildern "
-"vornehmen, wie beispielsweise <link xref=\"flip-rotate\">Drehen oder "
-"Spiegeln</link>, oder sie in ein anderes Dateiformat <link xref=\"format-"
-"change\">umwandeln</link>."
+"<app>Eye of GNOME</app> ist ein Bildbetrachter. Damit können Sie Bilder <link "
+"xref=\"formats-view\">beinahe jeden Typs</link> betrachten. Das Programm kann "
+"mit <link xref=\"view#image-gallery\">großen Bildersammlungen</link> umgehen "
+"und zeigt diese auf Wunsch in einer <link xref=\"slideshow\">Diaschau</link> "
+"an. Sie können auch einfache Änderungen an Ihren Bildern vornehmen, wie "
+"beispielsweise <link xref=\"flip-rotate\">Drehen oder Spiegeln</link>, oder "
+"sie in ein anderes Dateiformat <link xref=\"format-change\">umwandeln</link>."
 
 # Deutsche Übersetzung lt. http://creativecommons.org/licenses/by-sa/3.0/deed.de
 #. (itstool) path: p/link
@@ -1173,13 +1181,13 @@ msgstr "<em>Weitergabe</em>"
 #. (itstool) path: item/p
 #: C/license.page:39
 msgid ""
-"You must attribute the work in the manner specified by the author or "
-"licensor (but not in any way that suggests that they endorse you or your use "
-"of the work)."
+"You must attribute the work in the manner specified by the author or licensor "
+"(but not in any way that suggests that they endorse you or your use of the "
+"work)."
 msgstr ""
 "Sie müssen den Namen des Autors/Rechteinhabers in der von ihm festgelegten "
-"Weise nennen, aber nicht auf eine Weise, die unterstellt, dass der Autor "
-"oder Rechteinhaber Sie oder Ihre Nutzung des Werks befürwortet."
+"Weise nennen, aber nicht auf eine Weise, die unterstellt, dass der Autor oder "
+"Rechteinhaber Sie oder Ihre Nutzung des Werks befürwortet."
 
 #. (itstool) path: item/title
 #: C/license.page:46
@@ -1192,19 +1200,19 @@ msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
 msgstr ""
-"Wenn Sie das lizenzierte Werk bzw. den lizenzierten Inhalt bearbeiten oder "
-"in anderer Weise erkennbar als Grundlage für eigenes Schaffen verwenden, "
-"dürfen Sie die daraufhin neu entstandenen Werke bzw. Inhalte nur unter "
-"Verwendung von Lizenzbedingungen weitergeben, die mit denen dieses "
-"Lizenzvertrages identisch oder vergleichbar sind."
+"Wenn Sie das lizenzierte Werk bzw. den lizenzierten Inhalt bearbeiten oder in "
+"anderer Weise erkennbar als Grundlage für eigenes Schaffen verwenden, dürfen "
+"Sie die daraufhin neu entstandenen Werke bzw. Inhalte nur unter Verwendung "
+"von Lizenzbedingungen weitergeben, die mit denen dieses Lizenzvertrages "
+"identisch oder vergleichbar sind."
 
 #. (itstool) path: page/p
 #: C/license.page:53
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
-"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
-"sa/3.0/\">Commons Deed</link>."
+"For the full text of the license, see the <link href=\"http://creativecommons."
+"org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</link>, or read "
+"the full <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
+"\">Commons Deed</link>."
 msgstr ""
 "Den vollständigen Text der Lizenz finden Sie auf der <link href=\"http://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons-Webseite</"
@@ -1223,23 +1231,28 @@ msgstr "Ein Bild öffnen"
 
 #. (itstool) path: page/p
 #: C/open.page:22
+#| msgid ""
+#| "Pictures should automatically open in the image viewer when you double-"
+#| "click them in the <app>files</app> file browser. If this is not the case, "
+#| "you may need to make the image viewer the <link xref=\"default\">default "
+#| "application</link> for viewing pictures."
 msgid ""
 "Pictures should automatically open in the image viewer when you double-click "
-"them in the <app>files</app> file browser. If this is not the case, you may "
-"need to make the image viewer the <link xref=\"default\">default "
-"application</link> for viewing pictures."
+"them in the <app>Files</app> file browser. If this is not the case, you may "
+"need to make the image viewer the <link xref=\"default\">default application</"
+"link> for viewing pictures."
 msgstr ""
-"Bilder sollten automatisch im Bildbetrachter geöffnet werden, sobald Sie im "
-"<app>Dateiverwalter</app> darauf doppelklicken. Falls das nicht der Fall "
-"ist, müssen Sie den Bildbetrachter als <link xref=\"default"
+"Bilder sollten automatisch im Bildbetrachter geöffnet werden, sobald Sie in "
+"der <app>Dateiverwaltung</app> darauf doppelklicken. Sollte das nicht der "
+"Fall sein, müssen Sie den Bildbetrachter als <link xref=\"default"
 "\">Standardanwendung</link> zum Betrachten von Bildern auswählen."
 
 #. (itstool) path: page/p
 #: C/open.page:27
 msgid ""
 "Each picture you double-click will open in a new image viewer window by "
-"default, but you can <link xref=\"view\">view multiple pictures</link> in "
-"one window if you like."
+"default, but you can <link xref=\"view\">view multiple pictures</link> in one "
+"window if you like."
 msgstr ""
 "Jedes Bild, das Sie doppelklicken, wird in einem neuen <app>Bildbetrachter</"
 "app>-Fenster geöffnet. Sie können jedoch auch <link xref=\"view\">mehrere "
@@ -1269,51 +1282,38 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/plugin-exif-digital.page:7
 msgid ""
-"View information such as camera settings and histogram, geolocation, and "
-"date."
+"View information such as camera settings and histogram, geolocation, and date."
 msgstr ""
 "Informationen wie Kameraeinstellungen, Histogramm, Geoposition und Datum "
 "betrachten."
 
 #. (itstool) path: page/title
-#: C/plugin-exif-digital.page:24
+#: C/plugin-exif-digital.page:26
 msgid "View detailed information about a picture"
 msgstr "Detaillierte Informationen zu einem Bild anzeigen"
 
 #. (itstool) path: page/p
-#: C/plugin-exif-digital.page:26
+#: C/plugin-exif-digital.page:28
 msgid ""
-"Pictures taken by digital cameras are stored with a host of extra "
-"information embedded in them, such as the date that they were taken, what "
-"exposure settings were used on the camera and, in some cases, even where the "
-"picture was taken."
+"Pictures taken by digital cameras are stored with a host of extra information "
+"embedded in them, such as the date that they were taken, what exposure "
+"settings were used on the camera and, in some cases, even where the picture "
+"was taken."
 msgstr ""
 "Von Digitalkameras aufgenommene Bilder werden mit zusätzlichen eingebetteten "
 "Informationen gespeichert, zum Beispiel dem Aufnahmezeitpunkt, den "
 "Belichtungseinstellungen und in einigen Fällen auch dem Aufnahmeort."
 
 #. (itstool) path: page/p
-#: C/plugin-exif-digital.page:31
+#: C/plugin-exif-digital.page:33
 msgid "This topic shows you how to access this information."
 msgstr ""
 "Dieses Thema erläutert, wie Sie auf diese Informationen zugreifen können."
 
 #. (itstool) path: section/title
-#: C/plugin-exif-digital.page:34
+#: C/plugin-exif-digital.page:36
 msgid "Show the date in the status bar"
 msgstr "Datum in Statusleiste anzeigen"
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/plugin-exif-digital.page:36
-msgctxt "_"
-msgid ""
-"external ref='figures/prefs-plugins-date.png' "
-"md5='63c64d05bc97472bd65c3592e1c302ea'"
-msgstr "ok"
 
 #. (itstool) path: section/p
 #: C/plugin-exif-digital.page:37
@@ -1327,35 +1327,46 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/plugin-exif-digital.page:39
 msgid ""
-"To do this, open the application menu on the top bar, click <gui style="
-"\"menuitem\">Preferences</gui> and go to the <gui>Plugins</gui> tab. Then, "
-"check <gui>Date in statusbar</gui>."
+"To show the status bar, press the menu button in the top-right corner of the "
+"window and select <guiseq><gui style=\"menuitem\">Show</gui> <gui style="
+"\"menuitem\">Status Bar</gui></guiseq>."
 msgstr ""
-"Öffnen Sie hierzu das Anwendungsmenü in der oberen Leiste und klicken Sie "
-"auf <gui style=\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter "
+"Um die Statusleiste anzuzeigen, klicken Sie auf den Menüknopf rechts oben im "
+"Fenster und wählen Sie <guiseq><gui style=\"menuitem\">Anzeigen</gui><gui "
+"style=\"menuitem\">Statusleiste</gui></guiseq>."
+
+#. (itstool) path: section/p
+#: C/plugin-exif-digital.page:42
+msgid ""
+"Then, press the menu button in the top-right corner of the window, select "
+"<gui style=\"menuitem\">Preferences</gui> and go to the <gui>Plugins</gui> "
+"tab. Then, check <gui>Date in statusbar</gui>."
+msgstr ""
+"Öffnen Sie anschließend das Menü rechts oben im Fenster und wählen Sie <gui "
+"style=\"menuitem\">Einstellungen</gui>. Öffnen Sie dann den Reiter "
 "<gui>Erweiterungen</gui> und aktivieren Sie <gui>Datum in Statusleiste</gui>."
 
 #. (itstool) path: section/title
-#: C/plugin-exif-digital.page:45
+#: C/plugin-exif-digital.page:48
 msgid "Detailed Exif data"
 msgstr "Detaillierte Exif-Daten"
 
 #. (itstool) path: section/p
-#: C/plugin-exif-digital.page:46
+#: C/plugin-exif-digital.page:49
 msgid ""
 "The detailed information stored with digital photos is called <em>Exif data</"
 "em>. You can view it by installing a plugin for the image viewer."
 msgstr ""
 "Die detaillierten Informationen zu den mit digitalen Kameras aufgenommen "
-"Bildern werden <em>Exif-Daten</em> genannt. Sie können Sie durch "
-"Installieren einer Erweiterung für den Bildbetrachter anzeigen lassen."
+"Bildern werden <em>Exif-Daten</em> genannt. Sie können Sie durch Installieren "
+"einer Erweiterung für den Bildbetrachter anzeigen lassen."
 
 #. (itstool) path: item/p
 #. (itstool) path: page/p
-#: C/plugin-exif-digital.page:51 C/plugin-exif-digital.page:83
-#: C/plugin-fullscreen-background.page:31 C/plugin-picasa.page:32
-#: C/plugin-python-console.page:29 C/plugin-send-by-mail.page:30
-#: C/plugin-slideshow-shuffle.page:30
+#: C/plugin-exif-digital.page:54 C/plugin-exif-digital.page:88
+#: C/plugin-fullscreen-background.page:32 C/plugin-picasa.page:33
+#: C/plugin-python-console.page:30 C/plugin-send-by-mail.page:31
+#: C/plugin-slideshow-shuffle.page:31
 msgid ""
 "In order to enable this feature, you need to have installed <link xref="
 "\"plugins\">eog-plugins</link>."
@@ -1364,36 +1375,40 @@ msgstr ""
 "\">eog-plugins</link> installieren."
 
 #. (itstool) path: item/p
-#: C/plugin-exif-digital.page:55
+#: C/plugin-exif-digital.page:58
 msgid ""
-"If <sys>eog-plugins</sys> is installed, open the application menu on the top "
-"bar and click <gui style=\"menuitem\">Preferences</gui>, and go to the "
-"<gui>Plugins</gui> tab. Then, check <gui>Exif display</gui> and close the "
-"dialog."
+"If <sys>eog-plugins</sys> is installed, press the menu button in the top-"
+"right corner of the window, select <gui style=\"menuitem\">Preferences</gui>, "
+"and go to the <gui>Plugins</gui> tab. Then, check <gui>Exif display</gui> and "
+"close the dialog."
 msgstr ""
-"Falls <sys>eog-plugins</sys> installiert ist, öffnen Sie das Anwendungsmenü "
-"in der oberen Leiste und klicken Sie auf <gui style=\"menuitem"
-"\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</gui>. "
-"Aktivieren Sie dort <gui>Exif-Anzeige</gui> und schließen Sie den Dialog."
+"Falls <sys>eog-plugins</sys> installiert ist, öffnen Sie das Menü rechts oben "
+"im Fenster und klicken Sie auf <gui style=\"menuitem\">Einstellungen</gui>. "
+"Öffnen Sie den Reiter <gui>Erweiterungen</gui>. Aktivieren Sie dort <gui>Exif-"
+"Anzeige</gui> und schließen Sie den Dialog."
 
 #. (itstool) path: item/p
-#: C/plugin-exif-digital.page:61
+#: C/plugin-exif-digital.page:64
 msgid ""
-"Enable the <gui style=\"menuitem\">Side Pane</gui> to view the camera "
-"settings used to take the photo. To also view histograms showing the balance "
-"of colors and light/shade in the picture, select <gui>Exif display</gui> in "
-"the <gui>Plugins</gui> tab and click <gui>Preferences</gui>. Check the "
-"histograms you want to view, listed under <gui>Histogram</gui>."
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Show</gui><gui style=\"menuitem\">Side Pane</"
+"gui></guiseq> to view the camera settings used to take the photo. To also "
+"view histograms showing the balance of colors and light/shade in the picture, "
+"select <gui>Exif display</gui> in the <gui>Plugins</gui> tab and click "
+"<gui>Preferences</gui>. Check the histograms you want to view, listed under "
+"<gui>Histogram</gui>."
 msgstr ""
-"Klicken Sie auf <gui style=\"menuitem\">Seitenleiste</gui>, um die "
-"Kameraeinstellungen des Bildes anzuzeigen. Um auch ein Histogramm "
-"anzuzeigen, welches die Farbbalance und die Licht- und Schattenwerte "
-"darstellt, wählen Sie <gui>Exif-Anzeige</gui> im Reiter <gui>Erweiterungen</"
-"gui> und klicken Sie auf <gui>Einstellungen</gui>. Schauen Sie sich die "
-"gewünschten Histogramme an, die unter <gui>Histogramm</gui> angezeigt werden."
+"Klicken Sie auf den Menüknopf rechts oben im Fenster und wählen Sie "
+"<guiseq><gui style=\"menuitem\">Ansicht</gui><gui style=\"menuitem"
+"\">Seitenleiste</gui></guiseq>, um die Kameraeinstellungen bei Aufnahme des "
+"Bildes anzuzeigen. Um auch ein Histogramm anzuzeigen, welches die Farbbalance "
+"und die Licht- und Schattenwerte darstellt, wählen Sie <gui>Exif-Anzeige</"
+"gui> im Reiter <gui>Erweiterungen</gui> und klicken Sie auf "
+"<gui>Einstellungen</gui>. Schauen Sie sich die gewünschten Histogramme an, "
+"die unter <gui>Histogramm</gui> angezeigt werden."
 
 #. (itstool) path: item/p
-#: C/plugin-exif-digital.page:68
+#: C/plugin-exif-digital.page:73
 msgid ""
 "You can also view the camera settings used to take the photo in the "
 "statusbar. Select <gui>Exif display</gui> in the <gui>Plugins</gui> tab and "
@@ -1407,43 +1422,48 @@ msgstr ""
 "Statusleiste anzeigen</gui>."
 
 #. (itstool) path: section/title
-#: C/plugin-exif-digital.page:76
+#: C/plugin-exif-digital.page:81
 msgid "Display a photo location map"
 msgstr "Standortkarte eines Fotos anzeigen"
 
 #. (itstool) path: section/p
-#: C/plugin-exif-digital.page:77
+#: C/plugin-exif-digital.page:82
 msgid ""
-"Some cameras are able to attach <em>geolocation</em> information (geotags) "
-"to digital photos. Geotags are usually just the GPS coordinates (latitude "
-"and longitude) for the place where a photo was taken."
+"Some cameras are able to attach <em>geolocation</em> information (geotags) to "
+"digital photos. Geotags are usually just the GPS coordinates (latitude and "
+"longitude) for the place where a photo was taken."
 msgstr ""
 "Einige Kameras sind in der Lage, Informationen zur <em>Geoposition</em> "
-"(Geotags) zu digitalen Fotos hinzuzufügen. Geotags sind üblicherweise die "
-"GPS-Koordinaten (Breitengrad und Längengrad) des Ortes, an dem das Foto "
+"(Geotags) zu digitalen Fotos hinzuzufügen. Geotags sind üblicherweise die GPS-"
+"Koordinaten (Breitengrad und Längengrad) des Ortes, an dem das Foto "
 "aufgenommen wurde."
 
 #. (itstool) path: item/p
-#: C/plugin-exif-digital.page:87
+#: C/plugin-exif-digital.page:92
 msgid ""
-"If <sys>eog-plugins</sys> is installed, open the application menu on the top "
-"bar, click <gui style=\"menuitem\">Preferences</gui>, and go to the "
-"<gui>Plugins</gui> tab. Then, check <gui>Map</gui> and close the dialog."
+"If <sys>eog-plugins</sys> is installed, press the menu button in the top-"
+"right corner of the window, select <gui style=\"menuitem\">Preferences</gui>, "
+"and go to the <gui>Plugins</gui> tab. Then, check <gui>Map</gui> and close "
+"the dialog."
 msgstr ""
-"Falls <sys>eog-plugins</sys> installiert ist, öffnen Sie das Anwendungsmenü "
-"in der oberen Leiste und klicken Sie auf <gui style=\"menuitem"
-"\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</gui>. "
-"Aktivieren Sie dort <gui>Karte</gui> und schließen Sie den Dialog."
+"Falls <sys>eog-plugins</sys> installiert ist, öffnen Sie das Menü rechts oben "
+"im Fenster  und klicken Sie auf <gui style=\"menuitem\">Einstellungen</gui>. "
+"Öffnen Sie den Reiter <gui>Erweiterungen</gui>. Aktivieren Sie dort "
+"<gui>Karte</gui> und schließen Sie den Dialog."
 
 #. (itstool) path: item/p
-#: C/plugin-exif-digital.page:92
-msgid "Enable the <gui style=\"menuitem\">Side Pane</gui> to show the map."
+#: C/plugin-exif-digital.page:97
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Show</gui><gui style=\"menuitem\">Side Pane</"
+"gui></guiseq> to show the map."
 msgstr ""
-"Klicken Sie auf <gui style=\"menuitem\">Seitenleiste</gui>, um die Karte "
-"anzuzeigen."
+"Klicken Sie auf den Menüknopf rechts oben im Fenster und wählen Sie "
+"<guiseq><gui style=\"menuitem\">Anzeigen</gui><gui style=\"menuitem"
+"\">Seitenleiste</gui></guiseq>, um die Karte anzuzeigen."
 
 #. (itstool) path: section/p
-#: C/plugin-exif-digital.page:95
+#: C/plugin-exif-digital.page:102
 msgid ""
 "The map will show the location that a picture was taken in only if there is "
 "geolocation information attached to the photo. Many cameras do not attach "
@@ -1459,33 +1479,34 @@ msgid "Enables changing background color in fullscreen mode."
 msgstr "Aktiviert die Änderung der Hintergrundfarbe im Vollbildmodus."
 
 #. (itstool) path: page/title
-#: C/plugin-fullscreen-background.page:20
+#: C/plugin-fullscreen-background.page:21
 msgid "Change fullscreen background color"
 msgstr "Hintergrundfarbe im Vollbildmodus ändern"
 
 #. (itstool) path: page/p
-#: C/plugin-fullscreen-background.page:22
+#: C/plugin-fullscreen-background.page:23
 msgid "If you like, you can change the background color in fullscreen mode."
 msgstr ""
 "Falls gewünscht, können Sie die Farbe des Hintergrundes im Vollbildmodus "
 "ändern."
 
 #. (itstool) path: page/p
-#: C/plugin-fullscreen-background.page:24
+#: C/plugin-fullscreen-background.page:25
 msgid ""
-"To do this, open the application menu on the top bar, click <gui style="
-"\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</gui> tab. Then, "
-"check <gui>Fullscreen Background</gui> and click <gui>Preferences</gui>. "
-"Choose the color you want in fullscreen mode and close the dialog."
+"To do this, press the menu button in the top-right corner of the window, "
+"select <gui style=\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</"
+"gui> tab. Then, check <gui>Fullscreen Background</gui> and click "
+"<gui>Preferences</gui>. Choose the color you want in fullscreen mode and "
+"close the dialog."
 msgstr ""
-"Öffnen Sie das Anwendungsmenü in der oberen Leiste und klicken Sie auf <gui "
-"style=\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter "
-"<gui>Erweiterungen</gui>. Dann wählen Sie <gui>Vollbildhintergrund</gui> und "
-"klicken Sie auf <gui>Einstellungen</gui>. Wählen Sie die gewünschte Farbe "
-"für den Vollbildmodus aus und schließen Sie den Dialog."
+"Öffnen Sie das Menü rechts oben im Fenster und klicken Sie auf <gui style="
+"\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</"
+"gui>. Dann wählen Sie <gui>Vollbildhintergrund</gui> und klicken Sie auf "
+"<gui>Einstellungen</gui>. Wählen Sie die gewünschte Farbe für den "
+"Vollbildmodus aus und schließen Sie den Dialog."
 
 #. (itstool) path: page/p
-#: C/plugin-fullscreen-background.page:29
+#: C/plugin-fullscreen-background.page:30
 msgid ""
 "Now, when in fullscreen mode, the background color is the one you selected."
 msgstr ""
@@ -1497,24 +1518,12 @@ msgid "Activate fullscreen mode by double-clicking a picture."
 msgstr "Den Vollbildmodus durch einen Doppelklick auf ein Bild aktivieren."
 
 #. (itstool) path: page/title
-#: C/plugin-fullscreen-double-click.page:20
+#: C/plugin-fullscreen-double-click.page:21
 msgid "Full-screen with double-click"
 msgstr "Vollbildmodus durch Doppelklick"
 
-#. (itstool) path: page/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/plugin-fullscreen-double-click.page:23
-msgctxt "_"
-msgid ""
-"external ref='figures/prefs-plugins-fullscreen.png' "
-"md5='64a059b4311233d638a926ed707cce18'"
-msgstr "ok"
-
 #. (itstool) path: page/p
-#: C/plugin-fullscreen-double-click.page:25
+#: C/plugin-fullscreen-double-click.page:23
 msgid ""
 "If you like, you can make it so that pictures are shown full-screen when you "
 "double-click them in the image viewer."
@@ -1523,19 +1532,20 @@ msgstr ""
 "Bilder im Bildbetrachter in den Vollbildmodus geschaltet wird."
 
 #. (itstool) path: page/p
-#: C/plugin-fullscreen-double-click.page:28
+#: C/plugin-fullscreen-double-click.page:26
 msgid ""
-"To do this, open the application menu on the top bar, click <gui style="
-"\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</gui> tab. Then, "
-"check <gui>Fullscreen with double-click</gui> and close the dialog."
+"To do this, press the menu button in the top-right corner of the window, "
+"select <gui style=\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</"
+"gui> tab. Then, check <gui>Fullscreen with double-click</gui> and close the "
+"dialog."
 msgstr ""
-"Öffnen Sie das Anwendungsmenü in der oberen Leiste und klicken Sie auf <gui "
-"style=\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter "
-"<gui>Erweiterungen</gui>. Aktivieren Sie <gui>Vollbildmodus durch "
-"Doppelklick</gui> und schließen Sie den Dialog."
+"Öffnen Sie das Menü rechts oben im Fenster und klicken Sie auf <gui style="
+"\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</"
+"gui>. Aktivieren Sie <gui>Vollbildmodus durch Doppelklick</gui> und schließen "
+"Sie den Dialog."
 
 #. (itstool) path: page/p
-#: C/plugin-fullscreen-double-click.page:32
+#: C/plugin-fullscreen-double-click.page:30
 msgid ""
 "Now, double-clicking on an image will toggle between the fullscreen and "
 "normal (window) modes."
@@ -1549,34 +1559,34 @@ msgid "Easily upload pictures to PicasaWeb directly from the Image Viewer."
 msgstr "Übertragen Sie Bilder direkt aus dem Bildbetrachter zu PicasaWeb."
 
 #. (itstool) path: page/title
-#: C/plugin-picasa.page:20
+#: C/plugin-picasa.page:21
 msgid "Upload photos to <app>PicasaWeb</app>"
 msgstr "Hochladen von Fotos zu <app>PicasaWeb</app>"
 
 #. (itstool) path: page/p
-#: C/plugin-picasa.page:22
+#: C/plugin-picasa.page:23
 msgid ""
-"<em>PicasaWeb</em> is a photo album service that lets you share pictures "
-"with people online. You can add a shortcut button that provides a convenient "
-"way of uploading pictures to PicasaWeb."
+"<em>PicasaWeb</em> is a photo album service that lets you share pictures with "
+"people online. You can add a shortcut button that provides a convenient way "
+"of uploading pictures to PicasaWeb."
 msgstr ""
 "<em>PicasaWeb</em> ist ein Bilderdienst, über den Sie Bilder online für "
 "andere Benutzer freigeben können. Sie können Bilder direkt aus dem "
 "Bildbetrachter zu PicasaWeb hochladen."
 
 #. (itstool) path: page/p
-#: C/plugin-picasa.page:26
+#: C/plugin-picasa.page:27
 msgid ""
-"To do this, open the application menu on the top bar, click <gui style="
-"\"menuitem\">Preferences</gui>, go to the <gui>Plugins</gui> tab, and check "
-"<gui>PicasaWeb Uploader</gui>."
+"To do this, press the menu button in the top-right corner of the window, "
+"select <gui style=\"menuitem\">Preferences</gui>, go to the <gui>Plugins</"
+"gui> tab, and check <gui>PicasaWeb Uploader</gui>."
 msgstr ""
-"Öffnen Sie das Anwendungsmenü in der oberen Leiste und klicken Sie auf <gui "
-"style=\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter "
-"<gui>Erweiterungen</gui> und aktivieren Sie <gui>PicasaWeb-Uploader</gui>."
+"Öffnen Sie das Menü rechts oben im Fenster und klicken Sie auf <gui style="
+"\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</"
+"gui> und aktivieren Sie <gui>PicasaWeb-Uploader</gui>."
 
 #. (itstool) path: page/p
-#: C/plugin-picasa.page:29
+#: C/plugin-picasa.page:30
 msgid ""
 "This will give you a convenient <gui style=\"menuitem\">Upload to PicasaWeb</"
 "gui> menu item."
@@ -1594,12 +1604,12 @@ msgstr ""
 "Ausführen von Skripten im Bildbetrachter verwendet werden."
 
 #. (itstool) path: page/title
-#: C/plugin-python-console.page:20
+#: C/plugin-python-console.page:21
 msgid "Python console"
 msgstr "Python-Konsole"
 
 #. (itstool) path: page/p
-#: C/plugin-python-console.page:22
+#: C/plugin-python-console.page:23
 msgid ""
 "The image viewer has a plugin system which uses the Python scripting "
 "language. If you activate the <em>Python console</em>, you can gain direct "
@@ -1613,25 +1623,25 @@ msgstr ""
 "Bearbeiten von Bildern einsetzen können."
 
 #. (itstool) path: item/p
-#: C/plugin-python-console.page:33
+#: C/plugin-python-console.page:34
 msgid ""
-"Once <sys>eog-plugins</sys> is installed, open the application menu on the "
-"top bar, click <gui style=\"menuitem\">Preferences</gui>, and go to the "
-"<gui>Plugins</gui> tab."
+"Once <sys>eog-plugins</sys> is installed, press the menu button in the top-"
+"right corner of the window, select <gui style=\"menuitem\">Preferences</gui>, "
+"and go to the <gui>Plugins</gui> tab."
 msgstr ""
-"Sobald <sys>eog-plugins</sys> installiert ist, öffnen Sie das Anwendungsmenü "
-"in der oberen Leiste und klicken Sie auf <gui style=\"menuitem"
-"\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Plugins</gui>."
+"Sobald <sys>eog-plugins</sys> installiert ist, öffnen Sie das Menü rechts "
+"oben im Fenster und klicken Sie auf <gui style=\"menuitem\">Einstellungen</"
+"gui>. Öffnen Sie den Reiter <gui>Plugins</gui>."
 
 #. (itstool) path: item/p
-#: C/plugin-python-console.page:38
+#: C/plugin-python-console.page:39
 msgid "Check <gui>Python Console</gui> and click <gui>Close</gui>."
 msgstr ""
 "Aktivieren Sie <gui>Python-Konsole</gui> und klicken Sie auf <gui>Schließen</"
 "gui>."
 
 #. (itstool) path: item/p
-#: C/plugin-python-console.page:41
+#: C/plugin-python-console.page:42
 msgid ""
 "Click the <gui style=\"menuitem\">Python Console</gui> menu item to bring up "
 "the console."
@@ -1645,53 +1655,41 @@ msgid "Easily send pictures by attaching them to a new email."
 msgstr "Ein Bild als Anhang einer neuen E-Mail versenden."
 
 #. (itstool) path: page/title
-#: C/plugin-send-by-mail.page:20
+#: C/plugin-send-by-mail.page:21
 msgid "Send pictures by email"
 msgstr "Bilder als E-Mail versenden"
 
 #. (itstool) path: page/p
-#: C/plugin-send-by-mail.page:22
+#: C/plugin-send-by-mail.page:23
 msgid ""
 "You can add a button that provides a convenient way of sending pictures to "
 "people by email."
 msgstr ""
-"Sie können einen Knopf hinzufügen, über den Sie auf einfache Weise Bilder "
-"per E-Mail versenden können."
+"Sie können einen Knopf hinzufügen, über den Sie auf einfache Weise Bilder per "
+"E-Mail versenden können."
 
 #. (itstool) path: page/p
-#: C/plugin-send-by-mail.page:25
+#: C/plugin-send-by-mail.page:26
 msgid ""
-"To do this, open the application menu on the top bar, click <gui style="
-"\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</gui> tab. Then, "
-"check <gui>Send By Mail</gui> and click <gui>Close</gui>. This will give you "
-"a <gui style=\"menuitem\">Send by mail</gui> menu item."
+"To do this, press the menu button in the top-right corner of the window, "
+"select <gui style=\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</"
+"gui> tab. Then, check <gui>Send By Mail</gui> and click <gui>Close</gui>. "
+"This will give you a <gui style=\"menuitem\">Send by mail</gui> menu item."
 msgstr ""
-"Öffnen Sie das Anwendungsmenü in der oberen Leiste und klicken Sie auf "
+"Öffnen Sie das Menü rechts oben im Fenster und klicken Sie auf "
 "<gui>Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</gui>. "
 "Aktivieren Sie <gui>Als E-Mail versenden</gui> und klicken Sie auf "
 "<gui>Schließen</gui>. Dadurch erhalten Sie einen Menüeintrag namens <gui "
 "style=\"menuitem\">Als E-Mail versenden</gui>."
 
 #. (itstool) path: note/p
-#: C/plugin-send-by-mail.page:34
+#: C/plugin-send-by-mail.page:35
 msgid ""
-"<app>Evolution mail</app> must be set up to connect to your email account "
-"for this to work."
+"An installed email application must be set up to connect to your email "
+"account for this to work."
 msgstr ""
-"<app>Evolution</app> muss für Ihr E-Mail-Konto eingerichtet werden, damit "
-"dies funktioniert."
-
-#. (itstool) path: page/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/plugin-send-by-mail.page:38
-msgctxt "_"
-msgid ""
-"external ref='figures/plugin-send-by-mail.png' "
-"md5='cb5abf743a89d8209ff0c3f0ea3094de'"
-msgstr "ok"
+"Eine installierte E-Mail-Anwendung muss für Ihr E-Mail-Konto eingerichtet "
+"werden, damit dies funktioniert."
 
 #. (itstool) path: info/desc
 #: C/plugin-slideshow-shuffle.page:8
@@ -1699,31 +1697,30 @@ msgid "Show photos in a random order when playing a slideshow."
 msgstr "Fotos während einer Diaschau in einer zufälligen Reihenfolge anzeigen."
 
 #. (itstool) path: page/title
-#: C/plugin-slideshow-shuffle.page:21
+#: C/plugin-slideshow-shuffle.page:22
 msgid "Slideshow shuffle"
 msgstr "Diaschau-Mischer"
 
 #. (itstool) path: page/p
-#: C/plugin-slideshow-shuffle.page:23
+#: C/plugin-slideshow-shuffle.page:24
 msgid ""
-"You can make it so that pictures are shown in a random order when you start "
-"a <link xref=\"slideshow\">slideshow</link>."
+"You can make it so that pictures are shown in a random order when you start a "
+"<link xref=\"slideshow\">slideshow</link>."
 msgstr ""
 "Sie können einrichten, dass Ihre Bilder in einer zufälligen Reihenfolge "
 "angezeigt werden, wenn Sie diese im <link xref=\"slideshow\">Diaschau</link>-"
 "Modus betrachten."
 
 #. (itstool) path: page/p
-#: C/plugin-slideshow-shuffle.page:26
+#: C/plugin-slideshow-shuffle.page:27
 msgid ""
-"To do this, open the application menu on the top bar, click <gui style="
-"\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</gui> tab. Then, "
-"check <gui>Slideshow Shuffle</gui> and close the dialog."
+"To do this, press the menu button in the top-right corner of the window, "
+"select <gui style=\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</"
+"gui> tab. Then, check <gui>Slideshow Shuffle</gui> and close the dialog."
 msgstr ""
-"Öffnen Sie das Anwendungsmenü in der oberen Leiste und klicken Sie auf <gui "
-"style=\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter "
-"<gui>Erweiterungen</gui>. Aktivieren Sie <gui>Diaschau-Mischer</gui> und "
-"schließen Sie den Dialog."
+"Öffnen Sie das Menü rechts oben im Fenster und klicken Sie auf <gui style="
+"\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</"
+"gui>. Aktivieren Sie <gui>Diaschau-Mischer</gui> und schließen Sie den Dialog."
 
 #. (itstool) path: info/desc
 #: C/plugins.page:9
@@ -1739,8 +1736,7 @@ msgstr "Erweiterungen"
 #: C/plugins.page:28
 msgid ""
 "You can install the <sys>eog-plugins</sys> package to get extra plugins for "
-"the image viewer. Plugins add additional features, like the ones listed "
-"below."
+"the image viewer. Plugins add additional features, like the ones listed below."
 msgstr ""
 "Das Paket eog-plugins enthält eine Reihe von Erweiterungen für den "
 "<app>Bildbetrachter</app>, welcher damit um zusätzliche Funktionalität "
@@ -1800,8 +1796,8 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/plugins.page:57
 msgid ""
-"<link xref=\"plugin-exif-digital#map\">Map</link>: Display the geolocation "
-"of a digital photo on a map."
+"<link xref=\"plugin-exif-digital#map\">Map</link>: Display the geolocation of "
+"a digital photo on a map."
 msgstr ""
 "<link xref=\"plugin-exif-digital#map\">Karte</link>: Stellt die Geoposition "
 "Ihres Bildes auf einer Karte dar."
@@ -1830,8 +1826,8 @@ msgid ""
 "<link xref=\"plugin-send-by-mail\">Send By Mail</link>: Send a picture to a "
 "friend by attaching it to a new email."
 msgstr ""
-"<link xref=\"plugin-send-by-mail\">Als E-Mail versenden</link>: Versendet "
-"ein Bild als Anhang einer neuen E-Mail."
+"<link xref=\"plugin-send-by-mail\">Als E-Mail versenden</link>: Versendet ein "
+"Bild als Anhang einer neuen E-Mail."
 
 # »Zufällige Diaschau« ?
 #. (itstool) path: item/p
@@ -1849,14 +1845,17 @@ msgid ""
 "<link xref=\"plugin-zoom-width\">Zoom to fit image width</link>: Adjusts the "
 "zoom to have the pictures's full width fit into the window."
 msgstr ""
-"<link xref=\"plugin-zoom-width\">Vergrößerung auf Bildbreite anpassen</"
-"link>: Passt die Vergrößerungsstufe des Bildes so an, dass es in das Fenster "
+"<link xref=\"plugin-zoom-width\">Vergrößerung auf Bildbreite anpassen</link>: "
+"Passt die Vergrößerungsstufe des Bildes so an, dass es in das Fenster "
 "eingepasst wird."
 
 #. (itstool) path: note/p
 #: C/plugins.page:82
+#| msgid ""
+#| "You can manage plugins by using the the <link xref=\"preferences#plugins"
+#| "\">Plugins tab</link> in the Preferences window."
 msgid ""
-"You can manage plugins by using the the <link xref=\"preferences#plugins"
+"You can manage plugins by using the <link xref=\"preferences#plugins"
 "\">Plugins tab</link> in the Preferences window."
 msgstr ""
 "Sie können Ihre Erweiterungen im <link xref=\"preferences#plugins"
@@ -1870,12 +1869,12 @@ msgstr ""
 "eingepasst wird."
 
 #. (itstool) path: page/title
-#: C/plugin-zoom-width.page:20
+#: C/plugin-zoom-width.page:21
 msgid "Zoom to fit picture width"
 msgstr "Vergrößerung auf Bildbreite anpassen"
 
 #. (itstool) path: page/p
-#: C/plugin-zoom-width.page:22
+#: C/plugin-zoom-width.page:23
 msgid ""
 "Activate the <app>Zoom to fit image width</app> plugin if you want pictures "
 "to be expanded to fill the full width of the window."
@@ -1885,19 +1884,19 @@ msgstr ""
 "Fensters vollständig ausgefüllt ist."
 
 #. (itstool) path: page/p
-#: C/plugin-zoom-width.page:25
+#: C/plugin-zoom-width.page:26
 msgid ""
-"To do this, open the application menu on the top bar, click <gui style="
-"\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</gui> tab. Then, "
-"check <gui>Zoom to fit image width</gui> and close the dialog."
+"To do this, press the menu button in the top-right corner of the window, "
+"select <gui style=\"menuitem\">Preferences</gui>, and go to the <gui>Plugins</"
+"gui> tab. Then, check <gui>Zoom to fit image width</gui> and close the dialog."
 msgstr ""
-"Öffnen Sie das Anwendungsmenü in der oberen Leiste und klicken Sie auf <gui "
-"style=\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter "
-"<gui>Erweiterungen</gui>. Aktivieren Sie <gui>Vergrößerung auf Bildbreite "
-"anpassen</gui> und schließen Sie den Dialog."
+"Öffnen Sie das Menü rechts oben im Fenster und klicken Sie auf <gui style="
+"\"menuitem\">Einstellungen</gui>. Öffnen Sie den Reiter <gui>Erweiterungen</"
+"gui>. Aktivieren Sie <gui>Vergrößerung auf Bildbreite anpassen</gui> und "
+"schließen Sie den Dialog."
 
 #. (itstool) path: page/p
-#: C/plugin-zoom-width.page:29
+#: C/plugin-zoom-width.page:30
 msgid ""
 "In order to add this functionality, you will need to have installed <link "
 "xref=\"plugins\">eog-plugins</link>."
@@ -1913,42 +1912,31 @@ msgid ""
 "\"preferences#plugins\">plugins</link>."
 msgstr ""
 "<link xref=\"preferences#view\">Bildansicht</link>, <link xref="
-"\"preferences#slideshow\">Diaschau</link> und <link xref="
-"\"preferences#plugins\">Erweiterungen</link>."
+"\"preferences#slideshow\">Diaschau</link> und <link xref=\"preferences#plugins"
+"\">Erweiterungen</link>."
 
 #. (itstool) path: page/title
-#: C/preferences.page:22
+#: C/preferences.page:23
 msgid "Preferences"
 msgstr "Einstellungen"
 
 #. (itstool) path: page/p
-#: C/preferences.page:23
+#: C/preferences.page:24
 msgid ""
 "This topic explains all of the settings that you can change in the image "
-"viewer. Open the application menu on the top bar and click <gui style="
-"\"menuitem\">Preferences</gui> to start changing the preferences."
+"viewer. Press the menu button in the top-right corner of the window and "
+"select <gui style=\"menuitem\">Preferences</gui> to start changing the "
+"preferences."
 msgstr ""
-"Dieses Thema erläutert alle Einstellungen, die Sie im Bildbetrachter "
-"anpassen können. Öffnen Sie das Anwendungsmenü in der oberen Leiste und "
-"klicken Sie auf <gui style=\"menuitem\">Einstellungen</gui>, um mit den "
-"Änderungen der Einstellungen zu beginnen."
+"Dieses Thema erläutert alle Einstellungen, die Sie im Bildbetrachter anpassen "
+"können. Öffnen Sie das Menü rechts oben im Fenster und klicken Sie auf <gui "
+"style=\"menuitem\">Einstellungen</gui>, um mit den Änderungen der "
+"Einstellungen zu beginnen."
 
 #. (itstool) path: section/title
-#: C/preferences.page:30
+#: C/preferences.page:31
 msgid "Image view preferences"
 msgstr "Einstellungen zum Betrachten von Bildern"
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/preferences.page:31
-msgctxt "_"
-msgid ""
-"external ref='figures/image-view-prefs.png' "
-"md5='e47da013ab0f65ce9da3d6dfa5b0103c'"
-msgstr "ok"
 
 #. (itstool) path: item/title
 #: C/preferences.page:34
@@ -1957,15 +1945,19 @@ msgstr "Bildverbesserungen"
 
 #. (itstool) path: item/p
 #: C/preferences.page:35
+#| msgid ""
+#| "Select <gui>Smooth images when zoomed out</gui> to enable <em>image "
+#| "smoothing</em> when you zoom in and out. This makes low-resolution "
+#| "(pixelated) pictures look better by smoothing out jagged edges."
 msgid ""
-"Select <gui>Smooth images when zoomed out</gui> to enable <em>image "
-"smoothing</em> when you zoom in and out. This makes low-resolution "
-"(pixelated) pictures look better by smoothing out jagged edges."
+"Select <gui>Smooth images when zoomed out</gui> and/or <gui>Smooth images "
+"when zoomed in</gui> to enable <em>image smoothing</em>. This makes low-"
+"resolution (pixelated) pictures look better by smoothing out jagged edges."
 msgstr ""
-"Wählen Sie die Option <gui>Bild bei Vergrößerung glätten</gui>, um das Bild "
-"zu glätten, wenn Sie den Vergrößerungsfaktor ändern. Dadurch wird die "
-"Anzeigequalität von Bildern geringer Auflösung verbessert, indem die "
-"ausgefransten Ränder geglättet werden."
+"Wählen Sie die Option <gui>Bild bei Verkleinerung glätten</gui> und/oder "
+"<gui>Bild bei Vergrößerung glätten</gui>, um die <em>Glättung des Bildes</em> "
+"zu aktivieren. Dadurch wird die Anzeigequalität von Bildern geringer "
+"Auflösung verbessert, indem die ausgefransten Ränder geglättet werden."
 
 #. (itstool) path: item/p
 #: C/preferences.page:38
@@ -1978,14 +1970,14 @@ msgid ""
 "portrait photos are automatically rotated upright. The rotation is not saved "
 "until you <link xref=\"flip-rotate#rotate\">save the rotated image</link>."
 msgstr ""
-"Wenn Sie <gui>Automatische Drehung des Bildes</gui> aktivieren, werden "
-"Bilder anhand ihrer <em>Exif-Metadaten</em> automatisch gedreht. Diese "
-"Information wird von einer digitalen Kamera automatisch in die Bilddaten "
-"eingefügt und kann Details zur Haltung der Kamera während der Aufnahme "
-"enthalten. Wenn die automatische Drehung aktiviert ist, werden "
-"beispielsweise Fotos im Hochformat automatisch entsprechend gedreht. Diese "
-"Drehung wird nicht gespeichert, bis Sie <link xref=\"flip-rotate#rotate"
-"\">das gedrehte Bild tatsächlich speichern</link>."
+"Wenn Sie <gui>Automatische Drehung des Bildes</gui> aktivieren, werden Bilder "
+"anhand ihrer <em>Exif-Metadaten</em> automatisch gedreht. Diese Information "
+"wird von einer digitalen Kamera automatisch in die Bilddaten eingefügt und "
+"kann Details zur Haltung der Kamera während der Aufnahme enthalten. Wenn die "
+"automatische Drehung aktiviert ist, werden beispielsweise Fotos im Hochformat "
+"automatisch entsprechend gedreht. Diese Drehung wird nicht gespeichert, bis "
+"Sie <link xref=\"flip-rotate#rotate\">das gedrehte Bild tatsächlich "
+"speichern</link>."
 
 #. (itstool) path: item/p
 #: C/preferences.page:46
@@ -1999,49 +1991,59 @@ msgstr ""
 
 #. (itstool) path: item/title
 #: C/preferences.page:50
+msgid "Background"
+msgstr "Hinter­grund"
+
+#. (itstool) path: item/p
+#: C/preferences.page:51
+msgid "Here you can select a custom background color."
+msgstr "Wählen Sie hier eine eigene Hintergrundfarbe."
+
+#. (itstool) path: item/title
+#: C/preferences.page:54
 msgid "Transparent parts"
 msgstr "Transparente Bildbereiche"
 
 #. (itstool) path: item/p
-#: C/preferences.page:51
+#: C/preferences.page:55
 msgid ""
-"Select one of the following options to determine how the transparent parts "
-"of a picture are displayed, if it has any:"
+"Select one of the following options to determine how the transparent parts of "
+"a picture are displayed, if it has any:"
 msgstr ""
 "Wählen Sie eine der folgenden Optionen, um festzulegen, wie transparente "
 "Bereiche eines Bildes anzeigt werden sollen, falls vorhanden:"
 
 #. (itstool) path: item/p
-#: C/preferences.page:56
+#: C/preferences.page:60
 msgid "<gui>As check pattern:</gui>"
 msgstr "<gui>Als Karo-Muster:</gui>"
 
 #. (itstool) path: item/p
-#: C/preferences.page:57
+#: C/preferences.page:61
 msgid "Displays any transparent parts of the image in a check pattern."
 msgstr "Zeigt die transparenten Teile des Bildes in einem Karo-Muster an."
 
 #. (itstool) path: item/p
-#: C/preferences.page:60
+#: C/preferences.page:64
 msgid "<gui>As custom color:</gui>"
 msgstr "<gui>Als benutzerdefinierte Farbe:</gui>"
 
 #. (itstool) path: item/p
-#: C/preferences.page:61
+#: C/preferences.page:65
 msgid ""
-"Displays any transparent parts of the image in a solid color that you "
-"specify by clicking on the color selector button."
+"Displays any transparent parts of the image in a solid color that you specify "
+"by clicking on the color selector button."
 msgstr ""
 "Stellt transparente Teile des Bildes in einer von Ihnen festgelegten Farbe "
 "dar. Klicken Sie auf den Farbauswahl-Knopf, um eine Farbe auszuwählen."
 
 #. (itstool) path: item/p
-#: C/preferences.page:65
+#: C/preferences.page:69
 msgid "<gui>As background:</gui>"
 msgstr "<gui>Als Hintergrund:</gui>"
 
 #. (itstool) path: item/p
-#: C/preferences.page:66
+#: C/preferences.page:70
 msgid ""
 "Displays any transparent parts of the image in the <gui>Background</gui> "
 "color, if <gui>As custom color</gui> under <gui>Background</gui> is checked. "
@@ -2052,29 +2054,18 @@ msgstr ""
 "gui> in <gui>Hintergrund</gui> aktiviert ist."
 
 #. (itstool) path: section/title
-#: C/preferences.page:78
-msgid "Slide show preferences"
+#: C/preferences.page:82
+#| msgid "Slide show preferences"
+msgid "Slideshow preferences"
 msgstr "Einstellungen für die Diaschau"
 
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/preferences.page:79
-msgctxt "_"
-msgid ""
-"external ref='figures/slideshow-prefs.png' "
-"md5='a615d1b31d908020ef4c39ae212ec583'"
-msgstr "ok"
-
 #. (itstool) path: section/p
-#: C/preferences.page:80
+#: C/preferences.page:83
 msgid "To customize slideshow settings:"
 msgstr "So passen Sie die Einstellungen der Diaschau an:"
 
 #. (itstool) path: item/p
-#: C/preferences.page:83
+#: C/preferences.page:86
 msgid ""
 "Under <gui>Image Zoom</gui> you can select if you would like pictures that "
 "are smaller than the screen to be expanded so that they fit the screen."
@@ -2083,28 +2074,28 @@ msgstr ""
 "werden soll, um an die Größe des Fensters angepasst zu werden."
 
 #. (itstool) path: item/p
-#: C/preferences.page:88
+#: C/preferences.page:91
 msgid ""
-"Under <gui>Sequence</gui> you can select how many seconds each picture "
-"should be displayed for (between 1 and 100) before the next picture is shown."
+"Under <gui>Sequence</gui> you can select how many seconds each picture should "
+"be displayed for (between 1 and 100) before the next picture is shown."
 msgstr ""
 "Unter <gui>Abfolge</gui> können Sie wählen, wie viele Sekunden lang jedes "
 "Bild angezeigt werden soll (zwischen 1 und 100), bevor das nächste Bild "
 "angezeigt wird."
 
 #. (itstool) path: item/p
-#: C/preferences.page:93
+#: C/preferences.page:96
 msgid ""
 "Check <gui>Loop sequence</gui> if you want the slideshow to repeat "
 "continuously. If unchecked, the slideshow will start at the picture you "
 "selected, and finish at the last picture in the folder."
 msgstr ""
-"Aktivieren Sie <gui>Endlosschleife</gui>, wenn die Diaschau endlos "
-"wiederholt werden soll. Falls dies nicht aktiviert ist, beginnt die Diaschau "
-"mit dem von Ihnen ausgewählten Bild und endet mit dem letzten Bild im Ordner."
+"Aktivieren Sie <gui>Endlosschleife</gui>, wenn die Diaschau endlos wiederholt "
+"werden soll. Falls dies nicht aktiviert ist, beginnt die Diaschau mit dem von "
+"Ihnen ausgewählten Bild und endet mit dem letzten Bild im Ordner."
 
 #. (itstool) path: section/title
-#: C/preferences.page:102
+#: C/preferences.page:105
 msgid "Plugin preferences"
 msgstr "Einstellungen für Erweiterungen"
 
@@ -2113,10 +2104,10 @@ msgstr "Einstellungen für Erweiterungen"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/preferences.page:104
+#: C/preferences.page:107
 msgctxt "_"
 msgid ""
-"external ref='figures/plugins-all.png' md5='f9ef35c46fca34eaaac1f5c578ad334b'"
+"external ref='figures/plugins-all.png' md5='1f672b89abffd693cc23f668fe7f78e4'"
 msgstr "ok"
 
 #. (itstool) path: section/media
@@ -2124,38 +2115,37 @@ msgstr "ok"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/preferences.page:105
+#: C/preferences.page:108
 msgctxt "_"
 msgid ""
 "external ref='figures/prefs-plugins.png' "
-"md5='a564e614f540f47ca57593abb2e6d646'"
+"md5='c91d2b21700ffa11a4df2acb87a44268'"
 msgstr "ok"
 
 #. (itstool) path: section/p
-#: C/preferences.page:107
+#: C/preferences.page:110
 msgid ""
-"Here you can check/uncheck any additional features you would like to "
-"activate or deactivate. The picture on the left shows the plugins that are "
-"available by default."
+"Here you can check/uncheck any additional features you would like to activate "
+"or deactivate. The picture on the left shows the plugins that are available "
+"by default."
 msgstr ""
 "Hier können Sie einige zusätzliche Funktionsmerkmale aktivieren oder "
 "deaktivieren. Das Bild an der linken Seite zeigt die standardmäßig zur "
 "Verfügung stehenden Erweiterungen."
 
 #. (itstool) path: section/p
-#: C/preferences.page:111
+#: C/preferences.page:114
 msgid ""
 "You may also wish to install the <link xref=\"plugins\">eog-plugins package</"
 "link>, which contains plugins providing a number of extra features. After "
 "installing it, you will be able to activate <link xref=\"index#plugins"
-"\">additional plugins</link>, like the ones shown in the picture on the "
-"right."
+"\">additional plugins</link>, like the ones shown in the picture on the right."
 msgstr ""
 "Es ist ratsam, das Paket <link xref=\"plugins\">eog-plugins</link> zu "
 "installieren, welches Erweiterungen enthält, die eine Reihe von zusätzlichen "
 "Funktionsmerkmalen bereitstellen. Nachdem Sie dies getan haben, können Sie "
-"<link xref=\"index#plugins\">zusätzliche Erweiterungen</link> zur "
-"Aktivierung auswählen, wie rechts zu sehen ist."
+"<link xref=\"index#plugins\">zusätzliche Erweiterungen</link> zur Aktivierung "
+"auswählen, wie rechts zu sehen ist."
 
 #. (itstool) path: info/desc
 #: C/print.page:7
@@ -2237,8 +2227,8 @@ msgid ""
 msgstr ""
 "Beachten Sie, dass einige der oben erwähnten Reiter nicht für alle "
 "Druckermodelle angezeigt werden. Das ergibt sich dadurch, dass die "
-"<em>Treiber</em> für jene Drucker die Änderung bestimmter Einstellungen "
-"nicht zulassen. Wenn beispielsweise der Reiter <gui>Bildqualität</gui> nicht "
+"<em>Treiber</em> für jene Drucker die Änderung bestimmter Einstellungen nicht "
+"zulassen. Wenn beispielsweise der Reiter <gui>Bildqualität</gui> nicht "
 "angezeigt wird, ist das wahrscheinlich darauf zurückzuführen, dass diese "
 "Einstellungen nicht vom Druckertreiber unterstützt werden."
 
@@ -2286,8 +2276,8 @@ msgid ""
 "Alternatively, press <keyseq><key>Ctrl</key><key>A</key></keyseq> to select "
 "all of the pictures."
 msgstr ""
-"Sie können auch <keyseq><key>Strg</key><key>A</key></keyseq> drücken, um "
-"alle Bilder auszuwählen."
+"Sie können auch <keyseq><key>Strg</key><key>A</key></keyseq> drücken, um alle "
+"Bilder auszuwählen."
 
 #. (itstool) path: item/p
 #: C/rename-multiple.page:37
@@ -2314,13 +2304,13 @@ msgstr ""
 msgid ""
 "Use the <gui>Filename format</gui> box to choose a naming format for the "
 "pictures. The <gui>File Name Preview</gui> shows you what the new filenames "
-"will look like. See the <link xref=\"#filename-format\"/> section, below, "
-"for advice on choosing how to rename the files."
+"will look like. See the <link xref=\"#filename-format\"/> section, below, for "
+"advice on choosing how to rename the files."
 msgstr ""
 "Verwenden Sie das Feld <gui>Dateinamen-Format</gui> zum Auswählen eines "
 "Benennungsformats für die Bilder. Die <gui>Dateinamen-Vorschau</gui> zeigt "
-"an, wie die Dateinamen aussehen werden. Im nachfolgenden Abschnitt <link "
-"xref=\"#filename-format\"/> finden Sie Hinweise zur Auswahl der Namen zum "
+"an, wie die Dateinamen aussehen werden. Im nachfolgenden Abschnitt <link xref="
+"\"#filename-format\"/> finden Sie Hinweise zur Auswahl der Namen zum "
 "Umbenennen von Dateien."
 
 #. (itstool) path: item/p
@@ -2330,9 +2320,9 @@ msgid ""
 "gui>, unless you want to <link xref=\"format-change#multiple\">convert the "
 "pictures to a different file format</link>."
 msgstr ""
-"Stellen Sie sicher, dass im Auswahlfeld <gui>Dateinamen-Format</gui> der "
-"Wert <gui>wie bisher</gui> angezeigt wird, es sei denn, Sie wollen <link "
-"xref=\"format-change#multiple\">das Format umwandeln</link>."
+"Stellen Sie sicher, dass im Auswahlfeld <gui>Dateinamen-Format</gui> der Wert "
+"<gui>wie bisher</gui> angezeigt wird, es sei denn, Sie wollen <link xref="
+"\"format-change#multiple\">das Format umwandeln</link>."
 
 #. (itstool) path: item/p
 #: C/rename-multiple.page:55
@@ -2349,7 +2339,7 @@ msgstr ""
 msgctxt "_"
 msgid ""
 "external ref='figures/multiple-rename-count.png' "
-"md5='24db2c6381bfb1665f2673edef727f8f'"
+"md5='d89839fd4b49f4bf8733ed2dddc3b01c'"
 msgstr ""
 "external ref='figures/multiple-rename-count.png' "
 "md5='24db2c6381bfb1665f2673edef727f8f'"
@@ -2371,8 +2361,8 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/rename-multiple.page:67
 msgid ""
-"You can keep the original filename as part of the new filename by leaving "
-"the <input>%f</input> in the box."
+"You can keep the original filename as part of the new filename by leaving the "
+"<input>%f</input> in the box."
 msgstr ""
 "Sie können den ursprünglichen Dateinamen beibehalten, indem Sie <input>%f</"
 "input> im Feld belassen."
@@ -2429,8 +2419,8 @@ msgstr "Tastenkombinationen"
 #. (itstool) path: page/p
 #: C/shortcuts.page:21
 msgid ""
-"This is a list of all of the keyboard shortcuts that you can use in the "
-"image viewer."
+"This is a list of all of the keyboard shortcuts that you can use in the image "
+"viewer."
 msgstr ""
 "Dies ist eine Liste aller Tastenkürzel, die Sie im Bildbetrachter verwenden "
 "können."
@@ -2512,7 +2502,8 @@ msgstr "Zum vorherigen Bild im Ordner gehen"
 
 #. (itstool) path: td/p
 #: C/shortcuts.page:60
-msgid "<key>Back space</key> / <key>Left</key>"
+#| msgid "<key>Back space</key> / <key>Left</key>"
+msgid "<key>Backspace</key> / <key>Left</key>"
 msgstr "<key>Löschtaste</key> / <key>Links</key>"
 
 #. (itstool) path: td/p
@@ -2752,14 +2743,13 @@ msgid ""
 "A full-screen slideshow will start. Every few seconds a new picture will be "
 "displayed. If you would like to move through the slideshow more quickly, or "
 "return to an image which has already been displayed, you can use the "
-"<key>Left</key> and <key>Right</key> arrow keys to manually move backward "
-"and forward."
+"<key>Left</key> and <key>Right</key> arrow keys to manually move backward and "
+"forward."
 msgstr ""
 "Eine Diaschau im Vollbildmodus beginnt. In Abständen einiger Sekunden wird "
 "ein neues Bild angezeigt. Sie können mit <key>Pfeiltaste links</key> und "
-"<key>Pfeiltaste rechts</key> Bilder überspringen, wenn die Diaschau "
-"schneller ablaufen soll oder Sie zu einem bereits betrachteten Bild "
-"zurückkehren wollen."
+"<key>Pfeiltaste rechts</key> Bilder überspringen, wenn die Diaschau schneller "
+"ablaufen soll oder Sie zu einem bereits betrachteten Bild zurückkehren wollen."
 
 #. (itstool) path: item/p
 #: C/slideshow.page:37
@@ -2801,8 +2791,8 @@ msgid ""
 "participate."
 msgstr ""
 "Die Benutzeroberfläche und Dokumentation des <app>Bildbetrachters</app> "
-"werden von einer weltweiten Gemeinschaft aus Freiwilligen übersetzt. Sie "
-"sind herzlich eingeladen, sich daran zu beteiligen."
+"werden von einer weltweiten Gemeinschaft aus Freiwilligen übersetzt. Sie sind "
+"herzlich eingeladen, sich daran zu beteiligen."
 
 #. (itstool) path: page/p
 #: C/translate.page:27
@@ -2857,22 +2847,21 @@ msgid ""
 "Press <key>Left</key> and <key>Right</key> to flip between pictures, or use "
 "the image gallery to show them all."
 msgstr ""
-"Drücken Sie die <key>Pfeiltaste links</key> oder <key>Pfeiltaste rechts</"
-"key>, um in den Bildern zu blättern, oder verwenden Sie die Bildersammlung, "
-"um alle anzuzeigen."
+"Drücken Sie <key>←</key> oder <key>→</key>, um in den Bildern zu blättern, "
+"oder verwenden Sie die Bildersammlung, um alle anzuzeigen."
 
 #. (itstool) path: page/title
-#: C/view.page:18
+#: C/view.page:19
 msgid "View all pictures in a folder"
 msgstr "Alle Bilder in einem Ordner betrachten"
 
 #. (itstool) path: page/p
-#: C/view.page:20
+#: C/view.page:21
 msgid ""
-"You can quickly browse through all of the pictures in a folder by opening "
-"one of the pictures and then clicking the <gui>Next</gui> and <gui>Previous</"
-"gui> buttons on the left and right of the displayed image (for example). You "
-"can also view an <em>image gallery</em>, with small previews of all of the "
+"You can quickly browse through all of the pictures in a folder by opening one "
+"of the pictures and then clicking the <gui>Next</gui> and <gui>Previous</gui> "
+"buttons on the left and right of the displayed image (for example). You can "
+"also view an <em>image gallery</em>, with small previews of all of the "
 "pictures in a folder shown at once."
 msgstr ""
 "Sie können schnell alle Bilder in einem Ordner durchsuchen, indem Sie eines "
@@ -2883,21 +2872,21 @@ msgstr ""
 "einmal sehen zu können."
 
 #. (itstool) path: section/title
-#: C/view.page:23
+#: C/view.page:24
 msgid "Browse through all pictures in a folder"
 msgstr "Durchsuchen der in einem Ordner enthaltenen Bilder"
 
 #. (itstool) path: section/p
-#: C/view.page:24
+#: C/view.page:25
 msgid ""
-"If you have a folder containing several pictures, you can conveniently "
-"browse through all of the pictures without having to open them individually."
+"If you have a folder containing several pictures, you can conveniently browse "
+"through all of the pictures without having to open them individually."
 msgstr ""
 "Falls ein Ordner mehrere Bilder enthält, können Sie diese Bilder bequem "
 "durchsuchen, ohne sie einzeln öffnen zu müssen."
 
 #. (itstool) path: item/p
-#: C/view.page:28
+#: C/view.page:29
 msgid ""
 "<link xref=\"open\">Open</link> any one of the pictures from the folder you "
 "want to browse through."
@@ -2906,7 +2895,7 @@ msgstr ""
 "durchsuchen wollen."
 
 #. (itstool) path: item/p
-#: C/view.page:32
+#: C/view.page:33
 msgid ""
 "Click <gui>Next</gui> and <gui>Previous</gui> on the left and right of the "
 "displayed image, or press the <key>Right</key> and <key>Left</key> keys, to "
@@ -2917,40 +2906,44 @@ msgstr ""
 "key> und <key>Pfeiltaste rechts</key>, um in den Bildern zu blättern."
 
 #. (itstool) path: item/p
-#: C/view.page:35
+#: C/view.page:36
 msgid ""
 "Alternatively, you can use the <key>Up</key> and <key>Down</key> keys, or "
 "<key>Space bar</key> and <key>Backspace</key> keys."
 msgstr ""
-"Wahlweise können Sie die <key>Pfeiltaste hoch</key> und <key>Pfeiltaste "
-"runter</key> verwenden oder die <key>Leertaste</key> und die "
-"<key>Löschtaste</key>."
+"Wahlweise können Sie <key>↑</key> und <key>↓</key> verwenden oder die "
+"<key>Leertaste</key> und die <key>Löschtaste</key>."
 
 #. (itstool) path: item/p
-#: C/view.page:39
+#: C/view.page:40
 msgid ""
 "You can browse through the pictures in fullscreen mode by clicking the "
-"<gui>Fullscreen</gui> button in the title bar or by pressing <key>F11</key>. "
-"Use the keyboard keys to flip between pictures in fullscreen mode."
+"<gui>Fullscreen</gui> button in the header bar or by pressing <key>F11</key>. "
+"Use your keyboard's <key>Left</key> or <key>Right</key> arrow keys to flip "
+"between pictures in fullscreen mode. You can also use <key>Home</key> or "
+"<key>End</key> keys to go to the first or last pictures in folder."
 msgstr ""
-"Sie können Bilder im Vollbildmodus durchsuchen, indem Sie in der Titelleiste "
+"Sie können Bilder im Vollbildmodus durchsuchen, indem Sie in der Kopfleiste "
 "auf <gui>Vollbild</gui> klicken oder <key>F11</key> drücken. Verwenden Sie "
-"die Tastatur, um im Vollbildmodus in den Bildern zu blättern."
+"die <key>linke</key> oder <key>rechte</key>Pfeiltaste, um im Vollbildmodus "
+"zwischen den Bildern zu blättern. Sie können auch die Tasten <key>Pos1</key> "
+"oder <key>Ende</key> benutzen, um zum ersten oder letzten Bild im Ordner zu "
+"gelangen."
 
 #. (itstool) path: item/p
-#: C/view.page:43
+#: C/view.page:45
 msgid "To return to normal viewing, press <key>Esc</key> or <key>F11</key>."
 msgstr ""
 "Um zur normalen Ansicht zurückzukehren, drücken Sie <key>Esc</key> oder "
 "<key>F11</key>."
 
 #. (itstool) path: section/title
-#: C/view.page:49
+#: C/view.page:51
 msgid "Browse the image gallery"
 msgstr "Die Bildersammlung durchsuchen"
 
 #. (itstool) path: section/p
-#: C/view.page:50
+#: C/view.page:52
 msgid ""
 "The <em>image gallery</em> shows small previews (thumbnails) of all of the "
 "pictures in a folder at once. This makes it easier to quickly browse through "
@@ -2961,40 +2954,46 @@ msgstr ""
 "Bildersammlungen."
 
 #. (itstool) path: item/p
-#: C/view.page:56
+#: C/view.page:58
 msgid ""
-"To show the image gallery, click <gui style=\"menuitem\">Image Gallery</"
-"gui>, or press <keyseq><key>Ctrl</key><key>F9</key></keyseq>."
+"To show the image gallery, press the menu button in the top-right corner of "
+"the window and select <guiseq><gui style=\"menuitem\">Show</gui><gui style="
+"\"menuitem\">Image Gallery</gui></guiseq>, or press <keyseq><key>Ctrl</"
+"key><key>F9</key></keyseq>."
 msgstr ""
-"Um die Bildersammlung anzuzeigen, klicken Sie auf <gui style=\"menuitem"
-"\">Bildersammlung</gui> oder drücken Sie <keyseq><key>Strg</key><key>F9</"
-"key></keyseq>."
+"Um die Bildersammlung anzuzeigen, klicken Sie auf den Menüknopf rechts oben "
+"im Fenster und wählen Sie <guiseq><gui style=\"menuitem\">Anzeigen</gui><gui "
+"style=\"menuitem\">Bildersammlung</gui></guiseq> oder drücken Sie "
+"<keyseq><key>Strg</key><key>F9</key></keyseq>."
 
 #. (itstool) path: item/p
-#: C/view.page:60
+#: C/view.page:63
 msgid "Click on a picture in the gallery to show it full-size."
 msgstr ""
 "Klicken Sie auf ein Bild in der Bildersammlung, um es in voller Größe "
 "anzuzeigen."
 
 #. (itstool) path: item/p
-#: C/view.page:61
+#: C/view.page:64
 msgid ""
 "You can also use the <key>Left</key> and <key>Right</key> keys to skip "
 "through the pictures in the gallery"
 msgstr ""
-"Sie können auch die <key>Pfeiltaste links</key> und <key>Pfeiltaste rechts</"
-"key> verwenden, um sich durch die Bilder in der Bildersammlung zu bewegen."
+"Sie können auch die Tasten <key>←</key> und <key>→</key> verwenden, um sich "
+"durch die Bilder in der Bildersammlung zu bewegen"
 
 #. (itstool) path: item/p
-#: C/view.page:65
+#: C/view.page:68
 msgid ""
-"To hide the gallery, click <gui style=\"menuitem\">Image Gallery</gui> "
-"again, or press <keyseq><key>Ctrl</key><key>F9</key></keyseq>."
-msgstr ""
-"Um die Bildersammlung zu verbergen, klicken Sie erneut auf <gui style="
-"\"menuitem\">Bildersammlung</gui> oder drücken Sie <keyseq><key>Strg</"
+"To hide the gallery, press the menu button in the top-right corner of the "
+"window and unselect <guiseq><gui style=\"menuitem\">Show</gui><gui style="
+"\"menuitem\">Image Gallery</gui></guiseq>, or press <keyseq><key>Ctrl</"
 "key><key>F9</key></keyseq>."
+msgstr ""
+"Um die Bildersammlung zu verbergen, klicken Sie erneut auf den Menüknopf "
+"rechts oben im Fenster und wählen Sie <guiseq><gui style=\"menuitem"
+"\">Anzeigen</gui><gui style=\"menuitem\">Bildersammlung</gui></guiseq> ab "
+"oder drücken Sie <keyseq><key>Strg</key><key>F9</key></keyseq>."
 
 #. (itstool) path: info/desc
 #: C/zoom.page:8
@@ -3014,9 +3013,9 @@ msgid ""
 "you want to inspect the fine details of a picture."
 msgstr ""
 "Sie können die Ansicht vergrößern oder verkleinern, um einen größeren oder "
-"kleineren Teil eines Bildes zu sehen. Dies ist sinnvoll, falls Sie ein "
-"großes Bild im Ganzen betrachten oder im umgekehrten Fall mehr Einzelheiten "
-"sehen wollen."
+"kleineren Teil eines Bildes zu sehen. Dies ist sinnvoll, falls Sie ein großes "
+"Bild im Ganzen betrachten oder im umgekehrten Fall mehr Einzelheiten sehen "
+"wollen."
 
 #. (itstool) path: item/p
 #: C/zoom.page:27
@@ -3030,11 +3029,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/zoom.page:30
 msgid ""
-"You can also zoom using the buttons in the title bar. To zoom in, click the "
+"You can also zoom using the buttons in the header bar. To zoom in, click the "
 "<gui>Enlarge the image</gui> icon, and to zoom out click the <gui>Shrink the "
 "image</gui> icon. These look like \"plus\" and \"minus\" signs."
 msgstr ""
-"Das Ändern der Vergrößerung ist auch mit den Knöpfen in der Titelleiste "
+"Das Ändern der Vergrößerung ist auch mit den Knöpfen in der Kopfleiste "
 "möglich. Um die Ansicht zu vergrößern, klicken Sie auf das Symbol <gui>Das "
 "Bild vergrößern</gui>, oder auf das Symbol <gui>Das Bild verkleinern</gui>, "
 "um die Ansicht zu verkleinern. Diese Symbole sehen wie Plus- und Minus-"
@@ -3053,14 +3052,14 @@ msgstr ""
 #: C/zoom.page:40
 msgid ""
 "To view the picture in its original, unscaled size, choose the <gui style="
-"\"menuitem\">100%</gui> zoom level from the dropdown in the title bar. "
+"\"menuitem\">100%</gui> zoom level from the dropdown in the header bar. "
 "Alternatively, use the keyboard shortcuts <keyseq><key>Ctrl</key><key>0</"
 "key></keyseq> or <key>1</key>."
 msgstr ""
 "Um das Bild in seiner originalen, nicht skalierten Größe anzuzeigen, wählen "
 "Sie die Vergrößerungsstufe <gui style=\"menuitem\">100%</gui> im Auswahlmenü "
-"in der Titelleiste. Alternativ können Sie hierzu die Tastenkombinationen "
-"<keyseq><key>Strl</key><key>0</key></keyseq> oder <keyseq><key>Strg</"
+"in der Kopfleiste. Alternativ können Sie hierzu die Tastenkombinationen "
+"<keyseq><key>Strg</key><key>0</key></keyseq> oder <keyseq><key>Strg</"
 "key><key>1</key></keyseq> verwenden."
 
 #. (itstool) path: section/title
@@ -3073,9 +3072,52 @@ msgstr "Vergrößerungsstufe an Fenstergröße anpassen"
 msgid ""
 "You can choose to zoom in so that the picture fits fully in the window, even "
 "if you resize it. Enable <gui style=\"menuitem\">Best fit</gui> in the "
-"dropdown in the title bar to do this."
+"dropdown in the header bar to do this."
 msgstr ""
 "Sie können die Vergrößerungsstufe so wählen, dass das Bild genau in das "
-"Fenster eingepasst wird, selbst wenn Sie die Größe ändern. Klicken Sie "
-"hierzu auf <gui style=\"menuitem\">Einpassen</gui> in der Auswahlliste der "
-"Titelleiste."
+"Fenster eingepasst wird, selbst wenn Sie die Größe ändern. Klicken Sie hierzu "
+"auf <gui style=\"menuitem\">Einpassen</gui> in der Auswahlliste in der "
+"Kopfleiste."
+
+#~ msgid ""
+#~ "The converted pictures will be saved in the current folder by default. If "
+#~ "you want to save them elsewhere, change the <gui>Destination folder</gui>."
+#~ msgstr ""
+#~ "Die umgewandelten Bilder werden standardmäßig im aktuellen Ordner "
+#~ "gespeichert. Falls Sie sie an einem anderen Ort speichern wollen, wählen "
+#~ "Sie den Ordner in der Auswahlliste <gui>Ordner wählen</gui> aus."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/prefs-plugins-date.png' "
+#~ "md5='63c64d05bc97472bd65c3592e1c302ea'"
+#~ msgstr "ok"
+
+#~ msgid "Enable the <gui style=\"menuitem\">Side Pane</gui> to show the map."
+#~ msgstr ""
+#~ "Klicken Sie auf <gui style=\"menuitem\">Seitenleiste</gui>, um die Karte "
+#~ "anzuzeigen."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/prefs-plugins-fullscreen.png' "
+#~ "md5='64a059b4311233d638a926ed707cce18'"
+#~ msgstr "ok"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/image-view-prefs.png' "
+#~ "md5='e47da013ab0f65ce9da3d6dfa5b0103c'"
+#~ msgstr "ok"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/slideshow-prefs.png' "
+#~ "md5='a615d1b31d908020ef4c39ae212ec583'"
+#~ msgstr "ok"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/plugin-send-by-mail.png' "
+#~ "md5='cb5abf743a89d8209ff0c3f0ea3094de'"
+#~ msgstr "ok"

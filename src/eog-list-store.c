@@ -189,7 +189,7 @@ eog_list_store_new (void)
 }
 
 /*
-   Searchs for a file in the store. If found and @iter_found is not NULL,
+   Searches for a file in the store. If found and @iter_found is not NULL,
    then sets @iter_found to a #GtkTreeIter pointing to the file.
  */
 static gboolean
@@ -463,6 +463,9 @@ file_monitor_changed_cb (GFileMonitor *monitor,
 	case G_FILE_MONITOR_EVENT_PRE_UNMOUNT:
 	case G_FILE_MONITOR_EVENT_UNMOUNTED:
 	case G_FILE_MONITOR_EVENT_MOVED:
+	case G_FILE_MONITOR_EVENT_RENAMED:
+	case G_FILE_MONITOR_EVENT_MOVED_IN:
+	case G_FILE_MONITOR_EVENT_MOVED_OUT:
 		break;
 	}
 }
