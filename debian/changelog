@@ -1,3 +1,13 @@
+eog (3.28.4-2+grm2u6) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [e8adaf7b] [Bug:3068] Modified that gear-menu always reacts the same
+  * [4ac73cc6] [Bug:3067]Fixed the issue that show only some part of column when the directory is empty
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 31 Mar 2021 17:53:27 +0900
+
 eog (3.28.4-2+grm2u5) unstable; urgency=medium
 
   [ boyeon.choi ]
