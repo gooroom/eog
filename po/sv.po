@@ -1,5 +1,5 @@
 # Swedish messages for eog.
-# Copyright © 1999-2017 Free Software Foundation, Inc.
+# Copyright © 1999-2020 Free Software Foundation, Inc.
 # Richard Hult <rhult@hem.passagen.se>, 1999.
 # Andreas Hyden <a.hyden@cyberpoint.se>, 2000.
 # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
@@ -7,16 +7,15 @@
 # Tomas Ögren <stric@ing.umu.se>, 2001.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
 # Rune Karlsson <kraputsniq@live.com>, 2014.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020.
 # Sebastian Rasmussen <sebras@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: eog\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=eog&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-06-28 17:37+0000\n"
-"PO-Revision-Date: 2017-08-05 11:56+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/eog/issues\n"
+"POT-Creation-Date: 2020-07-02 15:09+0000\n"
+"PO-Revision-Date: 2020-08-03 14:58+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -24,33 +23,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.2\n"
-
-#: data/eog-app-menu.ui:7
-msgid "Prefere_nces"
-msgstr "_Inställningar"
-
-#: data/eog-app-menu.ui:13
-msgid "_Keyboard Shortcuts"
-msgstr "_Tangentbordsgenvägar"
-
-#: data/eog-app-menu.ui:17 data/eog-preferences-dialog.ui:21
-msgid "_Help"
-msgstr "_Hjälp"
-
-#: data/eog-app-menu.ui:21
-msgid "_About"
-msgstr "_Om"
-
-#: data/eog-app-menu.ui:25
-msgid "_Quit"
-msgstr "_Avsluta"
+"X-Generator: Poedit 2.3.1\n"
 
 #: data/eog.appdata.xml.in:6
 msgid "Eye of GNOME"
 msgstr "Eye of GNOME"
 
-#: data/eog.appdata.xml.in:7 data/eog.desktop.in.in:4
+#: data/eog.appdata.xml.in:7 data/org.gnome.eog.desktop.in.in:4
 msgid "Browse and rotate images"
 msgstr "Bläddra och rotera bilder"
 
@@ -76,69 +55,71 @@ msgstr ""
 "kamerataggarna för att automatiskt rotera dina bilder till stående eller "
 "liggande format."
 
-#: data/eog.desktop.in.in:3 src/eog-application.c:312 src/eog-window.c:5508
-msgid "Image Viewer"
-msgstr "Bildvisare"
-
-#. TRANSLATORS: Do NOT translate or transliterate this text!
-#. This is an icon file name
-#: data/eog.desktop.in.in:9
-msgid "eog"
-msgstr "eog"
-
-#. Extra keywords that can be used to search for eog in GNOME Shell and Unity
-#. TRANSLATORS: Search terms to find this application.
-#. Do NOT translate or localize the semicolons!
-#. The list MUST also end with a semicolon!
-#: data/eog.desktop.in.in:24
-msgid "Picture;Slideshow;Graphics;"
-msgstr "Bild;Bildspel;Grafik;"
-
 #: data/eog-gear-menu.ui:6
 msgid "_Open…"
 msgstr "_Öppna…"
 
 #: data/eog-gear-menu.ui:10
-msgid "Open _With"
-msgstr "Öppna _med"
+msgid "Op_en With…"
+msgstr "Öppn_a med…"
 
-#: data/eog-gear-menu.ui:17 data/popup-menus.ui:13
+#: data/eog-gear-menu.ui:16 data/popup-menus.ui:12
 #: src/eog-close-confirmation-dialog.c:178 src/eog-file-chooser.c:465
 msgid "_Save"
 msgstr "_Spara"
 
-#: data/eog-gear-menu.ui:21 data/popup-menus.ui:17
+#: data/eog-gear-menu.ui:20 data/popup-menus.ui:16
 #: src/eog-error-message-area.c:133
 msgid "Save _As…"
 msgstr "Spara so_m…"
 
-#: data/eog-gear-menu.ui:27 data/popup-menus.ui:23
+#: data/eog-gear-menu.ui:26 data/popup-menus.ui:22
 msgid "_Print…"
 msgstr "Skriv _ut…"
 
-#: data/eog-gear-menu.ui:31 data/popup-menus.ui:45
+#: data/eog-gear-menu.ui:30 data/popup-menus.ui:44
 msgid "Set as Wa_llpaper"
 msgstr "Använd som skriv_bordsunderlägg"
 
-#: data/eog-gear-menu.ui:37
+#: data/eog-gear-menu.ui:36
+msgid "Image Prope_rties"
+msgstr "Bild_egenskaper"
+
+#: data/eog-gear-menu.ui:42
 msgid "Sli_deshow"
 msgstr "Bil_dspel"
 
-#: data/eog-gear-menu.ui:41
+#: data/eog-gear-menu.ui:49
+msgid "Sho_w"
+msgstr "Vi_sa"
+
+#: data/eog-gear-menu.ui:51
 msgid "S_ide Pane"
 msgstr "S_idopanel"
 
-#: data/eog-gear-menu.ui:45
+#: data/eog-gear-menu.ui:55
 msgid "Image _Gallery"
 msgstr "Bild_galleri"
 
-#: data/eog-gear-menu.ui:49
+#: data/eog-gear-menu.ui:59
 msgid "S_tatus Bar"
 msgstr "S_tatusrad"
 
-#: data/eog-gear-menu.ui:55 data/popup-menus.ui:41
-msgid "Prope_rties"
-msgstr "Ege_nskaper"
+#: data/eog-gear-menu.ui:67
+msgid "Prefere_nces"
+msgstr "I_nställningar"
+
+#: data/eog-gear-menu.ui:71
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: data/eog-gear-menu.ui:75 data/eog-preferences-dialog.ui:21
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: data/eog-gear-menu.ui:79
+msgid "_About Image Viewer"
+msgstr "_Om Bildvisare"
 
 #: data/eog-image-properties-dialog.ui:17
 msgid "Image Properties"
@@ -248,8 +229,8 @@ msgstr "Spara som"
 #: data/eog-multiple-save-as-dialog.ui:32
 #: src/eog-close-confirmation-dialog.c:172 src/eog-error-message-area.c:123
 #: src/eog-file-chooser.c:456 src/eog-file-chooser.c:464
-#: src/eog-file-chooser.c:472 src/eog-window.c:3223 src/eog-window.c:3226
-#: src/eog-window.c:3479
+#: src/eog-file-chooser.c:472 src/eog-window.c:3254 src/eog-window.c:3257
+#: src/eog-window.c:3489
 msgid "_Cancel"
 msgstr "_Avbryt"
 
@@ -374,7 +355,7 @@ msgstr "E_xpandera bilder till att passa skärmen"
 msgid "Sequence"
 msgstr "Sekvens"
 
-#. I18N: This sentence will be displayed above a horizonzal scale to select a number of seconds in eog's preferences dialog.
+#. I18N: This sentence will be displayed above a horizontal scale to select a number of seconds in eog's preferences dialog.
 #: data/eog-preferences-dialog.ui:441
 msgid "_Time between images:"
 msgstr "_Tid mellan bilderna:"
@@ -393,7 +374,6 @@ msgid "Plugins"
 msgstr "Insticksmoduler"
 
 #: data/eog-zoom-entry.ui:23 data/fullscreen-toolbar.ui:98
-#: data/fullscreen-toolbar.ui:113 data/fullscreen-toolbar.ui:128
 msgid "Shrink the image"
 msgstr "Förminska bilden"
 
@@ -409,7 +389,7 @@ msgstr "Gå till den första bilden i galleriet"
 msgid "_First Image"
 msgstr "_Första bilden"
 
-#: data/fullscreen-toolbar.ui:28 src/eog-scroll-view.c:2359
+#: data/fullscreen-toolbar.ui:28 src/eog-scroll-view.c:2372
 msgid "Go to the previous image of the gallery"
 msgstr "Gå till föregående bild i galleriet"
 
@@ -417,7 +397,7 @@ msgstr "Gå till föregående bild i galleriet"
 msgid "_Previous Image"
 msgstr "_Föregående bild"
 
-#: data/fullscreen-toolbar.ui:43 src/eog-scroll-view.c:2347
+#: data/fullscreen-toolbar.ui:43 src/eog-scroll-view.c:2360
 msgid "Go to the next image of the gallery"
 msgstr "Gå till nästa bild i galleriet"
 
@@ -441,15 +421,23 @@ msgstr "_Zooma in"
 msgid "Zoom _Out"
 msgstr "Zooma _ut"
 
+#: data/fullscreen-toolbar.ui:113
+msgid "Show the image at its normal size"
+msgstr "Visa bilden i dess normalstorlek"
+
 #: data/fullscreen-toolbar.ui:115
 msgid "_Normal Size"
 msgstr "_Normal storlek"
+
+#: data/fullscreen-toolbar.ui:128
+msgid "Fit the image to the window"
+msgstr "Anpassar bilden till fönstret"
 
 #: data/fullscreen-toolbar.ui:130 data/fullscreen-toolbar.ui:220
 msgid "_Best Fit"
 msgstr "Bästa _anpassning"
 
-#: data/fullscreen-toolbar.ui:153 src/eog-scroll-view.c:2374
+#: data/fullscreen-toolbar.ui:153 src/eog-scroll-view.c:2387
 msgid "Rotate the image 90 degrees to the left"
 msgstr "Rotera bilden 90 grader åt vänster"
 
@@ -457,7 +445,7 @@ msgstr "Rotera bilden 90 grader åt vänster"
 msgid "Rotate Counter_clockwise"
 msgstr "Rotera _moturs"
 
-#: data/fullscreen-toolbar.ui:168 src/eog-scroll-view.c:2385
+#: data/fullscreen-toolbar.ui:168 src/eog-scroll-view.c:2398
 msgid "Rotate the image 90 degrees to the right"
 msgstr "Rotera bilden 90 grader åt höger"
 
@@ -527,115 +515,177 @@ msgstr "Ställ in bilden som skrivbordsbakgrund"
 
 #: data/help-overlay.ui:68
 msgctxt "shortcut window"
-msgid "Show/Hide the sidebar"
-msgstr "Visa/dölj sidopanelen"
+msgid "Show image properties dialog"
+msgstr "Visa dialogruta för bildegenskaper"
 
 #: data/help-overlay.ui:75
 msgctxt "shortcut window"
-msgid "Show image properties dialog"
-msgstr "Visa dialogruta för bildegenskaper"
+msgid "Show/Hide the sidebar"
+msgstr "Visa/dölj sidopanelen"
 
 #: data/help-overlay.ui:82
 msgctxt "shortcut window"
 msgid "Open the application manual"
 msgstr "Öppna programmets handbok"
 
-#: data/help-overlay.ui:90
+#: data/help-overlay.ui:89
+msgctxt "shortcut window"
+msgid "Show/Hide the application menu"
+msgstr "Visa/dölj programmenyn"
+
+#: data/help-overlay.ui:96
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: data/help-overlay.ui:104
 msgctxt "shortcut window"
 msgid "Zoom"
 msgstr "Zoom"
 
-#: data/help-overlay.ui:94 data/help-overlay.ui:109
+#: data/help-overlay.ui:108 data/help-overlay.ui:123
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "Zooma in"
 
-#: data/help-overlay.ui:101 data/help-overlay.ui:116
+#: data/help-overlay.ui:115 data/help-overlay.ui:130
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "Zooma ut"
 
-#: data/help-overlay.ui:123
+#: data/help-overlay.ui:137
 msgctxt "shortcut window"
 msgid "Actual size"
 msgstr "Faktisk storlek"
 
-#: data/help-overlay.ui:130
+#: data/help-overlay.ui:144
 msgctxt "shortcut window"
 msgid "Best fit"
 msgstr "Bästa anpassning"
 
-#: data/help-overlay.ui:138
+#: data/help-overlay.ui:152
 msgctxt "shortcut window"
 msgid "Browsing Images"
 msgstr "Bläddra bland bilder"
 
-#: data/help-overlay.ui:142 data/help-overlay.ui:149 data/help-overlay.ui:157
-msgctxt "shortcut window"
-msgid "Go to the previous image in the folder"
-msgstr "Gå till föregående bild i mappen"
-
-#: data/help-overlay.ui:164
+#: data/help-overlay.ui:157 data/help-overlay.ui:165 data/help-overlay.ui:206
+#: data/help-overlay.ui:214
 msgctxt "shortcut window"
 msgid "Go to the next image in the folder"
 msgstr "Gå till nästa bild i mappen"
 
-#: data/help-overlay.ui:171
+#: data/help-overlay.ui:173 data/help-overlay.ui:181 data/help-overlay.ui:190
+#: data/help-overlay.ui:198
+msgctxt "shortcut window"
+msgid "Go to the previous image in the folder"
+msgstr "Gå till föregående bild i mappen"
+
+#: data/help-overlay.ui:221
 msgctxt "shortcut window"
 msgid "Go to the first image in the folder"
 msgstr "Gå till den första bilden i mappen"
 
-#: data/help-overlay.ui:178
+#: data/help-overlay.ui:228
 msgctxt "shortcut window"
 msgid "Go to the last image in the folder"
 msgstr "Gå till den sista bilden i mappen"
 
-#: data/help-overlay.ui:185
+#: data/help-overlay.ui:235
 msgctxt "shortcut window"
 msgid "Go to a random image in the folder"
 msgstr "Gå till en slumpmässig bild i mappen"
 
-#: data/help-overlay.ui:192
+#: data/help-overlay.ui:242
 msgctxt "shortcut window"
 msgid "Show/Hide the image gallery"
 msgstr "Visa/dölj bildgalleriet"
 
-#: data/help-overlay.ui:200
+#: data/help-overlay.ui:250
 msgctxt "shortcut window"
 msgid "Rotation"
 msgstr "Rotation"
 
-#: data/help-overlay.ui:204 data/help-overlay.ui:219
+#: data/help-overlay.ui:254 data/help-overlay.ui:269
 msgctxt "shortcut window"
 msgid "Rotate clockwise"
 msgstr "Rotera medurs"
 
-#: data/help-overlay.ui:211 data/help-overlay.ui:226
+#: data/help-overlay.ui:261 data/help-overlay.ui:276
 msgctxt "shortcut window"
 msgid "Rotate counterclockwise"
 msgstr "Rotera moturs"
 
-#: data/help-overlay.ui:234
+#: data/help-overlay.ui:284
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Helskärmsläge"
 
-#: data/help-overlay.ui:239
+#: data/help-overlay.ui:289
 msgctxt "shortcut window"
 msgid "Enter/Leave fullscreen"
 msgstr "Växla till eller från helskärmsläge"
 
-#: data/help-overlay.ui:246
+#: data/help-overlay.ui:296
 msgctxt "shortcut window"
 msgid "Start/Stop slideshow"
 msgstr "Starta/stoppa bildspel"
 
-#: data/help-overlay.ui:253
+#: data/help-overlay.ui:303
 msgctxt "shortcut window"
 msgid "Pause slideshow"
 msgstr "Pausa bildspel"
 
-#: data/metadata-sidebar.ui:29 src/eog-print-image-setup.c:969
+#: data/help-overlay.ui:311
+msgctxt "shortcut window"
+msgid "Common"
+msgstr "Gemensamma"
+
+#: data/help-overlay.ui:316
+msgctxt "shortcut window"
+msgid "Copy to clipboard"
+msgstr "Kopiera till urklipp"
+
+#: data/help-overlay.ui:323
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr "Ångra"
+
+#: data/help-overlay.ui:330
+msgctxt "shortcut window"
+msgid "Move to Trash"
+msgstr "Flytta till papperskorgen"
+
+#: data/help-overlay.ui:337
+msgctxt "shortcut window"
+msgid "Delete image permanently"
+msgstr "Ta bort bild permanent"
+
+#: data/help-overlay.ui:345
+msgctxt "shortcut window"
+msgid "Scrolling"
+msgstr "Rullning"
+
+#: data/help-overlay.ui:350
+msgctxt "shortcut window"
+msgid "Scroll left in a large image"
+msgstr "Rulla vänster i en stor bild"
+
+#: data/help-overlay.ui:357
+msgctxt "shortcut window"
+msgid "Scroll right in a large image"
+msgstr "Rulla höger i en stor bild"
+
+#: data/help-overlay.ui:364
+msgctxt "shortcut window"
+msgid "Scroll up in a large image"
+msgstr "Rulla uppåt i en stor bild"
+
+#: data/help-overlay.ui:371
+msgctxt "shortcut window"
+msgid "Scroll down in a large image"
+msgstr "Rulla nedåt i en stor bild"
+
+#: data/metadata-sidebar.ui:29 src/eog-print-image-setup.c:1232
 msgid "Size"
 msgstr "Storlek"
 
@@ -682,6 +732,19 @@ msgstr "Tid"
 #: data/metadata-sidebar.ui:380
 msgid "Focal Length"
 msgstr "Brännvidd"
+
+#: data/org.gnome.eog.desktop.in.in:3 src/eog-application.c:309
+#: src/eog-window.c:5510
+msgid "Image Viewer"
+msgstr "Bildvisare"
+
+#. Extra keywords that can be used to search for eog in GNOME Shell and Unity
+#. TRANSLATORS: Search terms to find this application.
+#. Do NOT translate or localize the semicolons!
+#. The list MUST also end with a semicolon!
+#: data/org.gnome.eog.desktop.in.in:24
+msgid "Picture;Slideshow;Graphics;"
+msgstr "Bild;Bildspel;Grafik;"
 
 #: data/org.gnome.eog.gschema.xml.in:11
 msgid "Automatic orientation"
@@ -920,36 +983,32 @@ msgstr ""
 "”Location” för en viss insticksmodul."
 
 #: data/popup-menus.ui:6
-msgid "Open _with"
-msgstr "Öppna _med"
+msgid "Open _With…"
+msgstr "Öppna _med…"
 
-#: data/popup-menus.ui:29
+#: data/popup-menus.ui:28
 msgid "_Copy"
 msgstr "_Kopiera"
 
-#: data/popup-menus.ui:35 src/eog-window.c:3482
+#: data/popup-menus.ui:34 src/eog-window.c:3492
 msgid "Move to _Trash"
 msgstr "Flytta till _papperskorgen"
 
-#: data/popup-menus.ui:49
+#: data/popup-menus.ui:40
+msgid "Prope_rties"
+msgstr "Ege_nskaper"
+
+#: data/popup-menus.ui:48
 msgid "Show Containing _Folder"
 msgstr "Visa innehållande _mapp"
 
-#: data/popup-menus.ui:57
+#: data/popup-menus.ui:56
 msgid "_Best fit"
 msgstr "_Bästa anpassning"
 
 #: plugins/fullscreen/fullscreen.plugin.desktop.in:5
 msgid "Fullscreen with double-click"
 msgstr "Helskärmsläge med dubbelklick"
-
-#. TRANSLATORS: Do NOT translate or transliterate this text!
-#. This is an icon file name
-#: plugins/fullscreen/fullscreen.plugin.desktop.in:8
-#| msgctxt "shortcut window"
-#| msgid "Fullscreen"
-msgid "view-fullscreen"
-msgstr "view-fullscreen"
 
 #: plugins/fullscreen/fullscreen.plugin.desktop.in:9
 msgid "Activate fullscreen mode with double-click"
@@ -960,15 +1019,15 @@ msgstr "Aktivera helskärmsläge med dubbelklick"
 msgid "Reload Image"
 msgstr "Läs om bild"
 
-#. TRANSLATORS: Do NOT translate or transliterate this text!
-#. This is an icon file name
-#: plugins/reload/reload.plugin.desktop.in:8
-msgid "view-refresh"
-msgstr "view-refresh"
-
 #: plugins/reload/reload.plugin.desktop.in:9
 msgid "Reload current image"
 msgstr "Läs om aktuell bild"
+
+#. A strftime-formatted string, to display the date the image was taken.
+#: plugins/statusbar-date/eog-statusbar-date-plugin.c:69
+#: src/eog-exif-util.c:193 src/eog-exif-util.c:195
+msgid "%a, %d %B %Y  %X"
+msgstr "%a, %d %B %Y  %X"
 
 #: plugins/statusbar-date/statusbar-date.plugin.desktop.in:5
 msgid "Date in statusbar"
@@ -982,20 +1041,16 @@ msgstr "Visar bildens datum i fönsterstatusraden"
 msgid "Close _without Saving"
 msgstr "Stäng _utan att spara"
 
-#: src/eog-close-confirmation-dialog.c:212
-msgid "Question"
-msgstr "Fråga"
-
-#: src/eog-close-confirmation-dialog.c:391
+#: src/eog-close-confirmation-dialog.c:383
 msgid "If you don’t save, your changes will be lost."
 msgstr "Om du inte sparar så kommer dina ändringar att gå förlorade."
 
-#: src/eog-close-confirmation-dialog.c:437
+#: src/eog-close-confirmation-dialog.c:404
 #, c-format
 msgid "Save changes to image “%s” before closing?"
 msgstr "Spara ändringar i bilden ”%s” innan stängning?"
 
-#: src/eog-close-confirmation-dialog.c:652
+#: src/eog-close-confirmation-dialog.c:564
 #, c-format
 msgid "There is %d image with unsaved changes. Save changes before closing?"
 msgid_plural ""
@@ -1006,16 +1061,16 @@ msgstr[1] ""
 "Det finns %d bilder med osparade ändringar. Spara ändringarna innan "
 "stängning?"
 
-#: src/eog-close-confirmation-dialog.c:669
+#: src/eog-close-confirmation-dialog.c:584
 msgid "S_elect the images you want to save:"
 msgstr "_Markera bilderna som du vill spara:"
 
 #. Secondary label
-#: src/eog-close-confirmation-dialog.c:688
+#: src/eog-close-confirmation-dialog.c:603
 msgid "If you don’t save, all your changes will be lost."
 msgstr "Om du inte sparar så kommer alla dina ändringar att gå förlorade."
 
-#: src/eog-error-message-area.c:128 src/eog-window.c:881
+#: src/eog-error-message-area.c:128 src/eog-window.c:928
 msgid "_Reload"
 msgstr "_Läs om"
 
@@ -1059,11 +1114,6 @@ msgid ""
 msgstr ""
 "Denna bild innehåller flera sidor. Bildvisare visar bara den första sidan.\n"
 "Du kan vilja installera Dokumentvisare för att se alla sidor."
-
-#. A strftime-formatted string, to display the date the image was taken.
-#: src/eog-exif-util.c:193 src/eog-exif-util.c:195
-msgid "%a, %d %B %Y  %X"
-msgstr "%a, %d %B %Y  %X"
 
 #. TRANSLATORS: This is the actual focal length used when
 #. the image was taken.
@@ -1135,30 +1185,37 @@ msgid "Open Folder"
 msgstr "Öppna mapp"
 
 #: src/eog-image.c:566
+#, c-format
 msgid "Transformation on unloaded image."
 msgstr "Transformering på oinläst bild."
 
 #: src/eog-image.c:594
+#, c-format
 msgid "Transformation failed."
 msgstr "Transformering misslyckades."
 
-#: src/eog-image.c:1074
+#: src/eog-image.c:1081
+#, c-format
 msgid "EXIF not supported for this file format."
 msgstr "EXIF stöds inte för detta filformat."
 
-#: src/eog-image.c:1221
+#: src/eog-image.c:1222
+#, c-format
 msgid "Image loading failed."
 msgstr "Bildinläsning misslyckades."
 
-#: src/eog-image.c:1802 src/eog-image.c:1922
+#: src/eog-image.c:1804 src/eog-image.c:1924
+#, c-format
 msgid "No image loaded."
 msgstr "Ingen bild inläst."
 
-#: src/eog-image.c:1810 src/eog-image.c:1931
+#: src/eog-image.c:1812 src/eog-image.c:1933
+#, c-format
 msgid "You do not have the permissions necessary to save the file."
 msgstr "Du har inte den behörighet som krävs för att spara filen."
 
-#: src/eog-image.c:1820 src/eog-image.c:1942
+#: src/eog-image.c:1822 src/eog-image.c:1944
+#, c-format
 msgid "Temporary file creation failed."
 msgstr "Skapandet av temporär fil misslyckades."
 
@@ -1168,6 +1225,7 @@ msgid "Couldn’t create temporary file for saving: %s"
 msgstr "Kunde inte skapa temporär fil för sparande: %s"
 
 #: src/eog-image-jpeg.c:393
+#, c-format
 msgid "Couldn’t allocate memory for loading JPEG file"
 msgstr "Kunde inte allokera minne för inläsning av JPEG-fil"
 
@@ -1264,87 +1322,87 @@ msgstr[1] "%lu sekunder"
 msgid "Image Settings"
 msgstr "Bildinställningar"
 
-#: src/eog-print-image-setup.c:897
+#: src/eog-print-image-setup.c:1160
 msgid "Image"
 msgstr "Bild"
 
-#: src/eog-print-image-setup.c:898
+#: src/eog-print-image-setup.c:1161
 msgid "The image whose printing properties will be set up"
 msgstr "Bilden vars utskriftsegenskaper ska konfigureras"
 
-#: src/eog-print-image-setup.c:904
+#: src/eog-print-image-setup.c:1167
 msgid "Page Setup"
 msgstr "Sidinställningar"
 
-#: src/eog-print-image-setup.c:905
+#: src/eog-print-image-setup.c:1168
 msgid "The information for the page where the image will be printed"
 msgstr "Informationen för sidan där bilden kommer att skrivas ut"
 
-#: src/eog-print-image-setup.c:931
+#: src/eog-print-image-setup.c:1194
 msgid "Position"
 msgstr "Position"
 
-#: src/eog-print-image-setup.c:935
+#: src/eog-print-image-setup.c:1198
 msgid "_Left:"
 msgstr "_Vänster:"
 
-#: src/eog-print-image-setup.c:937
+#: src/eog-print-image-setup.c:1200
 msgid "_Right:"
 msgstr "_Höger:"
 
-#: src/eog-print-image-setup.c:938
+#: src/eog-print-image-setup.c:1201
 msgid "_Top:"
 msgstr "Ö_verkant:"
 
-#: src/eog-print-image-setup.c:939
+#: src/eog-print-image-setup.c:1202
 msgid "_Bottom:"
 msgstr "_Nederkant:"
 
-#: src/eog-print-image-setup.c:942
+#: src/eog-print-image-setup.c:1205
 msgid "C_enter:"
 msgstr "C_entrum:"
 
-#: src/eog-print-image-setup.c:947
+#: src/eog-print-image-setup.c:1210
 msgid "None"
 msgstr "Ingen"
 
-#: src/eog-print-image-setup.c:949
+#: src/eog-print-image-setup.c:1212
 msgid "Horizontal"
 msgstr "Horisontellt"
 
-#: src/eog-print-image-setup.c:951
+#: src/eog-print-image-setup.c:1214
 msgid "Vertical"
 msgstr "Vertikalt"
 
-#: src/eog-print-image-setup.c:953
+#: src/eog-print-image-setup.c:1216
 msgid "Both"
 msgstr "Båda"
 
-#: src/eog-print-image-setup.c:972
+#: src/eog-print-image-setup.c:1235
 msgid "_Width:"
 msgstr "_Bredd:"
 
-#: src/eog-print-image-setup.c:974
+#: src/eog-print-image-setup.c:1237
 msgid "_Height:"
 msgstr "_Höjd:"
 
-#: src/eog-print-image-setup.c:977
+#: src/eog-print-image-setup.c:1240
 msgid "_Scaling:"
 msgstr "_Skalning:"
 
-#: src/eog-print-image-setup.c:988
+#: src/eog-print-image-setup.c:1251
 msgid "_Unit:"
 msgstr "_Enhet:"
 
-#: src/eog-print-image-setup.c:993
+#: src/eog-print-image-setup.c:1256
 msgid "Millimeters"
 msgstr "Millimeter"
 
-#: src/eog-print-image-setup.c:995
+#: src/eog-print-image-setup.c:1258
 msgid "Inches"
 msgstr "Tum"
 
-#: src/eog-print-image-setup.c:1024
+#: src/eog-print-image-setup.c:1287
 msgid "Preview"
 msgstr "Förhandsgranska"
 
@@ -1376,14 +1434,15 @@ msgid "Taken on"
 msgstr "Taget den"
 
 #: src/eog-uri-converter.c:989
+#, c-format
 msgid "At least two file names are equal."
 msgstr "Minst två filnamn är identiska."
 
-#: src/eog-util.c:68
+#: src/eog-util.c:70
 msgid "Could not display help for Image Viewer"
 msgstr "Kunde inte visa hjälp för Bildvisare"
 
-#: src/eog-util.c:116
+#: src/eog-util.c:118
 msgid " (invalid Unicode)"
 msgstr " (ogiltig Unicode)"
 
@@ -1400,43 +1459,40 @@ msgid_plural "%i × %i pixels  %s    %i%%"
 msgstr[0] "%i × %i bildpunkt  %s    %i%%"
 msgstr[1] "%i × %i bildpunkter  %s    %i%%"
 
-#: src/eog-window.c:883 src/eog-window.c:2617
+#: src/eog-window.c:930 src/eog-window.c:2649
 msgctxt "MessageArea"
 msgid "Hi_de"
 msgstr "Dö_lj"
 
-#. The newline character is currently necessary due to a problem
-#. * with the automatic line break.
-#: src/eog-window.c:893
+#: src/eog-window.c:938
 #, c-format
 msgid ""
-"The image “%s” has been modified by an external application.\n"
-"Would you like to reload it?"
+"The image “%s” has been modified by an external application. Would you like "
+"to reload it?"
 msgstr ""
-"Bilden ”%s” har ändrats av ett externt program.\n"
-"Vill du läsa in bilden igen?"
+"Bilden ”%s” har ändrats av ett externt program. Vill du läsa in bilden igen?"
 
 #. Translators: This string is displayed in the statusbar
 #. * while saving images. The tokens are from left to right:
 #. * - the original filename
 #. * - the current image's position in the queue
 #. * - the total number of images queued for saving
-#: src/eog-window.c:1156
+#: src/eog-window.c:1190
 #, c-format
 msgid "Saving image “%s” (%u/%u)"
 msgstr "Sparar bilden ”%s” (%u/%u)"
 
-#: src/eog-window.c:1581
+#: src/eog-window.c:1614
 #, c-format
 msgid "Opening image “%s”"
 msgstr "Öppnar bilden ”%s”"
 
 #. L10N: This the reason why the screensaver is inhibited.
-#: src/eog-window.c:1964
+#: src/eog-window.c:2000
 msgid "Viewing a slideshow"
 msgstr "Visar ett bildspel"
 
-#: src/eog-window.c:2183
+#: src/eog-window.c:2219
 #, c-format
 msgid ""
 "Error printing file:\n"
@@ -1445,30 +1501,28 @@ msgstr ""
 "Fel vid utskrift av fil:\n"
 "%s"
 
-#: src/eog-window.c:2566 src/eog-window.c:2581
+#: src/eog-window.c:2598 src/eog-window.c:2613
 msgid "Error launching System Settings: "
 msgstr "Fel vid start av systeminställningar: "
 
-#: src/eog-window.c:2615
+#: src/eog-window.c:2647
 msgid "_Open Background Preferences"
 msgstr "_Öppna bakgrundsinställningar"
 
-#. The newline character is currently necessary due to a problem
-#. * with the automatic line break.
-#: src/eog-window.c:2631
+#: src/eog-window.c:2661
 #, c-format
 msgid ""
-"The image “%s” has been set as Desktop Background.\n"
-"Would you like to modify its appearance?"
+"The image “%s” has been set as Desktop Background. Would you like to modify "
+"its appearance?"
 msgstr ""
-"Bilden ”%s” har ställts in som skrivbordsbakgrund.\n"
-"Vill du ändra dess utseende?"
+"Bilden ”%s” har ställts in som skrivbordsbakgrund. Vill du ändra dess "
+"utseende?"
 
-#: src/eog-window.c:3121
+#: src/eog-window.c:3152
 msgid "Saving image locally…"
 msgstr "Sparar bilden lokalt…"
 
-#: src/eog-window.c:3199
+#: src/eog-window.c:3230
 #, c-format
 msgid ""
 "Are you sure you want to remove\n"
@@ -1477,7 +1531,7 @@ msgstr ""
 "Är du säker att du permanent vill radera\n"
 "”%s”?"
 
-#: src/eog-window.c:3202
+#: src/eog-window.c:3233
 #, c-format
 msgid ""
 "Are you sure you want to remove\n"
@@ -1492,38 +1546,41 @@ msgstr[1] ""
 "Är du säker att du permanent vill radera\n"
 "de %d markerade bilderna?"
 
-#: src/eog-window.c:3224 src/eog-window.c:3490
+#: src/eog-window.c:3255 src/eog-window.c:3500
 msgid "_Delete"
 msgstr "_Ta bort"
 
-#: src/eog-window.c:3227 src/eog-window.c:3492
+#: src/eog-window.c:3258 src/eog-window.c:3502
 msgid "_Yes"
 msgstr "_Ja"
 
 #. add 'dont ask again' button
-#: src/eog-window.c:3231 src/eog-window.c:3484
+#: src/eog-window.c:3262 src/eog-window.c:3494
 msgid "Do _not ask again during this session"
 msgstr "Fråga _inte igen under denna session"
 
-#: src/eog-window.c:3275
+#: src/eog-window.c:3306
+#, c-format
 msgid "Couldn’t retrieve image file"
 msgstr "Kunde inte hämta bildfilen"
 
-#: src/eog-window.c:3291
+#: src/eog-window.c:3322
+#, c-format
 msgid "Couldn’t retrieve image file information"
 msgstr "Kunde inte hämta information om bildfilen"
 
-#: src/eog-window.c:3307 src/eog-window.c:3551
+#: src/eog-window.c:3338 src/eog-window.c:3561
+#, c-format
 msgid "Couldn’t delete file"
 msgstr "Kunde inte ta bort filen"
 
 #. set dialog error message
-#: src/eog-window.c:3357 src/eog-window.c:3651
+#: src/eog-window.c:3383 src/eog-window.c:3657
 #, c-format
 msgid "Error on deleting image %s"
 msgstr "Fel vid borttagning av bilden %s"
 
-#: src/eog-window.c:3452
+#: src/eog-window.c:3462
 #, c-format
 msgid ""
 "Are you sure you want to move\n"
@@ -1532,7 +1589,7 @@ msgstr ""
 "Är du säker att du vill flytta\n"
 "”%s” till papperskorgen?"
 
-#: src/eog-window.c:3455
+#: src/eog-window.c:3465
 #, c-format
 msgid ""
 "A trash for “%s” couldn’t be found. Do you want to remove this image "
@@ -1541,7 +1598,7 @@ msgstr ""
 "En papperskorg för ”%s” kunde inte hittas. Vill du ta bort denna bild "
 "permanent?"
 
-#: src/eog-window.c:3460
+#: src/eog-window.c:3470
 #, c-format
 msgid ""
 "Are you sure you want to move\n"
@@ -1556,7 +1613,7 @@ msgstr[1] ""
 "Är du säker att du vill flytta de\n"
 "%d markerade bilderna till papperskorgen?"
 
-#: src/eog-window.c:3465
+#: src/eog-window.c:3475
 msgid ""
 "Some of the selected images can’t be moved to the trash and will be removed "
 "permanently. Are you sure you want to proceed?"
@@ -1564,27 +1621,28 @@ msgstr ""
 "Några av de markerade bilderna kan inte flyttas till papperskorgen och "
 "kommer att tas bort permanent. Är du säker på att du vill fortsätta?"
 
-#: src/eog-window.c:3529 src/eog-window.c:3543
+#: src/eog-window.c:3539 src/eog-window.c:3553
+#, c-format
 msgid "Couldn’t access trash."
 msgstr "Kunde inte komma åt papperskorgen."
 
-#: src/eog-window.c:4210
+#: src/eog-window.c:4201
 msgid "Shrink or enlarge the current image"
 msgstr "Förminska eller förstora den aktuella bilden"
 
-#: src/eog-window.c:4269
+#: src/eog-window.c:4260
 msgid "Show the current image in fullscreen mode"
 msgstr "Visa den aktuella bilden i helskärmsläge"
 
-#: src/eog-window.c:4346
+#: src/eog-window.c:4331
 msgid "Properties"
 msgstr "Egenskaper"
 
-#: src/eog-window.c:5511
+#: src/eog-window.c:5513
 msgid "The GNOME image viewer."
 msgstr "GNOME-bildvisaren."
 
-#: src/eog-window.c:5514
+#: src/eog-window.c:5516
 msgid "translator-credits"
 msgstr ""
 "Daniel Nylander <po@danielnylander.se>\n"
@@ -1647,6 +1705,27 @@ msgstr ""
 "Kör ”%s --help” för att se en komplett lista över tillgängliga "
 "kommandoradsflaggor."
 
+#~ msgid "org.gnome.eog"
+#~ msgstr "org.gnome.eog"
+
+#~ msgid "view-fullscreen"
+#~ msgstr "view-fullscreen"
+
+#~ msgid "view-refresh"
+#~ msgstr "view-refresh"
+
+#~ msgid "_About"
+#~ msgstr "_Om"
+
+#~ msgid "_Quit"
+#~ msgstr "_Avsluta"
+
+#~ msgid "eog"
+#~ msgstr "eog"
+
+#~ msgid "Question"
+#~ msgstr "Fråga"
+
 #~ msgid "2000%"
 #~ msgstr "2000%"
 
@@ -1673,9 +1752,6 @@ msgstr ""
 
 #~ msgid "1500%"
 #~ msgstr "1500%"
-
-#~ msgid "Fit the image to the window"
-#~ msgstr "Anpassar bilden till fönstret"
 
 #~ msgid "Side _Pane"
 #~ msgstr "Sido_panel"

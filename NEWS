@@ -1,3 +1,568 @@
+Version 3.38.2
+--------------
+
+Bug fixes:
+
+ #169, Warning about overwriting GError when unlinking a directory
+       while viewing (Felix Riemann)
+ #172, Update appdata screenshot (Evi Kavrochorianou)
+
+New and updated translations:
+
+- Kjartan Maraas [nb]
+
+New and updated manual translations
+
+- Miquel-Àngel Burgos i Fradeja [ca]
+
+Version 3.38.1
+--------------
+
+Bug fixes:
+
+ !77, Refresh thumbnail when delete image from file manager (Krifa75)
+ !81, Free file_list if reopen in single-window (Krifa75)
+ #154, Assertion failed when rotate and save the same image multiple times
+
+New and updated translations:
+
+- Jordi Mas [ca]
+- Yosef Or Boczko [he]
+- Cheng-Chia Tseng [zh_TW]
+
+New and updated manual translations
+
+- Jordi Mas [ca]
+- scootergrisen [da]
+- Charles Monzat [fr]
+- Andika Triwidada [id]
+
+Version 3.38.0
+--------------
+
+New and updated translations:
+
+- Alan Mortensen, Ask Hjorth Larsen [da]
+- Efstathios Iosifidis [el]
+- Meskó Balázs [hu]
+- Gianvito Cavasoli [it]
+- Jeeyong Um [ko]
+- Rūdolfs Mazurs [lv]
+- José Vieira, Juliano Camargo [pt]
+- Emin Tufan Çetin [tr]
+
+New and updated manual translations
+
+- Miquel-Àngel Burgos i Fradeja [ca]
+
+Version 3.37.92
+---------------
+
+New and updated translations:
+
+- Marek Černocký [cs]
+- Zander Brown [en_GB]
+- Asier Sarasua Garmendia [eu]
+- Danial Behzadi [fa]
+- Jiri Grönroos [fi]
+- Thibault Martin [fr]
+- Fran Dieguez [gl]
+- Goran Vidović [hr]
+- sicklylife [ja]
+- Nathan Follens [nl]
+- Piotr Drąg [pl]
+- Rafael Fontenelle [pt_BR]
+- Dušan Kazik [sk]
+- Matej Urbančič [sl]
+- Марко М. Костић [sr]
+
+New and updated manual translations
+
+- Jordi Mas [ca]
+- Marek Černocký [cs]
+- Mario Blättermann [de]
+- Bruce Cowan, Zander Brown [en_GB]
+- Daniel Mustieles [es]
+- Piotr Drąg [pl]
+
+Version 3.37.90
+---------------
+
+Bug fixes:
+
+ !66, build: Make libportal dependency optional (Felipe Borges)
+ !68, help: change file to File (Monika Grabovska)
+ !69, eog-window: Use view-restore symbolic icon (Diego Escalante Urrelo)
+ !70, flatpak fixups (Jordan Petridis)
+ !71, Make pressing Ctrl+Q close all windows (Martin van Zijl)
+ #99, Use Wallpaper Portal for "Set as Wallpaper" when possible (Felipe Borges)
+ #139, Should inhibit screensaver only in slideshow mode (Felix Riemann)
+
+New and updated translations:
+
+- Felix Riemann [de]
+- Daniel Mustieles [es]
+- Fabio Tomat [fur]
+- Kukuh Syafaat [id]
+- Baurzhan Muftakhidinov [kk]
+- Aurimas Černius [lt]
+- Anders Jonsson [sv]
+- Emin Tufan Çetin [tr]
+- Boyuan Yang [zh_CN]
+
+New and updated manual translations
+
+- Jordi Mas, Assumpta [ca]
+- Anders Jonsson [sv]
+- Yuri Chornoivan [uk]
+
+Version 3.37.2
+--------------
+
+Bug fixes:
+
+ !57, Made strings consistent in format-change.page (Prashant Rawat)
+ !58, Make EoG usable on phones (Arnaud Ferraris)
+ !60, Use Portals and GtkAppChooserDialog for the "Open With" choices
+      (Felipe Borges)
+ !61, EogThumbView: Fix visible range callback being queued to often
+      (Felix Riemann)
+ #113, String with zooming in and out might be incorrect (Andre Klapper)
+
+New and updated translations:
+
+- Gil Forcada [ca]
+- Baurzhan Muftakhidinov [kk]
+- Piotr Drąg [pl]
+- Daniel Șerbănescu [ro]
+- Yuri Chornoivan [uk]
+- Boyuan Yang [zh_CN]
+- Cheng-Chia Tseng [zh_TW]
+
+New and updated manual translations
+
+- Yuri Chornoivan [uk]
+
+Version 3.37.1
+--------------
+
+Bug fixes:
+
+ !48, Change "Back space" to "Backspace" (scootergrisen)
+ !49, Change "Slide show" to "Slideshow" (scootergrisen)
+ !56, Fix minor typos (Yuri Chornoivan)
+ #115, "Use the keyboard keys" could explain which ones (Ali Hassan-Zahraee)
+
+New and updated translations:
+
+- Charles Monzat [fr]
+
+New and updated manual translations
+
+- Yuri Chornoivan [uk]
+
+Version 3.36.2
+--------------
+
+Bug fixes:
+
+ !50, help-overlay: Fix next/previous image shortcuts for RTL languages
+ !51, appdata: Update to release 3.36.1 (Felipe Borges)
+ !55, eog-application.c: Add new shortcut for zoom-normal action (Sabri Ünal)
+ #121, Swipe left and swipe right action have the same description
+       in Keyboard Shortcuts dialog (Felix Riemann)
+ #124, eog 3.36 cannot open HEIF files via gdk-pixbuf loader (Felix Riemann)
+
+New and updated translations:
+
+- Jordi Mas [ca]
+- Fabio Tomat [fur]
+- Yosef Or Boczko [he]
+- Matej Urbančič [sl]
+- Yuri Chornoivan [uk]
+
+New and updated manual translations
+
+- Jordi Mas [ca]
+- Yuri Chornoivan [uk]
+
+Version 3.36.1
+--------------
+
+New and updated translations:
+
+- Jwtiyar Nariman [ckb]
+- Tim Sabsch [de]
+- Kjartan Maraas [nb]
+- Daniel Șerbănescu [ro]
+
+New and updated manual translations
+
+- Jordi Mas, Francesc Bassas i Bullich, Jaume Jorba,
+  Jordi Sagues, Assumpta [ca]
+- Charles Monzat [fr]
+- Andika Triwidada [id]
+
+Version 3.36.0
+--------------
+
+ * Corrected link to bug writing guide in help docs (Andre Klapper)
+
+Bug fixes:
+
+ !46, [BUG] Fix missing removable storage support in snap package (mindmatter)
+
+New and updated translations:
+
+- Andre Klapper [az]
+- Andre Klapper [br]
+- Gianvito Cavasoli [it]
+- Jeeyong Um [ko]
+- Nathan Follens [nl]
+- Yuri Chornoivan [uk]
+
+New and updated manual translations
+
+- Marek Černocký [cs]
+- Daniel Mustieles [es]
+- Piotr Drąg [pl]
+- Anders Jonsson [sv]
+
+Version 3.35.92
+---------------
+
+New and updated translations:
+
+- Jordi Mas [ca]
+- Alan Mortensen [da]
+- Jor Teron [mjw]
+- Piotr Drąg [pl]
+- pan93412, Chao-Hsiung Liao [zh_TW]
+
+Version 3.35.91
+---------------
+
+New and updated translations:
+
+- Marek Černocký [cs]
+- Bruce Cowan [en_GB]
+- Asier Sarasua Garmendia [eu]
+- Danial Behzadi [fa]
+- Jiri Grönroos [fi]
+- Charles Monzat [fr]
+- Fran Diéguez [gl]
+- gogo [hr]
+- Balázs Úr [hu]
+- Kukuh Syafaat [id]
+- sicklylife [ja]
+- Aurimas Černius [lt]
+- Rafael Fontenelle [pt_BR]
+- Марко М. Костић [sr]
+- Sabri Ünal [tr]
+
+Version 3.35.3
+--------------
+
+Bug fixes:
+
+ !36, EogPrintImageSetup: Rework spinbutton behaviour (Peter C. S. Scholtens)
+ !38, Improve Keyboard Shortcuts (Sabri Ünal)
+ !39, EogScrollView: Guard against attempting to create a surface using
+      an invalid size (Michael Webster)
+ !40, Remove outdated info from HACKING (Anton Leontiev)
+ !41, App icon: minor updates for 3.36 (Tobias Bernard)
+ !45, help: Add Danish screenshots (scootergrisen)
+
+New and updated translations:
+
+- Daniel Mustieles [es]
+- abuyop [ms]
+- Dušan Kazik [sk]
+- Anders Jonsson [sv]
+
+New and updated manual translations
+
+- scootergrisen [da]
+- Andika Triwidada [id]
+
+Version 3.35.2
+--------------
+
+Bug fixes:
+
+ !27, Various EogThumbView bugfixes (Krifa75)
+ #66, Unfullscreen using F11 doesn't work if window is empty (Felix Riemann)
+ #93, Pan gesture in RTL shows always next picture (Felix Riemann)
+ #96, Publish nightly builds on nightly.gnome.org (Felix Riemann, Piotr Drąg)
+
+New and updated translations:
+
+- Jordi Mas [ca]
+- Fran Diéguez [gl]
+- Stas Solovey [ru]
+
+New and updated manual translations
+
+- Aleix Badia i Bosch [ca]
+- Fran Diéguez [gl]
+
+Version 3.35.1
+--------------
+
+Bug fixes:
+
+ !26, Use librsvg's GInputStream functions (Federico Mena Quintero)
+ !27, Various EogThumbView bugfixes (Krifa75)
+ #81, Zoom with mouse wheel is really slow (Felix Riemann)
+
+Version 3.34.1
+--------------
+
+Bug fixes:
+
+ !25, Check errors after rsvg_handle_close() (Federico Mena Quintero)
+ !32, icon: create a nightly app icon (Jakub Steiner)
+ !33, EogApplication: Initialize debug before plugin engine (Anton Leontiev)
+
+New and updated translations:
+
+- Ask Hjorth Larsen [da]
+- Gianvito Cavasoli [it]
+- Ryuta Fujii [ja]
+
+New and updated manual translations
+
+- Jordi Mas [ca]
+- Tim Sabsch [de]
+- Rafael Fontenelle [pt_BR]
+
+Version 3.34.0
+--------------
+
+New and updated translations:
+
+- Danial Behzadi [fa]
+- Ryuta Fujii [ja]
+- Rūdolfs Mazurs [lv]
+- Piotr Drąg [pl]
+
+New and updated manual translations
+
+- Ask Hjorth Larsen [da]
+- Daniel Mustieles [es]
+- Gabor Kelemen [hu]
+- Piotr Drąg [pl]
+- Sebastian Rasmussen [sv]
+
+Version 3.33.91
+---------------
+
+New and updated translations:
+
+- Marek Černocký [cs]
+- Tim Sabsch [de]
+- Claude Paroz [fr]
+- Aurimas Černius [lt]
+- Pawan Chitrakar [ne]
+
+New and updated manual translations
+
+- Pawan Chitrakar [ne]
+
+Version 3.33.90
+---------------
+
+New and updated translations:
+
+- Asier Sarasua Garmendia [eu]
+- Jor Teron [mjw]
+- Anders Jonsson [sv]
+
+Version 3.33.3
+--------------
+
+Bug fixes
+
+ !21, Improve meson port (Iñigo Martínez)
+ !22, build: Use #ifdef consistently (Iñigo Martínez)
+
+New and updated translations:
+
+- Goran Vidović [hr]
+- Sveinn í Felli [is]
+- Nathan Follens [nl]
+
+Version 3.33.2
+--------------
+
+Bug fixes
+
+ #61, Unreasonable limitation of scaling in print dialog (Felix Riemann)
+
+New and updated translations:
+
+- Efstathios Iosifidis [el]
+- Balázs Úr [hu]
+
+New and updated manual translations
+
+- Aleix Badia i Bosch [ca]
+
+Version 3.33.1
+--------------
+
+ * Various help doc improvements (Andre Klapper)
+
+Bug fixes:
+
+ !20, Update librsvg and error checking (Federico Mena Quintero)
+ #50, SIGSEGV in g_mutex_lock() (Felix Riemann)
+ #51, PNG file displayed darker after conversion from JPEG file (F. Riemann)
+ #54, Fullscreen has 3 buttons with exactly the same tooltip (Felix Riemann)
+ #725359, only build and attach RGB color profiles to PNGs when both
+          gAMA and cHRM are present (pdknsk)
+
+New and updated translations:
+
+- Khaled Hosny [ar]
+- Jordi Mas [ca]
+- Alan Mortensen [da]
+- Charles Monzat [fr]
+- gogo [hr]
+- Kukuh Syafaat [id]
+- Dušan Kazik [sk]
+- Dingzhong Chen [zh_CN]
+
+New and updated manual translations
+
+- Marek Černocký [cs]
+- Christian Kirbach [de]
+- Balázs Úr [hu]
+- Piotr Drąg [pl]
+
+Version 3.32.0
+--------------
+
+New and updated translations:
+
+- Kristjan SCHMIDT [eo]
+
+New and updated manual translations
+
+- Balázs Úr [hu]
+
+Version 3.31.91
+---------------
+
+ * Improved help docs (Andre Klapper)
+
+Bug fixes:
+
+ !18, snap: Added snap packaging (Ken VanDine)
+ !19, Remove uta.[ch] and the old drawing code (Federico Mena Quintero)
+
+New and updated translations:
+
+- Marek Černocký [cs]
+- Alan Mortensen [da]
+- Felix Riemann [de]
+- Jiri Grönroos [fi]
+- Charles Monzat [fr]
+- Gianvito Cavasoli [it]
+- Baurzhan Muftakhidinov [kk]
+- Jeeyong Um [ko]
+- Aurimas Černius [lt]
+- Rūdolfs Mazurs [lv]
+- Nathan Follens [nl]
+- Piotr Drąg [pl]
+- Rafael Fontenelle [pt_BR]
+- Stas Solovey [ru]
+- Марко М. Костић [sr]
+- Trần Ngọc Quân [vi]
+- pan93412 [zh_TW]
+
+New and updated manual translations
+
+- Piotr Drąg [pl]
+- Anders Jonsson [sv]
+
+Version 3.31.90
+---------------
+
+ * Improved wording in help docs (Andre Klapper)
+
+Bug fixes:
+
+ !16, EogScrollView: Set scale=1 for the image surface (Jan Alexander Steffens)
+
+New and updated translations:
+
+- Jordi Mas [ca]
+- Fran Dieguez [gl]
+- Balázs Úr [hu]
+- Kukuh Syafaat [id]
+- Shushi Kurose [ja]
+- Florentina Mușat [ro]
+
+New and updated manual translations
+
+- Daniel Mustieles [es]
+- Balázs Úr [hu]
+
+Version 3.31.3
+--------------
+
+New and updated translations:
+
+- Efstathios Iosifidis [el]
+- Daniel Mustieles [es]
+- Fabio Tomat [fur]
+- Ryuta Fujii [ja]
+- Anders Jonsson [sv]
+- Sabri Ünal, Emin Tufan Çetin [tr]
+
+New and updated manual translations
+
+- Anders Jonsson [sv]
+
+Version 3.31.2
+--------------
+
+ * Improved primary menu (Peter, Allan Day, Felix Riemann)
+ * Improved app icon (Jakub Steiner)
+
+Bug fixes:
+
+ !14, Add View submenu (Peter)
+
+New and updated translations:
+
+- Carmen Bianca Bakker [eo]
+- Daniel Mustieles [es]
+- Charles Monzat [fr]
+- Matej Urbančič [sl]
+
+Version 3.31.1
+--------------
+
+ * Update app icon
+ * Remove appmenu
+
+Bug fixes:
+
+ !3, Add Flatpak manifest (Jordan Petridis)
+ !7, icon: update app icon (Jakub Steiner)
+ !11, Remove appmenu (Robert Roth)
+ !12, Fix warnings (Thomas Bechtold)
+ #3, README is obsolete (Robert Roth)
+ #15, Slideshow accidentally skips images when using a slow device
+      for file access (Stefan Richter)
+ #22, Use 96dpi when displaying SVGs (Antonio Ospite)
+
+New and updated translations:
+
+- Carmen Bianca Bakker [eo]
+
 Version 3.28.4
 --------------
 

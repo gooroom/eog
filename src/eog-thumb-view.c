@@ -337,7 +337,9 @@ static void
 eog_thumb_view_visible_range_changed (EogThumbView *thumbview)
 {
 	if (thumbview->priv->visible_range_changed_id == 0) {
-		g_idle_add ((GSourceFunc)visible_range_changed_cb, thumbview);
+		thumbview->priv->visible_range_changed_id =
+		       g_idle_add ((GSourceFunc)visible_range_changed_cb,
+				   thumbview);
 	}
 }
 
@@ -638,7 +640,6 @@ eog_thumb_view_init (EogThumbView *thumbview)
 	thumbview->priv->visible_range_changed_id = 0;
 	thumbview->priv->image_add_id = 0;
 	thumbview->priv->image_removed_id = 0;
-
 }
 
 /**
@@ -691,6 +692,7 @@ eog_thumb_view_row_deleted_cb (GtkTreeModel    *tree_model,
 {
 	EogThumbViewPrivate *priv = view->priv;
 
+	priv->end_thumb--;
 	priv->n_images--;
 	eog_thumb_view_update_columns (view);
 }
@@ -738,6 +740,7 @@ eog_thumb_view_set_model (EogThumbView *thumbview, EogListStore *store)
 	                             G_CALLBACK (eog_thumb_view_row_deleted_cb),
 	                             thumbview);
 
+	thumbview->priv->start_thumb = thumbview->priv->end_thumb = 0;
 	thumbview->priv->n_images = eog_list_store_length (store);
 
 	index = eog_list_store_get_initial_pos (store);

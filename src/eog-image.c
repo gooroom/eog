@@ -618,11 +618,6 @@ eog_image_get_file_info (EogImage *img,
 
 		if (mime_type)
 			*mime_type = NULL;
-
-		g_set_error (error,
-			     EOG_IMAGE_ERROR,
-			     EOG_IMAGE_ERROR_VFS,
-			     "Error in getting image file info");
 	} else {
 		if (bytes)
 			*bytes = g_file_info_get_size (file_info);
@@ -894,10 +889,10 @@ eog_image_get_dimension_from_thumbnail (EogImage *image,
 }
 
 static gboolean
-eog_image_real_load (EogImage *img,
-		     guint     data2read,
-		     EogJob   *job,
-		     GError  **error)
+eog_image_real_load (EogImage     *img,
+		     EogImageData  data2read,
+		     EogJob       *job,
+		     GError      **error)
 {
 	EogImagePrivate *priv;
 	GFileInputStream *input_stream;
@@ -906,7 +901,7 @@ eog_image_real_load (EogImage *img,
 	gchar *mime_type;
 	GdkPixbufLoader *loader = NULL;
 	guchar *buffer;
-	goffset bytes_read, bytes_read_total = 0;
+	goffset bytes_read = 0, bytes_read_total = 0;
 	gboolean failed = FALSE;
 	gboolean first_run = TRUE;
 	gboolean set_metadata = TRUE;
@@ -974,17 +969,18 @@ eog_image_real_load (EogImage *img,
 		}
 
 		if (!strcmp (mime_type, "image/svg+xml")
-#if LIBRSVG_CHECK_FEATURE(SVGZ)
 		    || !strcmp (mime_type, "image/svg+xml-compressed")
-#endif
 		) {
-			gchar *file_path;
 			/* Keep the object for rendering */
 			priv->svg = rsvg_handle_new ();
-			use_rsvg = (priv->svg != NULL);
-			file_path = g_file_get_path (priv->file);
-			rsvg_handle_set_base_uri (priv->svg, file_path);
-			g_free (file_path);
+			rsvg_handle_set_base_gfile (priv->svg, priv->file);
+
+			/* Use 96dpi when rendering SVG documents with units
+			 * different then pixels. This value is specified in
+			 * the CSS standard on which SVG depends. */
+			rsvg_handle_set_dpi_x_y (priv->svg, 96.0, 96.0);
+
+			use_rsvg = TRUE;
 		}
 #endif
 
@@ -1008,47 +1004,53 @@ eog_image_real_load (EogImage *img,
 	g_free (mime_type);
 
 	while (!priv->cancel_loading) {
-		/* FIXME: make this async */
-		bytes_read = g_input_stream_read (G_INPUT_STREAM (input_stream),
-						  buffer,
-						  EOG_IMAGE_READ_BUFFER_SIZE,
-						  NULL, error);
-
-		if (bytes_read == 0) {
-			/* End of the file */
-			break;
-		} else if (bytes_read == -1) {
-			failed = TRUE;
-
-			g_set_error (error,
-				     EOG_IMAGE_ERROR,
-				     EOG_IMAGE_ERROR_VFS,
-				     "Failed to read from input stream");
-
-			break;
-		}
-
-		if ((read_image_data || read_only_dimension)) {
 #ifdef HAVE_RSVG
-			if (use_rsvg) {
-				gboolean res;
+		if (use_rsvg && first_run && (read_image_data || read_only_dimension)) {
+			if (rsvg_handle_read_stream_sync (priv->svg,
+							   G_INPUT_STREAM (input_stream),
+							   NULL,
+							   error))
+			{
+				/* The entire file is read by now */
+				bytes_read_total = priv->bytes;
+			} else {
+				failed = TRUE;
+			}
+			break;
+		} else {
+#endif
 
-				res = rsvg_handle_write (priv->svg, buffer,
-							 bytes_read, error);
+			/* FIXME: make this async */
+			bytes_read = g_input_stream_read (G_INPUT_STREAM (input_stream),
+							  buffer,
+							  EOG_IMAGE_READ_BUFFER_SIZE,
+							  NULL, error);
 
-				if (G_UNLIKELY (!res)) {
+			if (bytes_read == 0) {
+				/* End of the file */
+				break;
+			} else if (bytes_read == -1) {
+				failed = TRUE;
+
+				g_set_error (error,
+					     EOG_IMAGE_ERROR,
+					     EOG_IMAGE_ERROR_VFS,
+					     "Failed to read from input stream");
+
+				break;
+			}
+
+			if ((read_image_data || read_only_dimension)) {
+				if (!gdk_pixbuf_loader_write (loader, buffer, bytes_read, error)) {
 					failed = TRUE;
 					break;
 				}
-			} else
-#endif
-			if (!gdk_pixbuf_loader_write (loader, buffer, bytes_read, error)) {
-				failed = TRUE;
-				break;
 			}
-		}
 
-		bytes_read_total += bytes_read;
+			bytes_read_total += bytes_read;
+#ifdef HAVE_RSVG
+		}
+#endif
 
 		/* For now allow calling from outside of jobs */
 		if (job != NULL)
@@ -1111,21 +1113,15 @@ eog_image_real_load (EogImage *img,
 	}
 
 	if (read_image_data || read_only_dimension) {
-#ifdef HAVE_RSVG
-		if (use_rsvg) {
-			/* Ignore the error if loading failed earlier
-			 * as the error will already be set in that case */
-			rsvg_handle_close (priv->svg,
-			                   (failed ? NULL : error));
-		} else
-#endif
-		if (failed) {
-			gdk_pixbuf_loader_close (loader, NULL);
-		} else if (!gdk_pixbuf_loader_close (loader, error)) {
-			if (gdk_pixbuf_loader_get_pixbuf (loader) != NULL) {
-				/* Clear error in order to support partial
-				 * images as well. */
-				g_clear_error (error);
+		if (!use_rsvg) {
+			if (failed) {
+				gdk_pixbuf_loader_close (loader, NULL);
+			} else if (!gdk_pixbuf_loader_close (loader, error)) {
+				if (gdk_pixbuf_loader_get_pixbuf (loader) != NULL) {
+					/* Clear error in order to support partial
+					 * images as well. */
+					g_clear_error (error);
+				}
 			}
 		}
 	}
@@ -1263,6 +1259,7 @@ eog_image_has_data (EogImage *img, EogImageData req_data)
 	if (req_data != 0) {
 		g_warning ("Asking for unknown data, remaining: %i\n", req_data);
 		has_data = FALSE;
+
 	}
 
 	return has_data;
@@ -1963,7 +1960,7 @@ eog_image_save_as_by_info (EogImage *img, EogImageSaveInfo *source, EogImageSave
 		success = gdk_pixbuf_save (priv->image, tmp_file_path, target->format, error, NULL);
 	}
 
-	if (success && !direct_copy) { /* not required if we alredy copied the file directly */
+	if (success && !direct_copy) { /* not required if we already copied the file directly */
 		/* try to move result file to target uri */
 		success = tmp_file_move_to_uri (img, tmp_file, target->file, target->overwrite, error);
 	}

@@ -45,11 +45,9 @@
 #include <glib-object.h>
 #include <gtk/gtk.h>
 
-#if HAVE_EXEMPI
+#ifdef HAVE_EXEMPI
 #include <exempi/xmp.h>
 #endif
-
-#define APPLICATION_SERVICE_NAME "org.gnome.eog.ApplicationService"
 
 static void eog_application_load_accelerators (void);
 static void eog_application_save_accelerators (void);
@@ -208,6 +206,7 @@ eog_application_init_accelerators (GtkApplication *application)
 		"win.save",		"<Ctrl>s", NULL ,
 		"win.save-as",		"<Ctrl><shift>s", NULL,
 		"win.close",		"<Ctrl>w", NULL,
+		"win.close-all",	"<Ctrl>q", NULL,
 		"win.print",		"<Ctrl>p", NULL,
 		"win.properties",	"<Alt>Return", NULL,
 		"win.set-wallpaper",	"<Ctrl>F8", NULL,
@@ -228,7 +227,7 @@ eog_application_init_accelerators (GtkApplication *application)
 					"<Ctrl>plus", NULL,
 		"win.zoom-out",		"<Ctrl>minus",
 					"<Ctrl>KP_Subtract", NULL,
-		"win.zoom-normal",	"<Ctrl>0", NULL,
+		"win.zoom-normal",	"<Ctrl>0", "<Ctrl>KP_0", NULL,
 
 		"win.view-gallery",	"<Ctrl>F9", NULL,
 		"win.view-sidebar",	"F9", NULL,
@@ -282,7 +281,6 @@ eog_application_startup (GApplication *application)
 #ifdef HAVE_EXEMPI
 	xmp_init();
 #endif
-	eog_debug_init ();
 	eog_job_scheduler_init ();
 	eog_thumbnail_init ();
 
@@ -445,6 +443,7 @@ eog_application_init (EogApplication *eog_application)
 {
 	EogApplicationPrivate *priv;
 
+	eog_debug_init ();
 	eog_session_init (eog_application);
 
 	eog_application->priv = eog_application_get_instance_private (eog_application);
@@ -473,7 +472,7 @@ eog_application_get_instance (void)
 
 	if (!instance) {
 		instance = EOG_APPLICATION (g_object_new (EOG_TYPE_APPLICATION,
-							  "application-id", APPLICATION_SERVICE_NAME,
+							  "application-id", APPLICATION_ID,
 							  "flags", G_APPLICATION_HANDLES_OPEN,
 							  NULL));
 	}
@@ -531,6 +530,10 @@ eog_application_open_window (EogApplication  *application,
 	new_window = GTK_WIDGET (eog_application_get_empty_window (application));
 
 	if (new_window == NULL) {
+		/* Filter out fullscreen flags to avoid going fullscreen
+		 * with functions to leave fullscreen possibly being
+		 * disabled due to the empty model */
+		flags &= ~(EOG_STARTUP_FULLSCREEN | EOG_STARTUP_SLIDE_SHOW);
 		new_window = eog_window_new (flags);
 	}
 
@@ -724,6 +727,18 @@ eog_application_open_uris (EogApplication  *application,
 
  	return eog_application_open_file_list (application, file_list, timestamp,
 						    flags, error);
+}
+
+gboolean
+eog_application_close_all_windows (EogApplication *application)
+{
+	GList *windows;
+
+	windows = gtk_application_get_windows (GTK_APPLICATION (application));
+
+	g_list_foreach (windows, (GFunc) eog_window_close, NULL);
+
+	return TRUE;
 }
 
 static void

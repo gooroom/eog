@@ -69,6 +69,18 @@ G_GNUC_INTERNAL
 void     eog_util_show_file_in_filemanager   (GFile *file,
                                               GtkWindow *toplevel);
 
+#ifdef HAVE_LIBPORTAL
+G_GNUC_INTERNAL
+gboolean eog_util_is_running_inside_flatpak  (void);
+
+G_GNUC_INTERNAL
+void     eog_util_open_file_with_flatpak_portal (GFile *file,
+                                                 GtkWindow *window);
+
+void     eog_util_set_wallpaper_with_portal     (GFile *file,
+                                                 GtkWindow *window);
+#endif
+
 G_END_DECLS
 
 #endif /* __EOG_UTIL_H__ */
