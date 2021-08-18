@@ -1,0 +1,26 @@
+diff --git a/data/fullscreen-toolbar.ui b/data/fullscreen-toolbar.ui
+index b8e6fee4..4c0bd82b 100644
+--- a/data/fullscreen-toolbar.ui
++++ b/data/fullscreen-toolbar.ui
+@@ -121,21 +121,6 @@
+         <property name="homogeneous">True</property>
+       </packing>
+     </child>
+-    <child>
+-      <object class="GtkToggleToolButton" id="zoom_fit_toggle">
+-        <property name="visible">True</property>
+-        <property name="can_focus">False</property>
+-        <property name="tooltip_text" translatable="yes">Fit the image to the window</property>
+-        <property name="action_name">win.toggle-zoom-fit</property>
+-        <property name="label" translatable="yes">_Best Fit</property>
+-        <property name="use_underline">True</property>
+-        <property name="icon_name">zoom-fit-best-symbolic</property>
+-      </object>
+-      <packing>
+-        <property name="expand">False</property>
+-        <property name="homogeneous">True</property>
+-      </packing>
+-    </child>
+     <child>
+       <object class="GtkSeparatorToolItem" id="separator2">
+         <property name="visible">True</property>

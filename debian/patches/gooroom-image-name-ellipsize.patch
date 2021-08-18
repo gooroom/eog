@@ -1,0 +1,23 @@
+diff --git a/data/eog-image-properties-dialog.ui b/data/eog-image-properties-dialog.ui
+index 63d1e7ff..c23fedcc 100644
+--- a/data/eog-image-properties-dialog.ui
++++ b/data/eog-image-properties-dialog.ui
+@@ -203,7 +203,10 @@
+                         <property name="visible">True</property>
+                         <property name="can_focus">False</property>
+                         <property name="xalign">0</property>
++                        <property name="hexpand">True</property>
+                         <property name="selectable">True</property>
++                        <property name="ellipsize">end</property>
++                        <property name="max_width_chars">1</property>
+                       </object>
+                       <packing>
+                         <property name="left_attach">1</property>
+@@ -264,6 +267,7 @@
+                         <property name="use_action_appearance">False</property>
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
++                        <property name="halign">start</property>
+                         <property name="receives_default">True</property>
+                         <signal name="clicked" handler="pd_folder_button_clicked_cb" object="EogPropertiesDialog" swapped="no"/>
+                       </object>

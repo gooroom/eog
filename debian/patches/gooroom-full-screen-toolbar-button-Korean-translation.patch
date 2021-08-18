@@ -1,0 +1,51 @@
+diff --git a/data/fullscreen-toolbar.ui b/data/fullscreen-toolbar.ui
+index fcaf68e8..b8e6fee4 100644
+--- a/data/fullscreen-toolbar.ui
++++ b/data/fullscreen-toolbar.ui
+@@ -110,7 +110,7 @@
+       <object class="GtkToolButton" id="zoom_normal_button">
+         <property name="visible">True</property>
+         <property name="can_focus">False</property>
+-        <property name="tooltip_text" translatable="yes">Show the image at its normal size</property>
++        <property name="tooltip_text" translatable="yes">Original the image</property>
+         <property name="action_name">win.zoom-normal</property>
+         <property name="label" translatable="yes">_Normal Size</property>
+         <property name="use_underline">True</property>
+diff --git a/po/en_GB.po b/po/en_GB.po
+index d6e3d1de..94f72d66 100644
+--- a/po/en_GB.po
++++ b/po/en_GB.po
+@@ -377,6 +377,14 @@ msgstr "Plug-ins"
+ msgid "Shrink the image"
+ msgstr "Shrink the image"
+ 
++#: data/fullscreen-toolbar.ui:113
++msgid "Original the image"
++msgstr "Original the image"
++
++#: data/fullscreen-toolbar.ui:128
++msgid "Fit the image into window"
++msgstr "Fit the image into window"
++
+ #: data/eog-zoom-entry.ui:59 data/fullscreen-toolbar.ui:83
+ msgid "Enlarge the image"
+ msgstr "Enlarge the image"
+diff --git a/po/ko.po b/po/ko.po
+index 3868755a..ad10d34b 100644
+--- a/po/ko.po
++++ b/po/ko.po
+@@ -383,6 +383,14 @@ msgstr "이미지를 작게 축소해서 봅니다"
+ msgid "Enlarge the image"
+ msgstr "이미지를 크게 확대해서 봅니다"
+ 
++#: data/fullscreen-toolbar.ui:113
++msgid "Original the image"
++msgstr "원본 이미지 봅니다"
++
++#: data/fullscreen-toolbar.ui:128
++msgid "Fit the image into window"
++msgstr "이미지를 창에 맞춰서 봅니다"
++
+ #: data/fullscreen-toolbar.ui:13
+ msgid "Go to the first image of the gallery"
+ msgstr "이미지 모음의 처음 이미지로 이동합니다"

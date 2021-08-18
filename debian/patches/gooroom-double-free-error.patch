@@ -1,0 +1,13 @@
+diff --git a/src/eog-window.c b/src/eog-window.c
+index 0e403d43..b84c3ae1 100644
+--- a/src/eog-window.c
++++ b/src/eog-window.c
+@@ -3194,8 +3194,6 @@ eog_window_action_wallpaper (GSimpleAction *action,
+ 				  window);
+ 		eog_job_scheduler_add_job (priv->copy_job);
+ 
+-		g_object_unref (file);
+-		g_free (filename);
+ 		return;
+ 	}
+ 

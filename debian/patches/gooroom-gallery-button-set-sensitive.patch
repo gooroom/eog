@@ -1,0 +1,12 @@
+diff --git a/src/eog-window.c b/src/eog-window.c
+index 17397d45..183daed8 100644
+--- a/src/eog-window.c
++++ b/src/eog-window.c
+@@ -1976,6 +1976,7 @@ eog_window_create_fullscreen_popup (EogWindow *window)
+ 			  window);
+ 
+ 	window->priv->button_gallery = GTK_WIDGET (gtk_builder_get_object (builder, "gallery_toggle"));
++	gtk_widget_set_sensitive (GTK_WIDGET (window->priv->button_gallery),FALSE);
+ 
+ 	g_object_unref (builder);
+ 
