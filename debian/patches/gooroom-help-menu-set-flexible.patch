@@ -1,0 +1,33 @@
+diff --git a/data/eog-gear-menu.ui b/data/eog-gear-menu.ui
+index 724156b7..c49ee41f 100644
+--- a/data/eog-gear-menu.ui
++++ b/data/eog-gear-menu.ui
+@@ -70,10 +70,6 @@
+         <attribute name="action">win.show-help-overlay</attribute>
+         <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
+       </item>
+-      <item>
+-        <attribute name="action">app.help</attribute>
+-        <attribute name="label" translatable="yes">_Help</attribute>
+-      </item>
+       <item>
+         <attribute name="action">app.about</attribute>
+         <attribute name="label" translatable="yes">_About Image Viewer</attribute>
+diff --git a/src/eog-window.c b/src/eog-window.c
+index b84c3ae1..acc2392a 100644
+--- a/src/eog-window.c
++++ b/src/eog-window.c
+@@ -4299,6 +4299,13 @@ eog_window_construct_ui (EogWindow *window)
+ 	priv->gear_menu_builder = builder;
+ 	builder = NULL;
+ 
++	if (g_file_test ("/usr/bin/yelp", G_FILE_TEST_EXISTS)) {
++		GMenuItem *item;
++
++		item = g_menu_item_new (_("_Help"), "app.help");
++		g_menu_append_item (builder_object, item);
++	}
++
+ 	priv->cbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
+ 	gtk_box_pack_start (GTK_BOX (priv->box), priv->cbox, TRUE, TRUE, 0);
+ 	gtk_widget_show (priv->cbox);
