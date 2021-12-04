@@ -1,3 +1,11 @@
+eog (3.38.2-1+grm3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [53150659] Apply all patches in version 2.0
+  * [7138c26b] Updated show help button depends on yelp installed
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sat, 04 Dec 2021 19:27:30 +0900
+
 eog (3.38.2-1) unstable; urgency=medium
 
   * Team upload
