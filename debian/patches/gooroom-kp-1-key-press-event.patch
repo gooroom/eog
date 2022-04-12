@@ -1,0 +1,12 @@
+diff --git a/src/eog-scroll-view.c b/src/eog-scroll-view.c
+index 13376bb7..a8105f12 100644
+--- a/src/eog-scroll-view.c
++++ b/src/eog-scroll-view.c
+@@ -977,6 +977,7 @@ display_key_press_event (GtkWidget *widget, GdkEventKey *event, gpointer data)
+ 		break;
+ 
+ 	case GDK_KEY_1:
++	case GDK_KEY_KP_1:
+ 		if (!(event->state & modifiers)) {
+ 			do_zoom = TRUE;
+ 			zoom = 1.0;

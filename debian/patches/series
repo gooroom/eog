@@ -15,3 +15,4 @@ gooroom-gear-menu-focus-out-the-view-after-clicking-check-boxes.patch
 gooroom-file-chooser-show-all-columns.patch
 gooroom-double-free-error.patch
 gooroom-help-menu-set-flexible.patch
+gooroom-kp-1-key-press-event.patch
