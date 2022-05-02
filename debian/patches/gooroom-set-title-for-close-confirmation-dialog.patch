@@ -1,0 +1,28 @@
+diff --git a/po/ko.po b/po/ko.po
+index cf4e6bb8..8dd3b571 100644
+--- a/po/ko.po
++++ b/po/ko.po
+@@ -1041,6 +1041,10 @@ msgstr "창의 상태 표시줄에 이미지의 시각을 표시합니다"
+ msgid "Close _without Saving"
+ msgstr "저장하지 않고 닫기(_W)"
+ 
++#: src/eog-close-confirmation-dialog.c:200
++msgid "Close confirmation"
++msgstr "종료 확인"
++
+ #: src/eog-close-confirmation-dialog.c:383
+ msgid "If you don’t save, your changes will be lost."
+ msgstr "저장하지 않으면 바뀐 사항을 잃어버립니다."
+diff --git a/src/eog-close-confirmation-dialog.c b/src/eog-close-confirmation-dialog.c
+index 54919f61..3497a4fc 100644
+--- a/src/eog-close-confirmation-dialog.c
++++ b/src/eog-close-confirmation-dialog.c
+@@ -197,7 +197,7 @@ eog_close_confirmation_dialog_init (EogCloseConfirmationDialog *dlg)
+ 
+ 	gtk_window_set_resizable (GTK_WINDOW (dlg), FALSE);
+ 
+-	gtk_window_set_title (GTK_WINDOW (dlg), "");
++	gtk_window_set_title (GTK_WINDOW (dlg), _("Close confirmation"));
+ 
+ 	gtk_window_set_modal (GTK_WINDOW (dlg), TRUE);
+ 	gtk_window_set_destroy_with_parent (GTK_WINDOW (dlg), TRUE);
