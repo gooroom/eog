@@ -1,3 +1,13 @@
+eog (3.38.2-1+grm3u2) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [161198d9] [Bug:4648] Added keypress event: KP_1
+  * [a635cdd7] [Bug:4147] Changed the translation of the desktop file to be more polite
+  * [e25c150f] [Bug:4290] Set title of close-confirmation-dialgog
+  * [495209da] [Bug:4161] Fixed a captured image preview non-exposure issue
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 26 May 2022 16:03:49 +0900
+
 eog (3.38.2-1+grm3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
