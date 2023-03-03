@@ -1,0 +1,12 @@
+diff --git a/data/eog.css b/data/eog.css
+index 7979529a..30d3ff29 100644
+--- a/data/eog.css
++++ b/data/eog.css
+@@ -40,3 +40,7 @@ statusbar {
+ 	border-radius: 0;
+ 	box-shadow: none;
+ }
++
++.flat > .right {
++	background: rgba (0,0,0,0);
++}
