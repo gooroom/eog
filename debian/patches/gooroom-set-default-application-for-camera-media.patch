@@ -1,0 +1,13 @@
+diff --git a/data/org.gnome.eog.desktop.in.in b/data/org.gnome.eog.desktop.in.in
+index c05dd580..4c09f3c3 100644
+--- a/data/org.gnome.eog.desktop.in.in
++++ b/data/org.gnome.eog.desktop.in.in
+@@ -15,7 +15,7 @@ X-GNOME-Bugzilla-Product=EOG
+ X-GNOME-Bugzilla-Component=general
+ X-GNOME-Bugzilla-Version=@VERSION@
+ X-GNOME-DocPath=eog/eog.xml
+-MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/svg+xml;image/svg+xml-compressed;image/vnd.wap.wbmp;image/x-icns;
++MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/svg+xml;image/svg+xml-compressed;image/vnd.wap.wbmp;image/x-icns;x-content/image-dcf;
+ # Extra keywords that can be used to search for eog in GNOME Shell and Unity
+ # TRANSLATORS: Search terms to find this application.
+ #              Do NOT translate or localize the semicolons!
