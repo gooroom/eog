@@ -1,3 +1,13 @@
+eog (3.38.2-1+grm3u4) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [80851a94] Deleted the radio button of view-slideshow
+
+  [ heejun.jang ]
+  * [65479eb4] Set default application for camera media
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 28 Jul 2023 09:26:49 +0900
+
 eog (3.38.2-1+grm3u2) unstable; urgency=medium
 
   [ boyeon.choi ]
